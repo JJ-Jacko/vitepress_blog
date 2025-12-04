@@ -5,21 +5,40 @@ export default defineConfig({
   title: "Jacko's Mini-world",
   description: "Jacko's personal blog",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
-
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    sidebar: {
+      '/python': [
+        {
+          text: 'Python🐍',
+          items: [
+            { text: 'Markdown Examples', link: '/examples/markdown-examples' }
+          ]
+        }
+      ],
+      '/linux': [
+        {
+          text: 'Linux🐧',
+          items: [
+            { text: 'Markdown Examples', link: '/examples/markdown-examples' }
+          ]
+        }
+      ],
+      '/java': [
+        {
+          text: 'Java☕',
+          items: [
+            { text: 'Markdown Examples', link: '/examples/markdown-examples' }
+          ]
+        }
+      ],
+      '/git': [
+        {
+          text: 'Git💻',
+          items: [
+            { text: 'Markdown Examples', link: '/examples/markdown-examples' }
+          ]
+        }
+      ]
+    },
  
     socialLinks: [
       { icon: 'github', link: 'https://github.com/JiegeJacko' },
