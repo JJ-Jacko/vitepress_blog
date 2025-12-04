@@ -1,10 +1,7 @@
----
-title: Python
-description: A collection of guides for players and server administrators on installing and using Fabric.
----
+感觉是站长最能拿得出手的编程语言
 
-This section of the Fabric Documentation is dedicated to players and server administrators who want to learn how to install, use, and troubleshoot Fabric.
+作为当前最流行的编程语言单独开一个栏目一点都不过分
 
-You should refer to the sidebar for a list of all the guides available.
+主要应用是 爬虫、自动化、AI
 
-If you encounter any issues, please report them [on GitHub](https://github.com/FabricMC/fabric-docs) or ask for help on the [Fabric Discord](https://discord.gg/v6v4pMv) in the `#player-support` or `#server-admin-support` channels.
+现代程序员离不开的写小工具的语言
