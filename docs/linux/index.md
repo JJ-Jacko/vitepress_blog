@@ -1,10 +1,7 @@
----
-title: Player Guides
-description: A collection of guides for players and server administrators on installing and using Fabric.
----
+这个栏目主要是运维相关的
 
-This section of the Fabric Documentation is dedicated to players and server administrators who want to learn how to install, use, and troubleshoot Fabric.
+程序员写好的代码会最终跑到运维手里
 
-You should refer to the sidebar for a list of all the guides available.
+他们是我们的最坚实的后盾
 
-If you encounter any issues, please report them [on GitHub](https://github.com/FabricMC/fabric-docs) or ask for help on the [Fabric Discord](https://discord.gg/v6v4pMv) in the `#player-support` or `#server-admin-support` channels.
+每年的 7 月 24 号是向全体运维人员致敬的节日
