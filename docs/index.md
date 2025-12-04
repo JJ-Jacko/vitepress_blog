@@ -6,12 +6,12 @@ hero:
   name: "Jacko's Mini-world"
   tagline: Jacko's personal blog
   actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 随便逛逛
+      link: /random
+    - theme: brand
+      text: 关于我
+      link: /me
 
 features:
   - title: Python
