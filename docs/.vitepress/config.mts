@@ -30,7 +30,8 @@ export default defineConfig({
         {
           text: 'Java☕',
           items: [
-            { text: 'Markdown Examples', link: '/examples/markdown-examples' }
+            { text: 'Java 数据类型', link: '/java/data_types' },
+            { text: 'Java 日期时间', link: '/java/date_time' },
           ]
         }
       ],

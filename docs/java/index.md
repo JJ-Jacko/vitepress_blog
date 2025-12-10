@@ -1,10 +1,19 @@
----
-title: Player Guides
-description: A collection of guides for players and server administrators on installing and using Fabric.
----
+因为 Minecraft 才被迫钻研 Jvav 🐶
 
-This section of the Fabric Documentation is dedicated to players and server administrators who want to learn how to install, use, and troubleshoot Fabric.
+说实话早期不是很喜欢 Java 那啰嗦的语法
 
-You should refer to the sidebar for a list of all the guides available.
+以及他莫名其妙的代码不是线性的
 
-If you encounter any issues, please report them [on GitHub](https://github.com/FabricMC/fabric-docs) or ask for help on the [Fabric Discord](https://discord.gg/v6v4pMv) in the `#player-support` or `#server-admin-support` channels.
+这一块那一块
+
+喜欢上了另一个非常简短的语言 Python
+
+越写越发现 Java 的设计简直天才
+
+Python 本身发展了很久我自身也探索了很久
+
+才找到最佳实践
+
+事先设定好的代码架构和易维护性
+
+成为了这门语言护城河
