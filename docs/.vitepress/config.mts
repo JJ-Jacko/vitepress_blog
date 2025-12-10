@@ -39,6 +39,7 @@ export default defineConfig({
         {
           text: 'Git💻',
           items: [
+            { text: 'Git 基本使用', link: '/git/git' },
             { text: 'Git 提交规范', link: '/git/git_commit_rule' },
           ]
         }
