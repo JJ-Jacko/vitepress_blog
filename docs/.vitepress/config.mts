@@ -38,7 +38,7 @@ export default defineConfig({
         {
           text: 'Git💻',
           items: [
-            { text: 'Markdown Examples', link: '/examples/markdown-examples' }
+            { text: 'Git 提交规范', link: '/git/git_commit_rule' },
           ]
         }
       ]
