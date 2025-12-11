@@ -43,6 +43,7 @@ export default defineConfig({
             { text: 'Git 基本使用', link: '/git/git' },
             { text: 'Git 提交规范', link: '/git/git_commit_rule' },
             { text: 'VirtualBox 虚拟机磁盘释放空间', link: '/git/vbox_disk_free' },
+            { text: 'VSCode 配置及插件', link: '/git/vscode' },
           ]
         }
       ]
