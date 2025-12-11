@@ -37,6 +37,13 @@ export default defineConfig({
           ]
         }
       ],
+      '/front-end': [
+        {
+          text: '前端✨',
+          items: [
+          ]
+        }
+      ],
       '/git': [
         {
           text: 'Git💻',

@@ -29,6 +29,11 @@ features:
     details: 因为 Minecraft 才被迫钻研 Jvav 🐶
     linkText: 出来打 MC🎮
     link: /java/
+  - title: 前端
+    icon: ✨
+    details: 繁琐又杂乱很怕被 AI 取代
+    linkText: 看看什么还值得学吧🥲
+    link: /front-end/
   - title: Git
     icon: 💻
     details: 不止 Git 还包括一些程序员必会的小技巧
