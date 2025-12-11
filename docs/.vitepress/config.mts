@@ -41,6 +41,7 @@ export default defineConfig({
         {
           text: '前端✨',
           items: [
+            { text: '微信小程序', link: '/front-end/wechat_mini_program' },
           ]
         }
       ],
