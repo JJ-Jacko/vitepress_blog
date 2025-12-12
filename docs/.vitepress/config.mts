@@ -31,6 +31,7 @@ export default defineConfig({
             { text: 'Gitlab', link: '/linux/gitlab' },
             { text: '更新 kernel', link: '/linux/upgrade_kernel' },
             { text: '恢复 root 密码', link: '/linux/recovery_root_passwd' },
+            { text: 'Kali 嗅探 Wi-Fi', link: '/linux/kali_wifi' },
           ]
         }
       ],
