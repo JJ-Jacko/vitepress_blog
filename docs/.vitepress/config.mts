@@ -36,6 +36,7 @@ export default defineConfig({
             { text: '安装 Arch Linux', link: '/linux/archlinux' },
             { text: 'Kali 嗅探 Wi-Fi', link: '/linux/kali_wifi' },
             { text: '破解压缩包', link: '/linux/crack_archive' },
+            { text: '安卓监听', link: '/linux/crack_android' },
             { text: 'yum', link: '/linux/yum' },
           ]
         }
