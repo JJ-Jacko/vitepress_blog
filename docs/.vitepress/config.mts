@@ -32,6 +32,7 @@ export default defineConfig({
             { text: '更新 kernel 及 headers', link: '/linux/upgrade_kernel&headers' },
             { text: '恢复 root 密码', link: '/linux/recovery_root_passwd' },
             { text: 'Kali 嗅探 Wi-Fi', link: '/linux/kali_wifi' },
+            { text: 'yum', link: '/linux/yum' },
           ]
         }
       ],
