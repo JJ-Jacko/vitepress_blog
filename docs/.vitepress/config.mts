@@ -11,6 +11,7 @@ export default defineConfig({
           text: 'Python🐍',
           items: [
             { text: 'Python 数据类型', link: '/python/data_types' },
+            { text: 'pip', link: '/python/pip' },
             { text: 'Python 连接数据库', link: '/python/connect_database' },
             { text: 'yt-dlp 基本使用', link: '/python/yt-dlp' },
           ]
