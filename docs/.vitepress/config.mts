@@ -20,6 +20,7 @@ export default defineConfig({
         {
           text: 'Linux🐧',
           items: [
+            { text: 'SSH', link: '/linux/ssh' },
             { text: 'Linux 配置休眠', link: '/linux/hibernate' },
             { text: 'Nginx 反向代理', link: '/linux/nginx_reverse_proxy' },
             { text: 'Nginx 配置 TLS', link: '/linux/nginx_tls' },
