@@ -91,5 +91,21 @@ export default defineConfig({
       message: 'Frame <a href="https://vuejs.github.io/vitepress/v1/zh/" target="_blank">VitePress</a>',
       copyright: '©2025 By Jacko'
     }
+  },
+  locales: {
+    root: {
+      label: '🇺🇸 English (US)',
+      lang: 'en_us'
+    },
+    zh_hk: {
+      label: '🇭🇰 中文 (廣東話)',
+      lang: 'zh_hk',
+      link: '/zh_hk/index'
+    },
+    zh_cn: {
+      label: '🇨🇳 中文 (简体)',
+      lang: 'zh_cn',
+      link: '/zh_cn/index'
+    },
   }
 })
