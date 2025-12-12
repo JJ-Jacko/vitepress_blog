@@ -4,12 +4,7 @@
 * 🏷️ `原创` `Linux` `Kali`
 
 ## 安装 kernel 对应 headers
-```sh
-uname -r
-apt list --installed |grep linux-image
-apt search linux-image
-apt install linux-headers-*
-```
+[详情](/linux/upgrade_kernel&headers)
 
 ## 安装驱动
 ```sh
