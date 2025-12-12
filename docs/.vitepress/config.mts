@@ -14,6 +14,7 @@ export default defineConfig({
             { text: 'pip', link: '/python/pip' },
             { text: 'Python 连接数据库', link: '/python/connect_database' },
             { text: 'yt-dlp 基本使用', link: '/python/yt-dlp' },
+            { text: '从源码构建 Cpython', link: '/python/build_cpython' },
           ]
         }
       ],
