@@ -26,6 +26,7 @@ export default defineConfig({
             { text: '网页挂载', link: '/linux/mount_web_page' },
             { text: 'Shell 命令别名', link: '/linux/shell_alias' },
             { text: '编译安装', link: '/linux/make_install' },
+            { text: 'Gitlab', link: '/linux/gitlab' },
           ]
         }
       ],
