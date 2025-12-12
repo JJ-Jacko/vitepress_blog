@@ -35,6 +35,7 @@ export default defineConfig({
             { text: 'Samba 服务器', link: '/linux/samba_server' },
             { text: '安装 Arch Linux', link: '/linux/archlinux' },
             { text: 'Kali 嗅探 Wi-Fi', link: '/linux/kali_wifi' },
+            { text: '破解压缩包', link: '/linux/crack_archive' },
             { text: 'yum', link: '/linux/yum' },
           ]
         }
