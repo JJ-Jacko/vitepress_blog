@@ -34,6 +34,7 @@ export default defineConfig({
           items: [
             { text: 'Java 数据类型', link: '/java/data_types' },
             { text: 'Java 日期时间', link: '/java/date_time' },
+            { text: 'Jar 打包', link: '/java/pack_jar' },
           ]
         }
       ],
