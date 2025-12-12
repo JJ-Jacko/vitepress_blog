@@ -30,6 +30,7 @@ export default defineConfig({
             { text: '编译安装', link: '/linux/make_install' },
             { text: 'Gitlab', link: '/linux/gitlab' },
             { text: '更新 kernel', link: '/linux/upgrade_kernel' },
+            { text: '恢复 root 密码', link: '/linux/recovery_root_passwd' },
           ]
         }
       ],
