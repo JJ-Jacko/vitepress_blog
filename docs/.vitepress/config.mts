@@ -29,7 +29,7 @@ export default defineConfig({
             { text: '代理', link: '/linux/proxy' },
             { text: '编译安装', link: '/linux/make_install' },
             { text: 'Gitlab', link: '/linux/gitlab' },
-            { text: '更新 kernel', link: '/linux/upgrade_kernel' },
+            { text: '更新 kernel 及 headers', link: '/linux/upgrade_kernel&headers' },
             { text: '恢复 root 密码', link: '/linux/recovery_root_passwd' },
             { text: 'Kali 嗅探 Wi-Fi', link: '/linux/kali_wifi' },
           ]
