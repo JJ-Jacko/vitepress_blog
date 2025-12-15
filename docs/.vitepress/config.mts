@@ -12,6 +12,7 @@ export default defineConfig({
           items: [
             { text: 'Python 数据类型', link: '/python/data_types' },
             { text: 'pip', link: '/python/pip' },
+            { text: 're 正则库', link: '/python/module_re' },
             { text: '文件路径相关', link: '/python/file_path' },
             { text: 'Python 连接数据库', link: '/python/connect_database' },
             { text: 'yt-dlp 基本使用', link: '/python/yt-dlp' },
