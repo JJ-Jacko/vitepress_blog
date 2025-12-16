@@ -71,17 +71,17 @@ export default defineConfig({
           ]
         }
       ],
-      '/git': [
+      '/other': [
         {
-          text: 'Git💻',
+          text: '其他💻',
           items: [
-            { text: 'Git 基本使用', link: '/git/git' },
-            { text: 'Git 提交规范', link: '/git/git_commit_rule' },
-            { text: 'VirtualBox 虚拟机磁盘释放空间', link: '/git/vbox_disk_free' },
-            { text: 'VSCode 配置及插件', link: '/git/vscode' },
-            { text: 'Windows 配置休眠', link: '/git/windows_hibernate' },
-            { text: 'Legacy 无损转 UEFI', link: '/git/legacy_to_uefi' },
-            { text: 'MySQL', link: '/git/mysql' },
+            { text: 'Git 基本使用', link: '/other/git' },
+            { text: 'Git 提交规范', link: '/other/git_commit_rule' },
+            { text: 'VirtualBox 虚拟机磁盘释放空间', link: '/other/vbox_disk_free' },
+            { text: 'VSCode 配置及插件', link: '/other/vscode' },
+            { text: 'Windows 配置休眠', link: '/other/windows_hibernate' },
+            { text: 'Legacy 无损转 UEFI', link: '/other/legacy_to_uefi' },
+            { text: 'MySQL', link: '/other/mysql' },
           ]
         }
       ]

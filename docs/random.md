@@ -7,7 +7,7 @@ const pages = [
     '/python',
     '/linux',
     '/java',
-    '/git'
+    '/other'
 ]
 
 const target = pages[Math.floor(Math.random() * pages.length)]

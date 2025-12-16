@@ -34,10 +34,10 @@ features:
     details: 繁琐又杂乱很怕被 AI 取代
     linkText: 看看什么还值得学吧🥲
     link: /front-end/
-  - title: Git
+  - title: 其他
     icon: 💻
     details: 不止 Git 还包括一些程序员必会的小技巧
     linkText: 省头发的小技巧😶‍🌫️  
-    link: /git/
+    link: /other/
 ---
 
