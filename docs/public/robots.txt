@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Personal blog with limited resources
+# Please respect content
+# and help build a healthy programmer knowledge community
+# For sharing, bulk crawling or AI training,
+# please contact the site owner for permission:
+# linejohntommy@gmail.com
