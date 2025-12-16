@@ -4,7 +4,12 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Jacko's Mini-world",
   description: "Jacko's personal blog",
+  head: [
+    ["link", { rel: "icon", sizes: "32x32", href: "/favicon.png" }],
+  ],
   themeConfig: {
+    logo: "/logo.png",
+    
     sidebar: {
       '/python': [
         {
