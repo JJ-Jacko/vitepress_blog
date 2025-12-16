@@ -18,7 +18,7 @@ cp C:\Windows\Boot\EFI\* A:\EFI\Microsoft\Boot
 cp A:\EFI\Microsoft\Boot\bootmgfw.efi A:\EFI\boot\bootX64.efi
 ```
 ## Bootice 编辑引导文件
-![](/images/legacy_to_uefi.png)
+![](/assets/other/legacy_to_uefi/settings.png)
 ### BCD编辑 > 新建BCD > `A:\EFI\Microsoft\Boot` > 智能编辑模式
 ### 添加 > 新建 > Windows 7 / 8 / 8.1 启动项
 ### 启动设备（启动磁盘、启动分区）

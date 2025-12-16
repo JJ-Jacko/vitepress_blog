@@ -7,11 +7,11 @@
 持续按 `方向键` 停在此界面
 
 按 `e` 编辑
-![](/images/recovery_root_passwd/grub.png)
+![](/assets/linux/recovery_root_passwd/grub.png)
 
 ## 临时编辑启动模式
 追加 `init=/bin/sh`
-![](/images/recovery_root_passwd/grub_edit.png)
+![](/assets/linux/recovery_root_passwd/grub_edit.png)
 
 ## 进入 shell
 挂载根目录
@@ -30,7 +30,7 @@ touch /.autorelabel
 ```sh
 exec /sbin/init
 ```
-![](/images/recovery_root_passwd/shell.png)
+![](/assets/linux/recovery_root_passwd/shell.png)
 
 ## 等待重启进系统
-![](/images/recovery_root_passwd/reboot.png)
+![](/assets/linux/recovery_root_passwd/reboot.png)
