@@ -10,6 +10,46 @@ export default defineConfig({
   themeConfig: {
     logo: "/logo.png",
     
+    search: {
+      provider: "local",
+      options: {
+        locales: {
+          zh_hk: {
+            translations: {
+              button: {
+                buttonText: "搜尋"
+              },
+              modal: {
+                noResultsText: "無結果",
+                resetButtonTitle: "清除 ",
+                footer: {
+                  selectText: "選擇",
+                  navigateText: "切換",
+                  closeText: "關閉"
+                }
+              }
+            }
+          },
+          zh_cn: {
+            translations: {
+              button: {
+                buttonText: "搜索"
+              },
+              modal: {
+                noResultsText: "无结果",
+                resetButtonTitle: "清除",
+                footer: {
+                  selectText: "选择",
+                  navigateText: "切换",
+                  closeText: "关闭"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
     sidebar: {
       '/python': [
         {
