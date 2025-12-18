@@ -60,6 +60,7 @@ export default defineConfig({
             { text: 're 正则库', link: '/python/module_re' },
             { text: '正则表达式', link: '/python/regular_expression' },
             { text: '文件路径相关', link: '/python/file_path' },
+            { text: '文件', link: '/python/file' },
             { text: 'Python 连接数据库', link: '/python/connect_database' },
             { text: 'yt-dlp 基本使用', link: '/python/yt-dlp' },
             { text: '从源码构建 Cpython', link: '/python/build_cpython' },
