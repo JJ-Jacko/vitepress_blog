@@ -78,6 +78,7 @@ export default defineConfig({
             { text: 'Nginx 配置 TLS', link: '/linux/nginx_tls' },
             { text: '网页挂载', link: '/linux/mount_web_page' },
             { text: 'Shell 命令别名', link: '/linux/shell_alias' },
+            { text: '环境变量', link: '/linux/env_var' },
             { text: 'zsh', link: '/linux/zsh' },
             { text: 'Neovim', link: '/linux/nvim' },
             { text: '代理', link: '/linux/proxy' },
