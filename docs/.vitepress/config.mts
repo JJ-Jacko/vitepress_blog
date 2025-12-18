@@ -58,6 +58,7 @@ export default defineConfig({
             { text: 'Python 数据类型', link: '/python/data_types' },
             { text: 'pip', link: '/python/pip' },
             { text: 're 正则库', link: '/python/module_re' },
+            { text: 'shutil 模块', link: '/python/module_shutil' },
             { text: '正则表达式', link: '/python/regular_expression' },
             { text: '文件路径相关', link: '/python/file_path' },
             { text: '文件', link: '/python/file' },
