@@ -29,8 +29,8 @@ sudo chmod 777 /home/tommy
 ```
 
 ## 配置文件
-`/etc/samba/smb.conf` 末尾追加
-```properties
+末尾追加
+```properties [/etc/samba/smb.conf]
 [tommy]
 comment = tommy         # 名称
 path = /home/tommy      # 路径

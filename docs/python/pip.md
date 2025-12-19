@@ -9,8 +9,7 @@
 pip install -i http://mirrors.tencent.com/pypi/simple some-package
 ```
 长期
-`~/pip/pip.ini`
-```ini
+```ini [~/pip/pip.ini]
 [global]
 index-url = http://mirrors.tencent.com/pypi/simple/
 

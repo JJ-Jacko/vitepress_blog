@@ -101,8 +101,8 @@ echo LANG=en_US.UTF-8 >> /etc/locale.conf
 ```sh
 echo jacko-arch >> /etc/hostname
 ```
-`/etc/hosts` 写入基本的 host 配置
-```
+写入基本的 host 配置
+```[/etc/hosts]
 127.0.0.1		localhost
 ::1				localhost
 127.0.0.1		jacko-arch.localdomain	jacko-arch
@@ -153,8 +153,8 @@ passwd jacko
 ### Arch Linux CN 存储库
 Arch Linux 中文社区仓库是由 Arch Linux中文社区驱动的非官方用户仓库，包含中文用户常用软件、工具、字体/美化包等
 
-`/etc/pacman.conf` 追加
-```properties
+追加
+```properties [/etc/pacman.conf]
 [archlinuxcn]
 Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
 ```
@@ -191,8 +191,8 @@ yay -Syy
 pacman -S ttf-hannom noto-fonts noto-fonts-extra noto-fonts-emoji noto-fonts-cjk adobe-source-code-pro-fonts adobe-source-sans-fonts adobe-source-serif-fonts adobe-source-han-sans-cn-fonts adobe-source-han-sans-hk-fonts adobe-source-han-sans-tw-fonts adobe-source-han-serif-cn-fonts wqy-zenhei wqy-microhei ttf-dejavu ttf-droid ttf-hack ttf-font-awesome otf-font-awesome ttf-lato ttf-linux-libertine ttf-opensans ttf-roboto ttf-ubuntu-font-family
 ```
 ### Nvidia 驱动
-`/etc/pacman.conf` 去除注释
-```properties
+去除注释
+```properties [/etc/pacman.conf]
 [multilib]
 Include = /etc/pacman.d/mirrorlist
 ```
@@ -205,19 +205,19 @@ sudo pacman -S nvidia nvidia-prime nvidia-settings nvidia-utils opencl-nvidia li
 ```sh
 sudo yay -S plymouth
 ```
-`/etc/default/grub` 该参数添加 `splash`
-```properties
+该参数添加 `splash`
+```properties [/etc/default/grub]
 GRUB_CMDLINE_LINUX_DEFAULT="splash"
 ```
 更新 grub
-* 通用
-```sh
+::: code-group
+```sh [通用]
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
-* Debain/Ubuntu
-```sh
+```sh [Debain / Ubuntu]
 sudo update-grub2
 ```
+:::
 列出主题 `/usr/share/pylmouth/themes/`
 ```sh
 plymouth-set-default-theme -l

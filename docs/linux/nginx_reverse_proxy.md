@@ -3,10 +3,8 @@
 * 📍 `深圳`
 * 🏷️ `原创` `Linux` `Nginx`
   
-`/etc/nginx/sites-enabled/mysite`
-
 * 在 Nginx 上的项目
-```nginx
+```nginx [/etc/nginx/sites-enabled/mysite]
 server {
     listen 80;
     listen [::]:80;
@@ -19,7 +17,7 @@ server {
 ```
 
 * 不在 Nginx 上的项目
-```nginx
+```nginx [/etc/nginx/sites-enabled/mysite]
 server {
     listen 80;
     listen [::]:80;

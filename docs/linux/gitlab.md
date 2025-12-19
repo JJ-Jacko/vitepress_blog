@@ -12,8 +12,7 @@ curl -s https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script
 apt install gitlab-ce
 ```
 ## 配置
-`/etc/gitlab/gitlab.rb`
-```rb
+```rb [/etc/gitlab/gitlab.rb]
 external_url 'http://192.168.6.111:8989'
 
 gitlab_rails['time_zone'] = 'Asia/Shanghai'
@@ -55,4 +54,6 @@ gitlab-ctl status
 ```
 
 ## 默认密码
-`/etc/gitlab/initial_root_password`
+```sh
+cat /etc/gitlab/initial_root_password
+```

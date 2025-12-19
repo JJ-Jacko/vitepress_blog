@@ -4,8 +4,7 @@
 * 🏷️ `原创` `微信小程序`
 
 ## 添加页面
-`/app.json`
-```json
+```json [/app.json]
 "pages": [
     "/pages/home/home",
     "/pages/message/message",
@@ -15,8 +14,7 @@
 编译自动生成目录
 
 ## 添加tabBar
-`/app.json`
-```json
+```json [/app.json]
 "tabBar": [
     "list": [{
         "pagePath": "pages/home/home",
@@ -38,8 +36,7 @@
 ```
 
 ## 页面配置
-`/pages/*/*.json`
-```json
+```json [/pages/*/*.json]
 "navigationBarTitleText": "酒店欢迎您", //页面标题
 "navigationBarBackgroundColor": "#e8886d"   //页面颜色
 "navigationBarTextStyle": "black",
@@ -47,7 +44,6 @@
 ```
 
 ## 轮播图
-`*.js`
 ```json
 data: {
     swiperList: []  //存放轮播图列表
@@ -70,8 +66,7 @@ getSwiperList() {   //获取数据
     })
 }
 ```
-`*.wxml`
-```
+```xml
 <swiper indicator-dot circular>
     <swiper-item wx:for="{{swiperList}}" wx:key="id">
         <image src="{{item.image}}"></image>
@@ -81,8 +76,7 @@ getSwiperList() {   //获取数据
 * `indicator-dot` 显示点
 * `circular` 允许尾接头
 
-`*.wxss`
-```
+```css
 swiper {
     height: 300rpx;
 }
@@ -94,8 +88,7 @@ swiper image {          //轮播图强制拉伸
 ```
 
 ## 九宫格
-`*.js`
-```javascript
+```js
 data: {
     gridList: []
 },
@@ -117,7 +110,6 @@ getGridList() {
     })
 }
 ```
-`*.wxml`
 ```xml
 <view class="grid-list">
     <view class="grid-item" wx.for="{{gridList}}" wx:key="id">
@@ -126,7 +118,6 @@ getGridList() {
     </view>
 </view>
 ```
-`*.wxss`
 ```css
 .grid-list {
     display: flex;
@@ -159,14 +150,12 @@ getGridList() {
 ```
 
 ## 图片
-`*.wxml`
 ```xml
 <view class="img-box">
     <image src="/image/*1.png" mode="widthFix"></image>
     <image src="/image/*2.png" mode="widthFix"></image>
 </view>
 ```
-`*.wxss`
 ```css
 .img-box {
     display: flex;

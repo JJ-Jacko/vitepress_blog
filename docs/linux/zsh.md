@@ -5,14 +5,14 @@
 
 
 ## 安装
-* Arch
-```sh
+::: code-group
+```sh [Arch]
 sudo pacman -S zsh zsh-completions
 ```
-* Debian/Ubuntu
-```sh
+```sh [Debian / Ubuntu]
 sudo apt install zsh
 ```
+:::
 
 ## 配置
 查看当前shell
@@ -32,7 +32,7 @@ sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/ins
 ```sh
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
-`~/.zshrc` 增加相应插件名称
-```sh
+增加相应插件名称
+```sh [~/.zshrc]
 plugins=(zsh-syntax-highlighting)
 ```

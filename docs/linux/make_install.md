@@ -41,8 +41,7 @@ make -j$(nproc)
 sudo make install
 ```
 ### 环境变量
-`~/.bashrc`
-```shell
+```sh [~/.bashrc]
 export GCC14_HOME=/usr/local/gcc
 export PATH=$GCC14_HOME/bin:$PATH
 export LD_LIBRARY_PATH=$GCC14_HOME/lib64:$LD_LIBRARY_PATH

@@ -4,8 +4,7 @@
 * 🏷️ `原创` `Linux` `Nginx` `Apache`
 
 ## Nginx
-`/etc/nginx/sites-available/mysite`
-```
+```nginx [/etc/nginx/sites-available/mysite]
 server {
     listen 8001;
     root /var/www/mysite;
@@ -13,14 +12,12 @@ server {
 ```
 ## Apache
 ### 设置跟网站根目录
-`/etc/apache2/site-available/000-default.conf`
-```xml
+```xml [/etc/apache2/site-available/000-default.conf]
 <VirtualHost *:8001>
     DocumentRoot /var/www/mysite
 </VirtualHost>
 ```
 ### 监听 8001 端口
-`/etc/apache2/apache2.conf`
-```
+```properties [/etc/apache2/apache2.conf]
 Listen 8001
 ```

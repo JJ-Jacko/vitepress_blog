@@ -5,13 +5,11 @@
 
 
 ## Linux(bash/zsh/...)
-`~\.bashrc` `~\.zshrc`
-```sh
+```sh [~/.bashrc ~/.zshrc]
 alias vi="nvim"
 ```
 
 ## Windows(Powershell)
-`~\Documents\PowerShell\Microsoft.PowerShell_profile.ps1`
-```sh
+```sh [~\Documents\PowerShell\Microsoft.PowerShell_profile.ps1]
 Set-Alias vi nvim
 ```

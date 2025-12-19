@@ -4,12 +4,16 @@
 * 🏷️ `原创` `Linux`
 
 ## Linux
-`~/.bashrc` `~/.zshrc`
-```sh
+```sh [~/.bashrc ~/.zshrc]
 export JAVA_HOME=/usr/local/java
 export PATH=$PATH:$JAVA_HOME/bin
 ```
 刷新启用
-```sh
+::: code-group
+```sh [bash]
 source ~/.bashrc
 ```
+```sh [zsh]
+source ~/.zshrc
+```
+:::

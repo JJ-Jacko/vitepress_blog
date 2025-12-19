@@ -8,9 +8,7 @@
 [下载 MySQL Community Server(for Windows)](https://dev.mysql.com/downloads/mysql/)
 
 配置文件
-
-`mysql-5.7.44\my.ini`
-```ini
+```ini [mysql-5.7.44\my.ini]
 [client]
 port=3306
 default-character-set=utf8

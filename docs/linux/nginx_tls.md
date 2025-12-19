@@ -3,10 +3,8 @@
 * 📍 `深圳`
 * 🏷️ `原创` `Linux` `Nginx`
 
-`/etc/nginx/sites-enabled/mysite`
-
 ## 挂载
-```nginx
+```nginx [/etc/nginx/sites-enabled/mysite]
 server {
     listen <port>;
     root /var/www/blog/public;
@@ -14,7 +12,7 @@ server {
 ```
 
 ## TLS
-```nginx
+```nginx [/etc/nginx/sites-enabled/mysite]
 # TLS
 server {
     listen 443 ssl;
@@ -29,7 +27,7 @@ server {
 ```
 
 ## 重定向无TLS的访问
-```nginx
+```nginx [/etc/nginx/sites-enabled/mysite]
 server {
     listen 80;
     listen [::]:80;

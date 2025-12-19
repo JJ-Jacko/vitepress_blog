@@ -4,11 +4,7 @@
 * 🏷️ `原创` `Linux` `ssh`
 
 ## 配置文件
-* Windows
-`%USEPROFILE%\.ssh\config`
-* Linux
-`~/.ssh/config`
-```ssh-config
+```ssh-config [~/.ssh/config]
 Host Home
     Hostname 192.168.6.111
     Port 22
