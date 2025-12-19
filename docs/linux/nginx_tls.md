@@ -6,7 +6,7 @@
 `/etc/nginx/sites-enabled/mysite`
 
 ## 挂载
-```conf
+```nginx
 server {
     listen <port>;
     root /var/www/blog/public;
@@ -14,7 +14,7 @@ server {
 ```
 
 ## TLS
-```conf
+```nginx
 # TLS
 server {
     listen 443 ssl;
@@ -29,7 +29,7 @@ server {
 ```
 
 ## 重定向无TLS的访问
-```conf
+```nginx
 server {
     listen 80;
     listen [::]:80;

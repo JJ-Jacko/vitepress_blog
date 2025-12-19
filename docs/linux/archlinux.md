@@ -102,7 +102,7 @@ echo LANG=en_US.UTF-8 >> /etc/locale.conf
 echo jacko-arch >> /etc/hostname
 ```
 `/etc/hosts` 写入基本的 host 配置
-```conf
+```
 127.0.0.1		localhost
 ::1				localhost
 127.0.0.1		jacko-arch.localdomain	jacko-arch
@@ -154,7 +154,7 @@ passwd jacko
 Arch Linux 中文社区仓库是由 Arch Linux中文社区驱动的非官方用户仓库，包含中文用户常用软件、工具、字体/美化包等
 
 `/etc/pacman.conf` 追加
-```conf
+```properties
 [archlinuxcn]
 Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
 ```
@@ -192,7 +192,7 @@ pacman -S ttf-hannom noto-fonts noto-fonts-extra noto-fonts-emoji noto-fonts-cjk
 ```
 ### Nvidia 驱动
 `/etc/pacman.conf` 去除注释
-```conf
+```properties
 [multilib]
 Include = /etc/pacman.d/mirrorlist
 ```
@@ -206,7 +206,7 @@ sudo pacman -S nvidia nvidia-prime nvidia-settings nvidia-utils opencl-nvidia li
 sudo yay -S plymouth
 ```
 `/etc/default/grub` 该参数添加 `splash`
-```conf
+```properties
 GRUB_CMDLINE_LINUX_DEFAULT="splash"
 ```
 更新 grub

@@ -8,7 +8,7 @@
 `%USEPROFILE%\.ssh\config`
 * Linux
 `~/.ssh/config`
-```conf
+```ssh-config
 Host Home
     Hostname 192.168.6.111
     Port 22

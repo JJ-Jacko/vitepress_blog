@@ -74,7 +74,7 @@ make
 make install
 ```
 `~/.zshrc`
-```conf
+```sh
 # Python
 export	PATH=$PATH:/usr/local/python/bin
 export	PATH=$PATH:~/.local/bin 

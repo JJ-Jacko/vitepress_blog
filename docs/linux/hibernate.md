@@ -10,7 +10,7 @@ TODO
 
 ## 配置 grub
 `/etc/default/grub` 加上一下参数
-```conf
+```properties
 GRUB_CMDLINE_LINUX_DEFAULT="resume=UUID=a1b2c3d4-5678-90ab-cdef-1234567890ab"
 ```
 ```sh
@@ -20,7 +20,7 @@ update-initramfs -u
 
 ## 配置 resume
 `/etc/initramfs-tools/conf.d/resume`
-```conf
+```properties
 RESUME=UUID=a1b2c3d4-5678-90ab-cdef-1234567890ab
 ```
 ```sh
@@ -29,7 +29,7 @@ update-initramfs -u
 
 ## 配置 关机键为休眠（可选）
 `/etc/systemd/logind.conf`
-```conf
+```properties
 HandlePowerKey=hibernate
 ```
 ```sh

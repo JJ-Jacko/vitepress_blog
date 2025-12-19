@@ -6,7 +6,7 @@
 `/etc/nginx/sites-enabled/mysite`
 
 * 在 Nginx 上的项目
-```conf
+```nginx
 server {
     listen 80;
     listen [::]:80;
@@ -19,7 +19,7 @@ server {
 ```
 
 * 不在 Nginx 上的项目
-```conf
+```nginx
 server {
     listen 80;
     listen [::]:80;
