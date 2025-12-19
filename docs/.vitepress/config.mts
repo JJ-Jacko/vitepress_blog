@@ -1,4 +1,6 @@
 import { defineConfig } from 'vitepress'
+import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons'
+
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -158,5 +160,15 @@ export default defineConfig({
       lang: 'zh_cn',
       link: '/zh_cn/index'
     },
+  },
+  markdown: {
+    config(md) {
+      md.use(groupIconMdPlugin)
+    },
+  },
+  vite: {
+    plugins: [
+      groupIconVitePlugin()
+    ],
   }
 })
