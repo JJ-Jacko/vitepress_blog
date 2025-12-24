@@ -29,6 +29,11 @@ features:
     details: 因为 Minecraft 才被迫钻研 Jvav 🐶
     linkText: 出来打 MC🎮
     link: /java/
+  - title: C
+    icon: ⚙️
+    details: 学校学习的第一门语言
+    linkText: 看看老登语言👴
+    link: /c/
   - title: 前端
     icon: ✨
     details: 繁琐又杂乱很怕被 AI 取代
