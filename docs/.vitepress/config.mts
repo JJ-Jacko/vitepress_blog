@@ -108,7 +108,7 @@ export default defineConfig({
           ]
         }
       ],
-      '/C': [
+      '/c': [
         {
           text: 'C',
           items: [
