@@ -113,6 +113,7 @@ export default defineConfig({
           text: 'C',
           items: [
             { text: '环境搭建', link: '/c/env' },
+            { text: '数据单位', link: '/c/data_unit' },
           ]
         }
       ],
