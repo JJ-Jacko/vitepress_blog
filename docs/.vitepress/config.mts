@@ -115,6 +115,7 @@ export default defineConfig({
             { text: '环境搭建', link: '/c/env' },
             { text: '数据单位', link: '/c/data_unit' },
             { text: '数据类型', link: '/c/data_types' },
+            { text: '运算符', link: '/c/operator' },
           ]
         }
       ],
