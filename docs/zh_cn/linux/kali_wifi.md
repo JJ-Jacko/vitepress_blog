@@ -4,7 +4,7 @@
 * 🏷️ `原创` `Linux` `Kali`
 
 ## 安装 kernel 对应 headers
-[详情](/linux/upgrade_kernel&headers)
+[详情](/zh_cn/linux/upgrade_kernel&headers)
 
 ## 安装驱动
 ```sh
