@@ -26,7 +26,7 @@ features:
     link: /zh_hk/linux/
   - title: Java
     icon: ☕
-    details: 因為 Minecraft 先被迫鑽研 Java 🐶
+    details: 因為 Minecraft 先被迫專研 Java 🐶
     linkText: 出嚟打麥塊🎮
     link: /zh_hk/java/
   - title: C
