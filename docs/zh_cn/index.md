@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "Jacko's Mini-world"
-  tagline: Jacko's personal blog
+  name: "Jacko 的小世界"
+  tagline: 个人博客
   actions:
     - theme: alt
       text: 随便逛逛
