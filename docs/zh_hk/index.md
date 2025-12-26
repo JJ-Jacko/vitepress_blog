@@ -17,17 +17,17 @@ features:
   - title: Python
     icon: 🐍
     details: 睇嚟呢門程式語言係站長最能攞出嚟展示嘅
-    linkText: 爬蟲、自動化、AI 開波啦🚀
+    linkText: 爬蟲、自動化、AI 開波啦 🚀
     link: /zh_hk/python/
   - title: Linux
     icon: 🐧
     details: 呢個欄目主要係有關系統維護
-    linkText: 帶我逃離 7x24 小時返工😭
+    linkText: 帶我逃離 7x24 小時返工 😭
     link: /zh_hk/linux/
   - title: Java
     icon: ☕
     details: 因為 Minecraft 先被迫專研 Java 🐶
-    linkText: 出嚟打麥塊🎮
+    linkText: 出嚟打麥塊 🎮
     link: /zh_hk/java/
   - title: C
     icon: ⚙️
@@ -37,12 +37,12 @@ features:
   - title: 前端
     icon: ✨
     details: 又繁複又亂仲好驚畀 AI 取代
-    linkText: 睇下仲有啲乜值得去學啦🥲
+    linkText: 睇下仲有啲乜值得去學啦 🥲
     link: /zh_hk/front-end/
   - title: 其他
     icon: 💻
     details: 唔止 Git 仲有啲 programmer 一定要識嘅 tips
-    linkText: 慳頭發嘅 tips😶‍🌫️  
+    linkText: 慳頭發嘅 tips 😶‍🌫️  
     link: /zh_hk/other/
 ---
 
