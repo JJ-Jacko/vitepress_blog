@@ -28,22 +28,22 @@ Could not build the ssl module!
 Python requires a OpenSSL 1.1.1 or newer
 ```
 3. 
-库| 软件包|
---- | --- |
-_bz2 | libbz2-dev
-_dbm | libdb-dev
-_ctypes | libffi-dev
-_ctypes_test |
-_curses | libncurses5-dev
-_curses_panel |
-_gdbm | libgdbm-dev
-_lzma | liblzma-dev
-_tkinter | tk-dev
-_uuid | uuid-dev
-readline | libreadline-dev
-zlib | zlib1g-dev
-_ssl | libssl-dev
-_hashlib |
+| 库 | 软件包 |
+| :-: | :-: |
+| _bz2 | libbz2-dev |
+| _dbm | libdb-dev |
+| _ctypes | libffi-dev |
+| _ctypes_test | |
+| _curses | libncurses5-dev |
+| _curses_panel | |
+| _gdbm | libgdbm-dev |
+| _lzma | liblzma-dev |
+| _tkinter | tk-dev |
+| _uuid | uuid-dev |
+| readline | libreadline-dev |
+| zlib | zlib1g-dev |
+| _ssl | libssl-dev |
+| _hashlib | |
 ```
 The necessary bits to build these optional modules were not found:
 _bz2                  _ctypes               _ctypes_test

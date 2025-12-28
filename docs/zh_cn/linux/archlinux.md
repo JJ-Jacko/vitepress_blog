@@ -10,11 +10,11 @@ cfdisk /dev/sda
 ```
 * 磁盘类型: GPT(GUID)
 * 分区:
-    | 容量 | 类型             |
-    | ---- | ---------------- |
-    | 300M | EFI              |
-    | 10G  | Linux swap       |
-    |      | Linux filesystem |
+    | 容量 | 类型 |
+    | :-: | :-: |
+    | 300 M | EFI |
+    | 10 G  | Linux swap |
+    |  | Linux filesystem |
 
 格式化
 ```sh
