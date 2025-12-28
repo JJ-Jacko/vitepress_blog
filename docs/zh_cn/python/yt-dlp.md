@@ -14,7 +14,7 @@ yt-dlp --cookies .\cookie.txt [url]
 ```sh
 -F
 ```
-指定音频、视频信息
+指定音频、视频 id
 ```sh
 -f[音频id]+[视频id]
 ```
