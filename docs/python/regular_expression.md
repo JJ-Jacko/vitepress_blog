@@ -34,13 +34,17 @@
 ## Greedy match, lazy match
 Play PUBG game. Let's play game at night. What's going on? Just play game.
 ### `.*` Greedy match
-```Expression
+#### Expression
+```
 Play .* game
 ```
+#### Result
 Play `PUBG game. Let's play game at night. What's going on? Just play` game
 
 ### `.*?` Lazy match
-```Expression
+#### Expression
+```
 Play .*? game
 ```
+#### Result
 Play `PUBG` game
