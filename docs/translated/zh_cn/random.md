@@ -4,10 +4,10 @@ title: random
 
 <script>
 const pages = [
-    '/zh_cn/python',
-    '/zh_cn/linux',
-    '/zh_cn/java',
-    '/zh_cn/other'
+    '/translated/zh_cn/python',
+    '/translated/zh_cn/linux',
+    '/translated/zh_cn/java',
+    '/translated/zh_cn/other'
 ]
 
 const target = pages[Math.floor(Math.random() * pages.length)]
