@@ -9,7 +9,7 @@
 pip install pymysql
 ```
 ### 使用
-```python
+```py
 import pymysql
 from typing import List, TypedDict
 
@@ -37,14 +37,14 @@ books: List[Book] = cursor.fetchall()
 ```
 
 ## sqlmodel ORM(Object Relationship Mapping)
-* `Class`类 -> `Table`表
-* `Object`对象 -> `Row`行(`Record`记录)
+* `Class` 类 -> `Table` 表
+* `Object` 对象 -> `Row` 行 / `Record` 记录
 ### 依赖
 ```sh
 pip install sqlmodel
 ```
 ### 使用
-```python
+```py
 from sqlmodel import SQLModel, Field, create_engine, Session, select
 
 engine = create_engine("mysql+pymysql://root:root@jd:3306/book_reading_platform")

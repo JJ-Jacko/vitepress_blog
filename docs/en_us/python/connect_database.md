@@ -9,7 +9,7 @@
 pip install pymysql
 ```
 ### Usage
-```python
+```py
 import pymysql
 from typing import List, TypedDict
 
@@ -44,7 +44,7 @@ books: List[Book] = cursor.fetchall()
 pip install sqlmodel
 ```
 ### Usage
-```python
+```py
 from sqlmodel import SQLModel, Field, create_engine, Session, select
 
 engine = create_engine("mysql+pymysql://root:root@jd:3306/book_reading_platform")
