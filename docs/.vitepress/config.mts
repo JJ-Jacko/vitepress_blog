@@ -141,7 +141,26 @@ export default defineConfig({
             { text: 'MySQL', link: '/zh_cn/other/mysql' },
           ]
         }
-      ]
+      ],
+
+      // English (US)
+      '/en_us/python': [
+        {
+          text: 'Python🐍',
+          items: [
+            { text: 'Python data types', link: '/en_us/python/data_types' },
+            { text: 'pip', link: '/en_us/python/pip' },
+            { text: 're module', link: '/en_us/python/module_re' },
+            { text: 'shutil module', link: '/en_us/python/module_shutil' },
+            { text: 'Regular expression', link: '/en_us/python/regular_expression' },
+            { text: 'File path related', link: '/en_us/python/file_path' },
+            { text: 'File', link: '/en_us/python/file' },
+            { text: 'Connect database in Python', link: '/en_us/python/connect_database' },
+            { text: 'yt-dlp basic usage', link: '/en_us/python/yt-dlp' },
+            { text: 'Build Cpython from source code', link: '/en_us/python/build_cpython' },
+          ]
+        }
+      ],
     },
  
     socialLinks: [
