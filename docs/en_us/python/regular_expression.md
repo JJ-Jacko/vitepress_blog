@@ -32,15 +32,15 @@
 * `{n,m}` Repeat n times to m times
 
 ## Greedy match, lazy match
-* `.*` Greedy match
-* `.*?` lazy match
+Play PUBG game. Let's play game at night. What's going on? Just play game.
+### `.*` Greedy match
+```Expression
+Play .* game
+```
+Play `PUBG game. Let's play game at night. What's going on? Just play` game
 
-文本: 玩吃鸡<u>游戏</u>，晚上一起上<u>游戏</u>，干嘛呢？打<u>游戏</u>啊
-
-表达式: 玩.*?游戏
-
-结果：玩吃鸡游戏
-
-表达式: 玩.*游戏
-
-结果：玩吃鸡游戏，晚上一起上游戏，干嘛呢？打游戏
+### `.*?` Lazy match
+```Expression
+Play .*? game
+```
+Play `PUBG` game
