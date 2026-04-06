@@ -82,6 +82,17 @@ export default defineConfig({
           ]
         }
       ],
+      '/c': [
+        {
+          text: 'C',
+          items: [
+            { text: 'Setup Environment', link: '/c/env' },
+            { text: 'Unit of Data', link: '/c/data_unit' },
+            { text: 'C Data Type', link: '/c/data_types' },
+            { text: 'Operator', link: '/c/operator' },
+          ]
+        }
+      ],
 
       // 中文 (简体)
       '/translated/zh_cn/python': [
