@@ -11,9 +11,11 @@ Windows 上的 C 开发主要是在微软体系下的 `Visual Studio` 下开发
 
 请自行安装 Linux 系统
 
+::: tip
 推荐虚拟机 [VirtualBox](https://virtualbox.org)
 
 推荐发行版 [Debian](https://debian.org) 轻量过 Ubuntu，更新节奏慢更稳定
+:::
 
 ## 安装必要的包
 ```sh

@@ -9,9 +9,11 @@ This part will focus on setting up the enviroment within the Linux open-source e
 
 Please install Linux system first.
 
+::: tip
 Recommended VM [VirtualBox](https://virtualbox.org)
 
 Recommended release [Debian](https://debian.org) Lighter than Ubuntu, with a slower, more stable release cycle
+:::
 
 ## Install necessary packages
 ```sh
