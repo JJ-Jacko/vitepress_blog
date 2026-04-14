@@ -223,5 +223,8 @@ export default defineConfig({
     plugins: [
       groupIconVitePlugin()
     ],
+    server : {
+      host: true
+    }
   }
 })
