@@ -77,51 +77,51 @@ import java.time.format.DateTimeFormatter;
 ```java
 LocalDateTime ldt = LocalDateTime.now();
 System.out.println(ldt);
-System.out.println("年: " + ldt.getYear());
-System.out.println("月: " + ldt.getMonthValue());
-System.out.println("日: " + ldt.getDayOfMonth());
-System.out.println("时: " + ldt.getHour());
-System.out.println("分: " + ldt.getMinute());
-System.out.println("秒: " + ldt.getSecond());
+System.out.println("Year: " + ldt.getYear());
+System.out.println("Month: " + ldt.getMonthValue());
+System.out.println("Day: " + ldt.getDayOfMonth());
+System.out.println("Hour: " + ldt.getHour());
+System.out.println("Minute: " + ldt.getMinute());
+System.out.println("Second: " + ldt.getSecond());
 ```
 ```
 2025-04-22T13:02:52.317499600
-年: 2025
-月: 4
-日: 22
-时: 13
-分: 2
-秒: 52
+Year: 2025
+Month: 4
+Day: 22
+Hour: 13
+Minute: 2
+Second: 52
 ```
 
-#### 指定时区
+#### Specify time zone
 ```java
 LocalDateTime ldt = LocalDateTime.now(ZoneId.of("Asia/Hong_Kong"));
 System.out.println(ldt.getHour());
 ```
-查询可用时区
+Query avalible time zone
 ```java
 for (String zoneId : ZoneId.getAvailableZoneIds()) {
     System.out.println(zoneId);
 }
 ```
 
-### 格式化
+### Format
 ```java
-DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy年MM月dd日 HH:mm:ss E");
+DateTimeFormatter dtf = DateTimeFormatter.ofPattern("MM/dd/yyyy HH:mm:ss E");
 System.out.println(dtf.format(ldt));
 ```
 ```
-2025年04月22日 11:27:24 Tue
+04/22/2025 11:27:24 Tue
 ```
 
-### 将格式化的时间储存为 TemporalAccessor 接口的实现对象
+### Store the formatted time as an implementation object of the TemporalAccessor interface
 ```java
-LocalDateTime ldt = LocalDateTime.from(dtf.parse("2025年04月21日 10:07:43 Mon"));
+LocalDateTime ldt = LocalDateTime.from(dtf.parse("04/21/2025 10:07:43 Mon"));
 System.out.println(ldt);
 ```
 
-### 加减
+### Plus & subtract
 ```java
 LocalDateTime ldt = LocalDateTime.now();
 System.out.println(dtf.format(ldt));
@@ -131,13 +131,13 @@ System.out.println(dtf.format(plusMinutes));
 System.out.println(dtf.format(subtractMinutes));
 ```
 ```
-2025年04月24日 09:53:22 Thu
-2025年04月24日 20:59:22 Thu
-2025年04月23日 22:47:22 Wed
+04/24/2025 09:53:22 Thu
+04/24/2025 20:59:22 Thu
+04/23/2025 22:47:22 Wed
 ```
 
-## 时间戳对象
-导包
+## Timestamp object
+Import packages
 ```java
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -145,7 +145,7 @@ import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 ```
-### 获取时间戳对象
+### Get timestamp object
 ```java
 Instant instant = Instant.now();
 System.out.println(instant);
@@ -153,25 +153,25 @@ System.out.println(instant);
 ```
 2025-04-24T02:24:51.457088700Z
 ```
-### 与一代互动
-#### 转化成 Date 对象
+### Interacting with the 1st generation
+#### Parse to Date object
 ```java
 Date date = Date.from(instant);
 ```
-#### 转回 Instant 对象
+#### Convert back to Instant object
 ```java
 Instant instant = date.toInstant();
 ```
-### 与三代互动
-#### 转化成 LocalDateTime 对象
+### Interacting with the 3rd generation
+#### Parse to LocalDateTime object
 ```java
 LocalDateTime ldt = LocalDateTime.ofInstant(Instant.now(), ZoneId.systemDefault());
 ```
-#### 转化成 ZoneDateTime 对象
+#### Parse to ZoneDateTime object
 ```java
 ZonedDateTime zdt = ZonedDateTime.ofInstant(Instant.now(), ZoneId.systemDefault());
 ```
-#### 转回 Instant 对象
+#### Convert back to Instant object
 ```java
 ldt.atZone(ZoneId.systemDefault()).toInstant();
 ```
