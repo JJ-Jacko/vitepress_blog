@@ -25,7 +25,7 @@ yum makecache
 yum repolist
 ```
 
-## 本地yum源
+## 本地 yum 源
 必要工具
 ```sh
 yum install createrepo yum-utils httpd net-tools reposync

@@ -13,7 +13,7 @@ apt install samba
 ```sh
 sudo useradd tommy
 ```
-将用户添加到samba组 设置密码
+将用户添加到 samba 组并设置密码
 ```sh
 sudo smbpasswd -a tommy
 ```

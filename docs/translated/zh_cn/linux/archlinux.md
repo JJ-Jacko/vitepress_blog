@@ -107,7 +107,7 @@ echo jacko-arch >> /etc/hostname
 ::1				localhost
 127.0.0.1		jacko-arch.localdomain	jacko-arch
 ```
-### grub
+### `grub`
 安装
 ```sh
 grub-install /dev/sda
@@ -173,7 +173,7 @@ pacman -S archlinuxcn-keyring
 ```sh
 pacman -S archlinuxcn-mirrorlist-git
 ```
-### yay
+### `yay`
 安装
 ```sh
 sudo pacman -S yay
@@ -186,7 +186,7 @@ yay --aururl "https://aur.tuna.tsinghua.edu.cn" --save
 ```sh
 yay -Syy
 ```
-### KDE环境增强字体
+### KDE 环境增强字体
 ```sh
 pacman -S ttf-hannom noto-fonts noto-fonts-extra noto-fonts-emoji noto-fonts-cjk adobe-source-code-pro-fonts adobe-source-sans-fonts adobe-source-serif-fonts adobe-source-han-sans-cn-fonts adobe-source-han-sans-hk-fonts adobe-source-han-sans-tw-fonts adobe-source-han-serif-cn-fonts wqy-zenhei wqy-microhei ttf-dejavu ttf-droid ttf-hack ttf-font-awesome otf-font-awesome ttf-lato ttf-linux-libertine ttf-opensans ttf-roboto ttf-ubuntu-font-family
 ```
@@ -209,7 +209,7 @@ sudo yay -S plymouth
 ```properties [/etc/default/grub]
 GRUB_CMDLINE_LINUX_DEFAULT="splash"
 ```
-更新 grub
+更新 `grub`
 ::: code-group
 ```sh [通用]
 sudo grub-mkconfig -o /boot/grub/grub.cfg

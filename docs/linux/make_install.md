@@ -24,16 +24,16 @@ sudo apt install build-essential libgmp-dev libmpfr-dev libmpc-dev libisl-dev te
 ### Configuration
 ```sh
 ../configure --prefix=/usr/local/gcc \
---with-pkgversion='glibc gcc V14.1.0' \
---enable-checking=release \
---enable-languages=c,c++ \
---disable-multilib \
---enable-bootstrap \
---enable-threads=posix \
---with-system-zlib \
---with-gmp=$GMP_HOME \
---with-mpfr=$MPFR_HOME \
---with-mpc=$MPC_HOME
+    --with-pkgversion='glibc gcc V14.1.0' \
+    --enable-checking=release \
+    --enable-languages=c,c++ \
+    --disable-multilib \
+    --enable-bootstrap \
+    --enable-threads=posix \
+    --with-system-zlib \
+    --with-gmp=$GMP_HOME \
+    --with-mpfr=$MPFR_HOME \
+    --with-mpc=$MPC_HOME
 ```
 ### Build
 ```sh

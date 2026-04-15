@@ -26,7 +26,7 @@ passwd
 ```sh
 touch /.autorelabel
 ```
-执行init
+执行 init
 ```sh
 exec /sbin/init
 ```

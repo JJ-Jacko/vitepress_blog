@@ -11,7 +11,7 @@ server {
 }
 ```
 ## Apache
-### 设置跟网站根目录
+### 设置网站根目录
 ```xml [/etc/apache2/site-available/000-default.conf]
 <VirtualHost *:8001>
     DocumentRoot /var/www/mysite

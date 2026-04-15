@@ -15,15 +15,15 @@ sudo apt install zsh
 :::
 
 ## 配置
-查看当前shell
+查看当前 shell
 ```sh
 echo $SHELL
 ```
-改变用户默认shell
+改变用户默认 shell
 ```sh
 chsh -s /bin/zsh [用户名]
 ```
-安装`oh-my-zsh`
+安装 `oh-my-zsh`
 ```sh
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 ```

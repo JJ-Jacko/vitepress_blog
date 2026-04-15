@@ -107,7 +107,7 @@ Write basic host configuration
 ::1				localhost
 127.0.0.1		jacko-arch.localdomain	jacko-arch
 ```
-### grub
+### `grub`
 Install
 ```sh
 grub-install /dev/sda
@@ -173,7 +173,7 @@ Install build tools of sources
 ```sh
 pacman -S archlinuxcn-mirrorlist-git
 ```
-### yay
+### `yay`
 Install
 ```sh
 sudo pacman -S yay
@@ -209,7 +209,7 @@ Add this parameter `splash`
 ```properties [/etc/default/grub]
 GRUB_CMDLINE_LINUX_DEFAULT="splash"
 ```
-Update grub
+Update `grub`
 ::: code-group
 ```sh [General]
 sudo grub-mkconfig -o /boot/grub/grub.cfg
