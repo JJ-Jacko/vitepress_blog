@@ -71,6 +71,33 @@ export default defineConfig({
           ]
         }
       ],
+      '/linux': [
+        {
+          text: 'Linux🐧',
+          items: [
+            { text: 'SSH', link: '/linux/ssh' },
+            { text: 'Linux Hibernate Configuration', link: '/linux/hibernate' },
+            { text: 'Nginx Reverse Proxy', link: '/linux/nginx_reverse_proxy' },
+            { text: 'Nginx Configure TLS', link: '/linux/nginx_tls' },
+            { text: 'Mount Web Page', link: '/linux/mount_web_page' },
+            { text: 'Shell Alias', link: '/linux/shell_alias' },
+            { text: 'Environment variables', link: '/linux/env_var' },
+            { text: 'zsh', link: '/linux/zsh' },
+            { text: 'Neovim', link: '/linux/nvim' },
+            { text: 'Proxy', link: '/linux/proxy' },
+            { text: 'Make install', link: '/linux/make_install' },
+            { text: 'Gitlab', link: '/linux/gitlab' },
+            { text: 'Update kernel & headers', link: '/linux/upgrade_kernel&headers' },
+            { text: 'Recovery root password', link: '/linux/recovery_root_passwd' },
+            { text: 'Samba Server', link: '/linux/samba_server' },
+            { text: 'Install Arch Linux', link: '/linux/archlinux' },
+            { text: 'Kali sniffs Wi-Fi', link: '/linux/kali_wifi' },
+            { text: 'Crack archive', link: '/linux/crack_archive' },
+            { text: 'Crack Android', link: '/linux/crack_android' },
+            { text: 'yum', link: '/linux/yum' },
+          ]
+        }
+      ],
       '/java': [
         {
           text: 'Java☕',
