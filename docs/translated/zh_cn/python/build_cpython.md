@@ -55,10 +55,10 @@ _uuid                 readline              zlib
 ## 配置
 ```sh
 ./configure
---prefix=/usr/local/python \
---enable-optimizations \
---with-lto \
---enable-shared
+    --prefix=/usr/local/python \
+    --enable-optimizations \
+    --with-lto \
+    --enable-shared
 ```
 * 安装路径: `--prefix`
 * 性能优化: `--enable-optimizations` `--with-lto`
