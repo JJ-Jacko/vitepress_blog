@@ -29,19 +29,18 @@ sudo chmod 777 /home/tommy
 ```
 
 ## 配置文件
-末尾追加
 ```properties [/etc/samba/smb.conf]
-[tommy]
-comment = tommy         # 名称
-path = /home/tommy      # 路径
-public = yes            # 允许用户访问
-writable = yes          # 允许写入文件
-browseable = yes        # 允许浏览该共享目录
-available = yes         # 允许使用该共享资源
-directory mask = 0775   # 允许创建目录
-create mask = 0775      # 允许创建文件 可读写跑
-valid users = tommy     # 允许访问的用户
-write list = tommy      # 允许写入的用户
+[tommy] // [!code ++]
+comment = tommy         # 名称 // [!code ++]
+path = /home/tommy      # 路径 // [!code ++]
+public = yes            # 允许用户访问 // [!code ++]
+writable = yes          # 允许写入文件 // [!code ++]
+browseable = yes        # 允许浏览该共享目录 // [!code ++]
+available = yes         # 允许使用该共享资源 // [!code ++]
+directory mask = 0775   # 允许创建目录 // [!code ++]
+create mask = 0775      # 允许创建文件 可读写跑 // [!code ++]
+valid users = tommy     # 允许访问的用户 // [!code ++]
+write list = tommy      # 允许写入的用户 // [!code ++]
 ```
 
 ## 客户端连接

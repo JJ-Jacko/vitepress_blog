@@ -152,11 +152,9 @@ passwd jacko
 ## 额外项目
 ### Arch Linux CN 存储库
 Arch Linux 中文社区仓库是由 Arch Linux中文社区驱动的非官方用户仓库，包含中文用户常用软件、工具、字体/美化包等
-
-追加
 ```properties [/etc/pacman.conf]
-[archlinuxcn]
-Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
+[archlinuxcn] // [!code ++]
+Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch # url // [!code ++]
 ```
 更新源
 ```sh
@@ -207,7 +205,7 @@ sudo yay -S plymouth
 ```
 该参数添加 `splash`
 ```properties [/etc/default/grub]
-GRUB_CMDLINE_LINUX_DEFAULT="splash"
+GRUB_CMDLINE_LINUX_DEFAULT="splash" // [!code ++]
 ```
 更新 `grub`
 ::: code-group

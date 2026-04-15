@@ -152,11 +152,9 @@ passwd jacko
 ## Exta configuration
 ### Arch Linux CN repository
 The Arch Linux Chinese Community repository is an unofficial user repository maintained by the Arch Linux Chinese community, containing commonly used software, tools, fonts, and theming packages for Chinese
-
-Append
 ```properties [/etc/pacman.conf]
-[archlinuxcn]
-Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
+[archlinuxcn] // [!code ++]
+Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch # url // [!code ++]
 ```
 Update sources
 ```sh
@@ -207,7 +205,7 @@ sudo yay -S plymouth
 ```
 Add this parameter `splash`
 ```properties [/etc/default/grub]
-GRUB_CMDLINE_LINUX_DEFAULT="splash"
+GRUB_CMDLINE_LINUX_DEFAULT="splash" // [!code ++]
 ```
 Update `grub`
 ::: code-group
