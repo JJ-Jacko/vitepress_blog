@@ -128,6 +128,20 @@ export default defineConfig({
           ]
         }
       ],
+      '/other': [
+        {
+          text: 'Other💻',
+          items: [
+            { text: 'Git', link: '/other/git' },
+            { text: 'Git Commit rule', link: '/other/git_commit_rule' },
+            { text: 'VirtualBox Disk Free', link: '/other/vbox_disk_free' },
+            { text: 'VSCode', link: '/other/vscode' },
+            { text: 'Windows Configure Hibernate', link: '/other/windows_hibernate' },
+            { text: 'Legacy to UEFI', link: '/other/legacy_to_uefi' },
+            { text: 'MySQL', link: '/other/mysql' },
+          ]
+        }
+      ],
 
       // 中文 (简体)
       '/translated/zh_cn/python': [
