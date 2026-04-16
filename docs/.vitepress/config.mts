@@ -120,6 +120,14 @@ export default defineConfig({
           ]
         }
       ],
+      '/front-end': [
+        {
+          text: 'Fontend✨',
+          items: [
+            { text: 'WeChat Mini Program', link: '/front-end/wechat_mini_program' },
+          ]
+        }
+      ],
 
       // 中文 (简体)
       '/translated/zh_cn/python': [
