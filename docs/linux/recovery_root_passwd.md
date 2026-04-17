@@ -1,7 +1,9 @@
-# Recovery root password
-* 📅 `2024/05/12 12:20` 
-* 📍 `Dongguan`
-* 🏷️ `Original` `Linux`
+---
+title: Recovery root password
+date: 2024/05/12 12:20
+location: Dongguan
+tags: Original Linux
+---
 
 ## Enter grub edit mode
 Press and hold `arrow keys` to stay on this screen

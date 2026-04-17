@@ -1,7 +1,9 @@
-# Gitlab
-* 📅 `2024/08/19 15:03` 
-* 📍 `Dongguan`
-* 🏷️ `Original` `Linux` `git`
+---
+title: Gitlab
+date: 2024/08/19 15:03
+location: Dongguan
+tags: Original Linux git
+---
 
 ## Add source
 ```sh

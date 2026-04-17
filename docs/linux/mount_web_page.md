@@ -1,7 +1,9 @@
-# Mount Web Page
-* 📅 `2025/06/10 23:00` 
-* 📍 `Shenzhen`
-* 🏷️ `Original` `Linux` `Nginx` `Apache`
+---
+title: Mount Web Page
+date: 2025/06/10 23:00
+location: Shenzhen
+tags: Original Linux Nginx Apache
+---
 
 ## Nginx
 ```nginx [/etc/nginx/sites-available/mysite]

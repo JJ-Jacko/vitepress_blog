@@ -1,7 +1,9 @@
-# Unit of Data
-* 📅 `2025/12/24 17:30` 
-* 📍 `Dongguan`
-* 🏷️ `Original` `C`
+---
+title: Unit of Data
+date: 2025/12/24 17:30
+location: Dongguan
+tags: Original C
+---
 
 | Unit | Conversion relationship of previous unit |
 | :-: | :-: |

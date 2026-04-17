@@ -1,7 +1,9 @@
-# Git
-* 📅 `2024/08/31 00:09` 
-* 📍 `Dongguan`
-* 🏷️ `Original` `Git`
+---
+title: Git
+date: 2024/08/31 00:09
+location: Dongguan
+tags: Original Git
+---
 
 ## First-time setup
 ### Set username

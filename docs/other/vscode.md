@@ -1,7 +1,9 @@
-# VSCode Configuration and Extensions
-* 📅 `2024/04/20 12:02` 
-* 📍 `Dongguan`
-* 🏷️ `Original` `VSCode` `IDE`
+---
+title: VSCode Configuration and Extensions
+date: 2024/04/20 12:02
+location: Dongguan
+tags: Original VSCode IDE
+---
 
 ## Configuration
 ### Highlight active bracket-pair guide in color

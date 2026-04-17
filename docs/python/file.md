@@ -1,7 +1,9 @@
-# File
-* 📅 `2024/05/28 10:22` 
-* 📍 `Dongguan`
-* 🏷️ `Original` `Python`
+---
+title: File
+date: 2024/05/28 10:22
+location: Dongguan
+tags: Original Python
+---
 
 ## Mode
 `r` / `w` / `a` / `x` + `t` / `b`

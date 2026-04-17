@@ -1,7 +1,9 @@
-# Update kernel & headers
-* 📅 `2024/02/20 14:30` 
-* 📍 `Dongguan`
-* 🏷️ `Original` `Linux`
+---
+title: Update kernel & headers
+date: 2024/02/20 14:30
+location: Dongguan
+tags: Original Linux
+---
 
 ## View current status
 Kernel in use

@@ -1,7 +1,9 @@
-# MySQL
-* 📅 `2024/10/30 11:27` 
-* 📍 `Dongguan`
-* 🏷️ `Original` `MySQL` `Database`
+---
+title: MySQL
+date: 2024/10/30 11:27
+location: Dongguan
+tags: Original MySQL Database
+---
 
 ## Installation
 ### Windows

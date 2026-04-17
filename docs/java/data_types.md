@@ -1,7 +1,9 @@
-# Java Data Types
-* 📅 `2025/06/10 16:00` 
-* 📍 `ShenZhen`
-* 🏷️ `Original` `Java`
+---
+title: Java Data Types
+date: 2025/06/10 16:00
+location: ShenZhen
+tags: Original Java
+---
 
 ## Basic data types
 ### Integer

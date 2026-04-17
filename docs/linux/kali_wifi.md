@@ -1,7 +1,9 @@
-# Kali sniffs Wi-Fi
-* 📅 `2024/02/20 12:46` 
-* 📍 `Dongguan`
-* 🏷️ `Original` `Linux` `Kali`
+---
+title: Kali sniffs Wi-Fi
+date: 2024/02/20 12:46
+location: Dongguan
+tags: Original Linux Kali
+---
 
 ## Install kernel headers
 [Details](/linux/upgrade_kernel&headers)

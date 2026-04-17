@@ -1,7 +1,9 @@
-# Pack Jar
-* 📅 `2025/12/12 11:55` 
-* 📍 `DongGuan`
-* 🏷️ `Original` `Java`
+---
+title: Pack Jar
+date: 2025/12/12 11:55
+location: DongGuan
+tags: Original Java
+---
 
 ## Compile
 ```sh

@@ -1,7 +1,9 @@
-# re module
-* 📅 `2024/05/15 08:48` 
-* 📍 `Dongguan`
-* 🏷️ `Original` `Python`
+---
+title: re module
+date: 2024/05/15 08:48
+location: Dongguan
+tags: Original Python
+---
 
 ## Import
 ```py

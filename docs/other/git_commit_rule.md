@@ -1,7 +1,9 @@
-# Git Commit Rules
-* 📅 `2025/06/10 20:00` 
-* 📍 `Shenzhen`
-* 🏷️ `Original` `Git`
+---
+title: Git Commit Rules
+date: 2025/06/10 20:00
+location: Shenzhen
+tags: Original Git
+---
 
 ## Format
 < Type >( Range ): < Description >

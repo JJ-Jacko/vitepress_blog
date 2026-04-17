@@ -1,7 +1,9 @@
-# Virtualbox Disk Free
-* 📅 `2024/11/22 14:53` 
-* 📍 `Dongguan`
-* 🏷️ `Original` `VirtualBox` `VM`
+---
+title: Virtualbox Disk Free
+date: 2024/11/22 14:53
+location: Dongguan
+tags: Original VirtualBox VM
+---
 
 ## Zero out free space
 ### Windows

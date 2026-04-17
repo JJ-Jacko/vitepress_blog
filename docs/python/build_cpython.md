@@ -1,7 +1,9 @@
-# Build Cpython from source code
-* 📅 `2024/11/22 12:42` 
-* 📍 `Dongguan`
-* 🏷️ `Original` `Python`
+---
+title: Build Cpython from source code
+date: 2024/11/22 12:42
+location: Dongguan
+tags: Original Python
+---
 
 ## Get Cpython source code
 ```sh

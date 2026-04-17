@@ -1,7 +1,9 @@
-# Crack archive
-* 📅 `2024/08/04 11:56` 
-* 📍 `Dongguan`
-* 🏷️ `Original` `Linux`
+---
+title: Crack archive
+date: 2024/08/04 11:56
+location: Dongguan
+tags: Original Linux
+---
 
 ## Install
 john the ripper

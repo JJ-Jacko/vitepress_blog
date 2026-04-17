@@ -1,7 +1,9 @@
-# Lossless Legacy to UEFI Migration
-* 📅 `2022/02/12 01:12` 
-* 📍 `Dongguan`
-* 🏷️ `Original` `Windows`
+---
+title: Lossless Legacy to UEFI Migration
+date: 2022/02/12 01:12
+location: Dongguan
+tags: Original Windows
+---
 
 ## Enter BIOS and switch to UEFI mode
 ## Create UEFI-style partitions with DiskGenius

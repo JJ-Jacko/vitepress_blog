@@ -1,7 +1,9 @@
-# Install Arch Linux
-* 📅 `2023/01/19 15:40` 
-* 📍 `Dongguan`
-* 🏷️ `Original` `Linux`
+---
+title: Install Arch Linux
+date: 2023/01/19 15:40
+location: Dongguan
+tags: Original Linux
+---
 
 ## Partition
 Initialize disk

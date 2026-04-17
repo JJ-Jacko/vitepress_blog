@@ -1,7 +1,9 @@
-# Samba Server
-* 📅 `2024/06/04 23:26` 
-* 📍 `Dongguan`
-* 🏷️ `Original` `Linux`
+---
+title: Samba Server
+date: 2024/06/04 23:26
+location: Dongguan
+tags: Original Linux
+---
 
 ## Install
 ```sh

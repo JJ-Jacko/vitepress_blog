@@ -1,7 +1,9 @@
-# File path related
-* 📅 `2024/08/15 14:22` 
-* 📍 `Dongguan`
-* 🏷️ `Original` `Python`
+---
+title: File path related
+date: 2024/08/15 14:22
+location: Dongguan
+tags: Original Python
+---
 
 ## Import
 ```py

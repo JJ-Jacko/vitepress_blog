@@ -1,7 +1,9 @@
-# Java Date Time
-* 📅 `2025/04/22 11:03` 
-* 📍 `ShenZhen`
-* 🏷️ `Original` `Java`
+---
+title: Java Date Time
+date: 2025/04/22 11:03
+location: ShenZhen
+tags: Original Java
+---
 
 ## 1st generation of date time
 Import package

@@ -1,7 +1,9 @@
-# Crack Android
-* 📅 `2023/01/19 18:42` 
-* 📍 `Dongguan`
-* 🏷️ `Original` `Linux` `Metasploit`
+---
+title: Crack Android
+date: 2023/01/19 18:42
+location: Dongguan
+tags: Original Linux Metasploit
+---
 
 ## Generate apk file
 ```sh

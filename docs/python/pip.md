@@ -1,7 +1,9 @@
-# pip
-* 📅 `2024/05/04 13:03` 
-* 📍 `Dongguan`
-* 🏷️ `Original` `Python`
+---
+title: pip
+date: 2024/05/04 13:03
+location: Dongguan
+tags: Original Python
+---
 
 ## Configure
 Temporary

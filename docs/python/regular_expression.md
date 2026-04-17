@@ -1,7 +1,9 @@
-# Regular expression
-* 📅 `2024/05/07 16:22` 
-* 📍 `Dongguan`
-* 🏷️ `Original` `Python`
+---
+title: Regular expression
+date: 2024/05/07 16:22
+location: Dongguan
+tags: Original Python
+---
 
 ## Meta characters
 * `.` Any characters except line break

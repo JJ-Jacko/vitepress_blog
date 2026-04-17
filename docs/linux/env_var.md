@@ -1,7 +1,9 @@
-# Environment variables
-* 📅 `2022/07/28 22:13` 
-* 📍 `Dongguan`
-* 🏷️ `Original` `Linux`
+---
+title: Environment variables
+date: 2022/07/28 22:13
+location: Dongguan
+tags: Original Linux
+---
 
 ## Linux
 ```sh [~/.bashrc ~/.zshrc]

@@ -1,7 +1,9 @@
-# C Data Type
-* 📅 `2025/12/24 17:59` 
-* 📍 `Dongguan`
-* 🏷️ `Original` `C`
+---
+title: C Data Type
+date: 2025/12/24 17:59
+location: Dongguan
+tags: Original C
+---
 
 
 | Type | Number of bytes | Range of values |

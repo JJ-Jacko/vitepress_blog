@@ -1,7 +1,9 @@
-# Connect database in Python
-* 📅 `2025/06/10 16:00` 
-* 📍 `ShenZhen`
-* 🏷️ `Original` `Python` `MySQL`
+---
+title: Connect database in Python
+date: 2025/06/10 16:00
+location: ShenZhen
+tags: Original Python MySQL
+---
 
 ## Go Straight to query in pymysql
 ### Dependence

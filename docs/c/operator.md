@@ -1,7 +1,9 @@
-# Operator
-* 📅 `2025/12/25 13:41` 
-* 📍 `Dongguan`
-* 🏷️ `Original` `C`
+---
+title: Operator
+date: 2025/12/25 13:41
+location: Dongguan
+tags: Original C
+---
 
 
 ## Bitwise AND `&`

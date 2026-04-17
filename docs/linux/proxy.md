@@ -1,7 +1,9 @@
-# Proxy
-* 📅 `2024/08/19 14:17` 
-* 📍 `Dongguan`
-* 🏷️ `Original` `Linux`
+---
+title: Proxy
+date: 2024/08/19 14:17
+location: Dongguan
+tags: Original Linux
+---
 
 ## User proxy
 ```sh [~/.bashrc]

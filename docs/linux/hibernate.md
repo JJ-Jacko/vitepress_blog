@@ -1,7 +1,9 @@
-# Linux Hibernate Configuration
-* 📅 `2025/07/18` 
-* 📍 `Shenzhen`
-* 🏷️ `Original` `Linux`
+---
+title: Linux Hibernate Configuration
+date: 2025/07/18
+location: Shenzhen
+tags: Original Linux
+---
 
 ## Configure swap
 ```
