@@ -1,7 +1,7 @@
 ---
 title: Java Data Types
 date: 2025/06/10 16:00
-location: ShenZhen
+location: Shenzhen
 tags: Original Java
 ---
 
