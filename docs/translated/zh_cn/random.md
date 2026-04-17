@@ -7,6 +7,8 @@ const pages = [
     '/translated/zh_cn/python',
     '/translated/zh_cn/linux',
     '/translated/zh_cn/java',
+    '/translated/zh_cn/c',
+    '/translated/zh_cn/front-end',
     '/translated/zh_cn/other'
 ]
 

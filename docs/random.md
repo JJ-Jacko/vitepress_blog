@@ -7,6 +7,8 @@ const pages = [
     '/python',
     '/linux',
     '/java',
+    '/c',
+    '/front-end',
     '/other'
 ]
 
