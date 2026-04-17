@@ -275,5 +275,6 @@ export default defineConfig({
     server : {
       host: true
     }
-  }
+  },
+  lastUpdated: true
 })
