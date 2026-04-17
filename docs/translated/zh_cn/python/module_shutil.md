@@ -1,7 +1,9 @@
-# shutil 模块
-* 📅 `2024/08/15 11:42` 
-* 📍 `东莞`
-* 🏷️ `原创` `Python`
+---
+title: shutil 模块
+date: 2024/08/15 11:42
+location: 东莞
+tags: 原创 Python
+---
 
 ## 导包
 ```py

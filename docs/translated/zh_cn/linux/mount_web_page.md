@@ -1,7 +1,9 @@
-# 网页挂载
-* 📅 `2025/06/10 23:00` 
-* 📍 `深圳`
-* 🏷️ `原创` `Linux` `Nginx` `Apache`
+---
+title: 网页挂载
+date: 2025/06/10 23:00
+location: 深圳
+tags: 原创 Linux Nginx Apache
+---
 
 ## Nginx
 ```nginx [/etc/nginx/sites-available/mysite]

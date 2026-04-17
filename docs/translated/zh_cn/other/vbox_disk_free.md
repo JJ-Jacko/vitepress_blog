@@ -1,7 +1,9 @@
-# VirtualBox 虚拟机磁盘释放空间
-* 📅 `2024/11/22 14:53` 
-* 📍 `东莞`
-* 🏷️ `原创` `VirtualBox` `虚拟机`
+---
+title: VirtualBox 虚拟机磁盘释放空间
+date: 2024/11/22 14:53
+location: 东莞
+tags: 原创 VirtualBox 虚拟机
+---
 
 ## 闲置空间标零
 ### Windows

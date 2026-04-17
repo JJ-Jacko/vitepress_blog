@@ -1,7 +1,9 @@
-# Kali 嗅探 Wi-Fi
-* 📅 `2024/02/20 12:46` 
-* 📍 `东莞`
-* 🏷️ `原创` `Linux` `Kali`
+---
+title: Kali 嗅探 Wi-Fi
+date: 2024/02/20 12:46
+location: 东莞
+tags: 原创 Linux Kali
+---
 
 ## 安装 kernel 对应 headers
 [详情](/translated/zh_cn/linux/upgrade_kernel&headers)

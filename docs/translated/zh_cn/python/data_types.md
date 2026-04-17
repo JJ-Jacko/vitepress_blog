@@ -1,7 +1,9 @@
-# Python 数据类型
-* 📅 `2025/06/10 16:00` 
-* 📍 `深圳`
-* 🏷️ `原创` `Python`
+---
+title: Python 数据类型
+date: 2025/06/10 16:00
+location: 深圳
+tags: 原创 Python
+---
 
 ## 数值
 * 整形 int

@@ -1,7 +1,9 @@
-# 环境变量
-* 📅 `2022/07/28 22:13` 
-* 📍 `东莞`
-* 🏷️ `原创` `Linux`
+---
+title: 环境变量
+date: 2022/07/28 22:13
+location: 东莞
+tags: 原创 Linux
+---
 
 ## Linux
 ```sh [~/.bashrc ~/.zshrc]

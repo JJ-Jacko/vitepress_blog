@@ -1,7 +1,9 @@
-# 安装 Arch Linux
-* 📅 `2023/01/19 15:40` 
-* 📍 `东莞`
-* 🏷️ `原创` `Linux`
+---
+title: 安装 Arch Linux
+date: 2023/01/19 15:40
+location: 东莞
+tags: 原创 Linux
+---
 
 ## 分区
 初始化磁盘

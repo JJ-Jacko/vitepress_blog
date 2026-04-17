@@ -1,7 +1,9 @@
-# 从源码构建 Cpython
-* 📅 `2024/11/22 12:42` 
-* 📍 `东莞`
-* 🏷️ `原创` `Python`
+---
+title: 从源码构建 Cpython
+date: 2024/11/22 12:42
+location: 东莞
+tags: 原创 Python
+---
 
 ## 获取 Cpython 源码
 ```sh

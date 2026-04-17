@@ -1,7 +1,9 @@
-# SSH
-* 📅 `2024/05/12 11:49` 
-* 📍 `东莞`
-* 🏷️ `原创` `Linux` `ssh`
+---
+title: SSH
+date: 2024/05/12 11:49
+location: 东莞
+tags: 原创 Linux ssh
+---
 
 ## 配置文件
 ```ssh-config [~/.ssh/config]

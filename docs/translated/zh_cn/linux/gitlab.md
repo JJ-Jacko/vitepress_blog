@@ -1,7 +1,9 @@
-# Gitlab
-* 📅 `2024/08/19 15:03` 
-* 📍 `东莞`
-* 🏷️ `原创` `Linux` `git`
+---
+title: Gitlab
+date: 2024/08/19 15:03
+location: 东莞
+tags: 原创 Linux git
+---
 
 ## 添加源
 ```sh

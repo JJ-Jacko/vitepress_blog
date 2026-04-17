@@ -1,7 +1,9 @@
-# MySQL
-* 📅 `2024/10/30 11:27` 
-* 📍 `东莞`
-* 🏷️ `原创` `MySQL` `数据库`
+---
+title: MySQL
+date: 2024/10/30 11:27
+location: 东莞
+tags: 原创 MySQL 数据库
+---
 
 ## 安装
 ### Windows

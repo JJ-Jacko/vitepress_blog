@@ -1,7 +1,9 @@
-# VSCode 配置及插件
-* 📅 `2024/04/20 12:02` 
-* 📍 `东莞`
-* 🏷️ `原创` `VSCode` `IDE`
+---
+title: VSCode 配置及插件
+date: 2024/04/20 12:02
+location: 东莞
+tags: 原创 VSCode IDE
+---
 
 ## 配置
 ### 括号对竖线高光彩色

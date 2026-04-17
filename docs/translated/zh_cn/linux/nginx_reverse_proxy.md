@@ -1,8 +1,10 @@
-# Nginx 反向代理
-* 📅 `2025/06/11 16:30` 
-* 📍 `深圳`
-* 🏷️ `原创` `Linux` `Nginx`
-  
+---
+title: Nginx 反向代理
+date: 2025/06/11 16:30
+location: 深圳
+tags: 原创 Linux Nginx
+---
+
 ## 在 Nginx 上的项目
 ```nginx [/etc/nginx/sites-enabled/mysite]
 server {
