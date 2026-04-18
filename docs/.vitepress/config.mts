@@ -98,6 +98,7 @@ export default defineConfig({
             { text: 'Crack archive', link: '/linux/crack_archive' },
             { text: 'Crack Android', link: '/linux/crack_android' },
             { text: 'yum', link: '/linux/yum' },
+            { text: 'Minecraft Server', link: '/linux/minecraft_server' },
           ]
         }
       ],
@@ -192,6 +193,7 @@ export default defineConfig({
             { text: '破解压缩包', link: '/translated/zh_cn/linux/crack_archive' },
             { text: '安卓监听', link: '/translated/zh_cn/linux/crack_android' },
             { text: 'yum', link: '/translated/zh_cn/linux/yum' },
+            { text: '我的世界服务器', link: '/translated/zh_cn/linux/minecraft_server' },
           ]
         }
       ],
