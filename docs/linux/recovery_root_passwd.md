@@ -6,13 +6,13 @@ tags: Original Linux
 ---
 
 ## Enter grub edit mode
-Press and hold `arrow keys` to stay on this screen
+Press and hold arrow key <kbd>↑</kbd> <kbd>↓</kbd> <kbd>←</kbd> <kbd>→</kbd> to stay on this screen
 
-Press `e` to edit
+Press <kbd>E</kbd> key to edit
 ![](/assets/linux/recovery_root_passwd/grub.png)
 
 ## Temporary editing startup mode
-追加 `init=/bin/sh`
+Append `init=/bin/sh`
 ![](/assets/linux/recovery_root_passwd/grub_edit.png)
 
 ## Enter shell

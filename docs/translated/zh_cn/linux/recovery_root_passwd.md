@@ -6,9 +6,9 @@ tags: 原创 Linux
 ---
 
 ## 进入 grub 编辑模式
-持续按 `方向键` 停在此界面
+持续按方向键 <kbd>↑</kbd> <kbd>↓</kbd> <kbd>←</kbd> <kbd>→</kbd> 停在此界面
 
-按 `e` 编辑
+按 <kbd>E</kbd> 键编辑
 ![](/assets/linux/recovery_root_passwd/grub.png)
 
 ## 临时编辑启动模式
