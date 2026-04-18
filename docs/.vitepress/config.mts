@@ -137,6 +137,7 @@ export default defineConfig({
             { text: 'VirtualBox Disk Free', link: '/other/vbox_disk_free' },
             { text: 'VSCode', link: '/other/vscode' },
             { text: 'Windows Configure Hibernate', link: '/other/windows_hibernate' },
+            { text: 'Windows Stop Update', link: '/other/windows_stop_update' },
             { text: 'Legacy to UEFI', link: '/other/legacy_to_uefi' },
             { text: 'MySQL', link: '/other/mysql' },
           ]
@@ -227,6 +228,7 @@ export default defineConfig({
             { text: 'VirtualBox 虚拟机磁盘释放空间', link: '/translated/zh_cn/other/vbox_disk_free' },
             { text: 'VSCode 配置及插件', link: '/translated/zh_cn/other/vscode' },
             { text: 'Windows 配置休眠', link: '/translated/zh_cn/other/windows_hibernate' },
+            { text: 'Windows 停止更新', link: '/translated/zh_cn/other/windows_stop_update' },
             { text: 'Legacy 无损转 UEFI', link: '/translated/zh_cn/other/legacy_to_uefi' },
             { text: 'MySQL', link: '/translated/zh_cn/other/mysql' },
           ]
