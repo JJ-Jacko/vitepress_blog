@@ -144,6 +144,7 @@ export default defineConfig({
             { text: 'Windows Stop Update', link: '/other/windows_stop_update' },
             { text: 'Legacy to UEFI', link: '/other/legacy_to_uefi' },
             { text: 'MySQL', link: '/other/mysql' },
+            { text: 'DIY Proxy', link: '/other/diy_proxy' },
           ]
         }
       ],
@@ -239,6 +240,7 @@ export default defineConfig({
             { text: 'Windows 停止更新', link: '/translated/zh_cn/other/windows_stop_update' },
             { text: 'Legacy 无损转 UEFI', link: '/translated/zh_cn/other/legacy_to_uefi' },
             { text: 'MySQL', link: '/translated/zh_cn/other/mysql' },
+            { text: '自建代理', link: '/translated/zh_cn/other/diy_proxy' },
           ]
         }
       ],
