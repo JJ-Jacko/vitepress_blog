@@ -111,7 +111,7 @@ Generate a public key
 ```sh
 sing-box generate reality-keypair
 ```
-```output
+```
 PrivateKey: gBQugGN6oP7FvORBVNJUk2bpM0mdncvlHK8tXAWc7kE
 PublicKey: yhHGsRA2OakzxjjLpzXJznWppsl1EOvFLxzCTmRNs04
 ```
