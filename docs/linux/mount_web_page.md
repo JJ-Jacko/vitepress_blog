@@ -5,6 +5,15 @@ location: Shenzhen
 tags: Original Linux Nginx Apache
 ---
 
+## Python
+Only suitable for temporary use
+```sh
+screen -S mysite
+```
+```sh
+python -m http.server 8001 --directory /var/www/mysite
+```
+
 ## Nginx
 ```nginx [/etc/nginx/sites-available/mysite]
 server {
@@ -12,6 +21,7 @@ server {
     root /var/www/mysite;
 }
 ```
+
 ## Apache
 ### Set the website root directory
 ```xml [/etc/apache2/site-available/000-default.conf]

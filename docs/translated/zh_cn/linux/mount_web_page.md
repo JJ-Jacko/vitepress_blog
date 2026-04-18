@@ -5,6 +5,15 @@ location: 深圳
 tags: 原创 Linux Nginx Apache
 ---
 
+## Python
+仅适合临时使用
+```sh
+screen -S mysite
+```
+```sh
+python -m http.server 8001 --directory /var/www/mysite
+```
+
 ## Nginx
 ```nginx [/etc/nginx/sites-available/mysite]
 server {
@@ -12,6 +21,7 @@ server {
     root /var/www/mysite;
 }
 ```
+
 ## Apache
 ### 设置网站根目录
 ```xml [/etc/apache2/site-available/000-default.conf]
