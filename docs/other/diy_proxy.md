@@ -20,6 +20,24 @@ Any legal responsibility caused by proxies built from this blog belongs to the u
 If you have any concerns, please contact the site owner by email.
 :::
 
+## Enable BBR
+BBR congestion control algorithm can significantly improve network performance in high latency and packet loss environments
+```ini [/etc/sysctl.d/10-bbr.conf]
+net.core.default_qdisc = fq
+net.ipv4.tcp_congestion_control = bbr
+```
+```sh
+sudo sysctl --system
+```
+### Check if BBR is enabled
+```sh
+sudo sysctl net.ipv4.tcp_congestion_control
+```
+Correctly enabled
+```
+net.ipv4.tcp_congestion_control = bbr
+```
+
 ## Install sing-box
 Download the latest deb package from the [Releases](https://github.com/SagerNet/sing-box/releases) page
 ```sh

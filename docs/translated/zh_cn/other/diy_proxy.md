@@ -24,6 +24,24 @@ tags: 原创 Linux 节点 sing-box vless hysteria2 reality
 请通过 email 与站长联系
 :::
 
+## 开启 BBR
+BBR 拥塞控制算法可以在高延迟和丢包环境下显著提升网络质量
+```ini [/etc/sysctl.d/10-bbr.conf]
+net.core.default_qdisc = fq
+net.ipv4.tcp_congestion_control = bbr
+```
+```sh
+sudo sysctl --system
+```
+### 查看是否启用成功
+```sh
+sudo sysctl net.ipv4.tcp_congestion_control
+```
+正确启用
+```
+net.ipv4.tcp_congestion_control = bbr
+```
+
 ## 安装 sing-box
 从 [Releases](https://github.com/SagerNet/sing-box/releases) 页面下载最新的 deb 包
 ```sh
