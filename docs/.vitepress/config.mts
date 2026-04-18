@@ -77,7 +77,7 @@ export default defineConfig({
           items: [
             { text: 'SSH', link: '/linux/ssh' },
             { text: 'Linux Hibernate Configuration', link: '/linux/hibernate' },
-            { text: 'Nvidia Driver', link: '/nvidia_driver' },
+            { text: 'Nvidia Driver', link: '/linux/nvidia_driver' },
             { text: 'Nginx Reverse Proxy', link: '/linux/nginx_reverse_proxy' },
             { text: 'Nginx Configure TLS', link: '/linux/nginx_tls' },
             { text: 'Service Configuration', link: '/linux/service_configuration' },
