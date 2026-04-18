@@ -5,10 +5,25 @@ location: Dongguan
 tags: Original MySQL Database
 ---
 
-## Installation
-### Windows
-[Download MySQL Community Server (for Windows)](https://dev.mysql.com/downloads/mysql/)
+## Introduction
+[Community Edition Download](https://dev.mysql.com/downloads/)
 
+## Linux (Debian / Ubuntu)
+### Installation
+```sh
+sudo apt install ./mysql-apt-config.deb
+```
+```sh
+sudo apt install mysql-community-server
+```
+Initialize in TUI
+### Uninstallation
+```sh
+sudo apt remove mysql-community-server
+```
+
+## Windows
+### Installation
 Configuration file
 ```ini [mysql-5.7.44\my.ini]
 [client]
@@ -16,24 +31,24 @@ port=3306
 default-character-set=utf8
 
 [mysqld]
-# Installed dir
+# Installation directory
 basedir="C:\Program Files\mysql-5.7.44\"
-# Data dir
+# Data directory
 datadir="C:\Program Files\mysql-5.7.44\data\"
 port=3306
 character-set-server=utf8
 ```
-Initialize and note down the temporary password
+Initialize and record password
 ```sh
 mysqld --initialize --console
 ```
-Install
+Installation
 ```sh
 mysqld -install
 ```
-Start service
-```sh
-net start mysql
+Start the service
+```powershell
+Start-Service -Name mysql
 ```
 Login
 ```sh
@@ -43,20 +58,22 @@ Change password
 ```sh
 mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY '02014';
 ```
-
-## Uninstallation
-### Windows
-Stop service
-```sh
+### Uninstallation
+Stop the service
+```powershell
 Stop-Process mysql
 ```
-Remove service
+Remove the service
 ```sh
 mysqld -remove MySQL
 ```
-Clean registry entries
-```sh
+Clear the registry
+```powershell
 Remove-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\EventLog\Application\MySQL'
+```
+```powershell
 Remove-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SYSTEM\ControlSet002\Services\EventLog\Application\MySQL'
+```
+```powershell
 Remove-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\EventLog\Application\MySQL'
 ```
