@@ -26,7 +26,7 @@ java -jar Server.jar nogui
 服务端安装了 [Opanel](https://github.com/opanel-mc/opanel) mod 用于在 Web 面板中管理服务器，
 否则不能在服务器的后台使用指令
 ### 配置用户及组
-#### 添加服务运行用户 mcs_runner
+#### 添加服务运行用户 `mcs_runner`
 ```sh
 sudo useradd \
     --system \
@@ -34,11 +34,11 @@ sudo useradd \
     --shell /usr/sbin/nologin \
     mcs_runner
 ```
-#### 添加组 mcs_grp
+#### 添加组 `mcs_grp`
 ```sh
 sudo groupadd mcs_grp
 ```
-#### 将服务运维用户 jacko 和运行用户 mcs_runner 添加到组 mcs_grp 中
+#### 将服务运维用户 `jacko` 和运行用户 `mcs_runner` 添加到组 mcs_grp 中
 ```sh
 sudo usermod -aG mcs_grp jacko
 ```
@@ -47,9 +47,9 @@ sudo usermod -aG mcs_grp mcs_runner
 ```
 ### 配置服务器目录
 * 将 mcs_grp 设置为所属组
-* jacko 设置为所有者拥有读、写、执行权限
-* mcs_runner 作为成员拥有读、写、执行权限
-* 其他用户没有任何权限
+* jacko 设置为所有者拥有`读`、`写`、`执行`权限
+* mcs_runner 作为成员拥有`读`、`写`、`执行`权限
+* 其他用户`没有`任何权限
 ```sh
 sudo chown -R jacko:mcs_grp /opt/MC_Servers
 ```

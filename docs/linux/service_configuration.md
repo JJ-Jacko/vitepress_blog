@@ -6,7 +6,7 @@ tags: Original Linux
 ---
 
 ## Configure users and groups
-### Add service user web_runner
+### Add service user `web_runner`
 ```sh
 sudo useradd \
     --system \
@@ -14,11 +14,11 @@ sudo useradd \
     --shell /usr/sbin/nologin \
     web_runner
 ```
-### Add group web_project_grp
+### Add group `web_project_grp`
 ```sh
 sudo groupadd web_project_grp
 ```
-### Add service user jacko and run user web_runner to group web_project_grp
+### Add service user `jacko` and running user `web_runner` to group web_project_grp
 ```sh
 sudo usermod -aG web_project_grp jacko
 ```
@@ -33,9 +33,9 @@ sudo git -C /opt clone http://example.git
 ```
 ### Configure permissions
 * Set web_project_grp as the group
-* Set jacko as the owner with read, write, and execute permissions
-* Set web_runner as a member with read and execute permissions
-* No permissions for other users
+* Set jacko as the owner with `read`, `write`, and `execute` permissions
+* Set web_runner as a member with `read` and `execute` permissions
+* Other users have `no` permissions
 ```sh
 sudo chown -R jacko:web_project_grp web_project
 ```

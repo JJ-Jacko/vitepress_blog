@@ -11,7 +11,7 @@ tags: 原创 Linux frp
 他非常适合解决没有公网 IP 的问题
 
 ## 配置用户
-添加运行用户 frp_runner
+添加运行用户 `frp_runner`
 ```sh
 sudo useradd \
     --system \
@@ -21,9 +21,9 @@ sudo useradd \
 ```
 
 ## 配置目录
-* root 设置为所有者拥有读、写、执行权限
-* frp_runner 作为成员拥有读、执行权限
-* 其他用户没有任何权限
+* root 设置为所有者拥有`读`、`写`、`执行`权限
+* frp_runner 作为成员拥有`读`、`执行`权限
+* 其他用户`没有`任何权限
 ```sh
 sudo chown -R root:frp_runner /opt/frp
 ```

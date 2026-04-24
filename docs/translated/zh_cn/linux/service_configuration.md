@@ -6,7 +6,7 @@ tags: 原创 Linux
 ---
 
 ## 配置用户及组
-### 添加服务运行用户 web_runner
+### 添加服务运行用户 `web_runner`
 ```sh
 sudo useradd \
     --system \
@@ -14,11 +14,11 @@ sudo useradd \
     --shell /usr/sbin/nologin \
     web_runner
 ```
-### 添加组 web_project_grp
+### 添加组 `web_project_grp`
 ```sh
 sudo groupadd web_project_grp
 ```
-### 将服务运维用户 jacko 和运行用户 web_runner 添加到组 web_project_grp 中
+### 将服务运维用户 `jacko` 和运行用户 `web_runner` 添加到组 web_project_grp 中
 ```sh
 sudo usermod -aG web_project_grp jacko
 ```
@@ -33,9 +33,9 @@ sudo git -C /opt clone http://example.git
 ```
 ### 配置权限
 * 将 web_project_grp 设置为所属组
-* jacko 设置为所有者拥有读、写、执行权限
-* web_runner 作为成员拥有读、执行权限
-* 其他用户没有任何权限
+* jacko 设置为所有者拥有`读`、`写`、`执行`权限
+* web_runner 作为成员拥有`读`、`执行`权限
+* 其他用户`没有`任何权限
 ```sh
 sudo chown -R jacko:web_project_grp web_project
 ```

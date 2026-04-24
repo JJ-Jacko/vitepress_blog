@@ -11,7 +11,7 @@ tags: Original Linux frp
 It is very suitable for solving the problems of not having a public IP address.
 
 ## Configure users
-Add the running user frp_runner
+Add the running user `frp_runner`
 ```sh
 sudo useradd \
     --system \
@@ -21,9 +21,9 @@ sudo useradd \
 ```
 
 ## Configure directory
-* Set root as the owner with read, write, and execute permissions
-* Set frp_runner as a member with read and write permissions
-* Other users have no permissions
+* Set root as the owner with `read`, `write`, and `execute` permissions
+* Set frp_runner as a member with `read` and `execute` permissions
+* Other users have `no` permissions
 ```sh
 sudo chown -R root:frp_runner /opt/frp
 ```
