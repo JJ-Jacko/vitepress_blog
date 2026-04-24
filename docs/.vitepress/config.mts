@@ -99,6 +99,7 @@ export default defineConfig({
             { text: 'Crack Android', link: '/linux/crack_android' },
             { text: 'yum', link: '/linux/yum' },
             { text: 'Minecraft Server', link: '/linux/minecraft_server' },
+            { text: 'Intranet Penetration frp', link: '/linux/intranet_penetration_frp' },
           ]
         }
       ],
@@ -195,6 +196,7 @@ export default defineConfig({
             { text: '安卓监听', link: '/translated/zh_cn/linux/crack_android' },
             { text: 'yum', link: '/translated/zh_cn/linux/yum' },
             { text: '我的世界服务器', link: '/translated/zh_cn/linux/minecraft_server' },
+            { text: '内网穿透 frp', link: '/translated/zh_cn/linux/intranet_penetration_frp' },
           ]
         }
       ],
