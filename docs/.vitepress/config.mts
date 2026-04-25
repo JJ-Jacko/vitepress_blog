@@ -11,6 +11,9 @@ export default defineConfig({
   ],
   themeConfig: {
     logo: "/logo.png",
+    outline: {
+      level: [2, 3]
+    },
     
     search: {
       provider: "local",
