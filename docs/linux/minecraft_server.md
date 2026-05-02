@@ -21,7 +21,7 @@ Use <kbd>Ctrl</kbd> <kbd>A</kbd> + <kbd>Ctrl</kbd> <kbd>D</kbd> to exit the scre
 the server will continue to run in the background
 
 ## Permanent solution
-[Inspiration](/translated/zh_cn/linux/service_configuration)
+[Inspiration](/linux/service_configuration)
 ### Prerequisites
 The server must have the [Opanel](https://github.com/opanel-mc/opanel) mod installed to manage the server through the Web panel,
 otherwise, you cannot use commands in the background of the server.
