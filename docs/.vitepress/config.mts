@@ -80,6 +80,7 @@ export default defineConfig({
           items: [
             { text: 'SSH', link: '/linux/ssh' },
             { text: 'Linux Hibernate Configuration', link: '/linux/hibernate' },
+            { text: 'Linux System Backup & Restore', link: '/linux/system_backup_restore' },
             { text: 'Nvidia Driver', link: '/linux/nvidia_driver' },
             { text: 'Nginx Reverse Proxy', link: '/linux/nginx_reverse_proxy' },
             { text: 'Nginx Configure TLS', link: '/linux/nginx_tls' },
@@ -177,6 +178,7 @@ export default defineConfig({
           items: [
             { text: 'SSH', link: '/translated/zh_cn/linux/ssh' },
             { text: 'Linux 配置休眠', link: '/translated/zh_cn/linux/hibernate' },
+            { text: 'Linux 系统备份还原', link: '/translated/zh_cn/linux/system_backup_restore' },
             { text: '英伟达驱动', link: '/translated/zh_cn/linux/nvidia_driver' },
             { text: 'Nginx 反向代理', link: '/translated/zh_cn/linux/nginx_reverse_proxy' },
             { text: 'Nginx 配置 TLS', link: '/translated/zh_cn/linux/nginx_tls' },
