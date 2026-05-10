@@ -5,21 +5,35 @@ location: Dongguan
 tags: Original Python
 ---
 
-## Configure
-Temporary
-```sh
-pip install -i http://mirrors.tencent.com/pypi/simple some-package
-```
-Persistent
-```ini [~/pip/pip.ini]
+## Vanilla
+### Configuration
+```ini [(Linux / Windows) ~/pip/pip.ini]
 [global]
-index-url = http://mirrors.tencent.com/pypi/simple/
+index-url = https://mirrors.tencent.com/pypi/simple/
 
 [install]
 trusted-host=mirrors.tencent.com
 ```
-
-## Upgrade
+### Upgrade
 ```sh
 python -m pip install --upgrade pip
+```
+
+## UV
+### Configuration
+::: code-group
+```ini [(Linux) ~/.config/uv/uv.toml]
+[[index]]
+url = "https://mirrors.tencent.com/pypi/simple/"
+default = true
+```
+```ini [(Windows) %APPDATA%\uv\uv.toml]
+[[index]]
+url = "https://mirrors.tencent.com/pypi/simple/"
+default = true
+```
+:::
+### Upgrade
+```sh
+uv self update
 ```
