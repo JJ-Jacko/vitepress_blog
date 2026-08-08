@@ -71,6 +71,7 @@ export default defineConfig({
             { text: 'Connect database in Python', link: '/python/connect_database' },
             { text: 'yt-dlp basic usage', link: '/python/yt-dlp' },
             { text: 'Strategy Pattern', link: '/python/strategy_pattern' },
+            { text: 'Design Pattern', link: '/python/design_pattern' },
             { text: 'Build Cpython from source code', link: '/python/build_cpython' },
           ]
         }
@@ -170,6 +171,7 @@ export default defineConfig({
             { text: 'Python 连接数据库', link: '/translated/zh_cn/python/connect_database' },
             { text: 'yt-dlp 基本使用', link: '/translated/zh_cn/python/yt-dlp' },
             { text: '策略模式', link: '/translated/zh_cn/python/strategy_pattern' },
+            { text: '设计模式', link: '/translated/zh_cn/python/design_pattern' },
             { text: '从源码构建 Cpython', link: '/translated/zh_cn/python/build_cpython' },
           ]
         }
