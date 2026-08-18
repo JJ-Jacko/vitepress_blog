@@ -5,7 +5,7 @@ location: Dongguan
 tags: Original Linux Minecraft
 ---
 
-## Temporary Solution
+## Temporary solution
 Use screen to start the server,
 you can use commands in the background of the server
 ```sh
