@@ -258,11 +258,8 @@ export default defineConfig({
     },
  
     socialLinks: [
-      // { icon: 'github', link: 'https://github.com/JiegeJacko' },
-      // { icon: 'youtube', link: 'https://www.youtube.com/@Jiege_jacko' },
+      { icon: 'github', link: 'https://github.com/JJ-Jacko' },
       { icon: 'bilibili', link: 'https://space.bilibili.com/506999103' },
-      // { icon: 'instagram', link: 'https://www.instagram.com/jj_jacko_hk/' },
-      // { icon: 'threads', link: 'https://www.threads.com/@jj_jacko_hk' }
     ],
 
     footer: {
