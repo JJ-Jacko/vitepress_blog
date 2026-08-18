@@ -23,8 +23,11 @@ the server will continue to run in the background
 ## Permanent solution
 [Inspiration](/linux/service_configuration)
 ### Prerequisites
-The server must have the [Opanel](https://github.com/opanel-mc/opanel) mod installed to manage the server through the Web panel,
-otherwise, you cannot use commands in the background of the server.
+You can choice any one way to control server porcess.
+Otherwise, you cannot use commands in the background of the server.
+- [Opanel](https://github.com/opanel-mc/opanel) mod: installed to manage the server through the **web panel**.
+- [mcrcon](https://github.com/Tiiffi/mcrcon) CLI: installed to manage the server through the **command**.
+
 ### Configure users and groups
 #### Add the service running user `mcs_runner`
 ```sh
@@ -57,7 +60,9 @@ sudo chown -R jacko:mcs_grp /opt/MC_Servers
 sudo chmod -R 2770 /opt/MC_Servers
 ```
 ### Configure service
-```ini [/etc/systemd/system/mc-test-server.service]
+There are 2 ways to configure.
+#### 1. Using pipeline file
+```ini{12-18} [/etc/systemd/system/mc-test-server.service]
 [Unit]
 Description=Minecraft Test Server
 After=network.target
@@ -80,7 +85,33 @@ KillSignal=SIGTERM
 [Install]
 WantedBy=multi-user.target
 ```
+#### 2. Using mcrcon command
+```ini{12-15} [/etc/systemd/system/mc-test-server.service]
+[Unit]
+Description=Minecraft Test Server
+After=network.target
+Wants=network.target
+Before=shutdown.target
 
+[Service]
+Type=simple
+User=mcs_runner
+WorkingDirectory=/opt/MC_Servers/test_server
+
+ExecStart=java -jar Server.jar nogui
+ExecStop=/usr/local/bin/mcrcon -H 127.0.0.1 -P 25575 -p mcmc stop
+ExecStop=/bin/sh -c 'while kill -0 $MAINPID 2>/dev/null; do sleep 1; done'
+TimeoutStopSec=30
+
+[Install]
+WantedBy=multi-user.target
+```
+```properties [server.properties]
+enable-rcon=true
+rcon.password=mcmc
+rcon.port=25575
+```
+#### Final step
 Reload
 ```sh
 sudo systemctl daemon-reload

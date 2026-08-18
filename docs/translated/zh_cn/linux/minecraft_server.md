@@ -23,8 +23,11 @@ java -jar Server.jar nogui
 ## 永久性方案
 [灵感来源](/translated/zh_cn/linux/service_configuration)
 ### 先决条件
-服务端安装了 [Opanel](https://github.com/opanel-mc/opanel) mod 用于在 Web 面板中管理服务器，
+你可以选择任意一种方式控制服务器进程，
 否则不能在服务器的后台使用指令
+- [Opanel](https://github.com/opanel-mc/opanel) 模组：通过**web 面板**管理服务器
+- [mcrcon](https://github.com/Tiiffi/mcrcon) 命令行：通过**命令**中管理服务器
+
 ### 配置用户及组
 #### 添加服务运行用户 `mcs_runner`
 ```sh
@@ -57,7 +60,9 @@ sudo chown -R jacko:mcs_grp /opt/MC_Servers
 sudo chmod -R 2770 /opt/MC_Servers
 ```
 ### 配置服务
-```ini [/etc/systemd/system/mc-test-server.service]
+有 2 种方式去配置
+#### 1. 使用管道文件
+```ini{12-18} [/etc/systemd/system/mc-test-server.service]
 [Unit]
 Description=Minecraft Test Server
 After=network.target
@@ -80,7 +85,33 @@ KillSignal=SIGTERM
 [Install]
 WantedBy=multi-user.target
 ```
+#### 2. 使用 mcrcon 命令
+```ini{12-15} [/etc/systemd/system/mc-test-server.service]
+[Unit]
+Description=Minecraft Test Server
+After=network.target
+Wants=network.target
+Before=shutdown.target
 
+[Service]
+Type=simple
+User=mcs_runner
+WorkingDirectory=/opt/MC_Servers/test_server
+
+ExecStart=java -jar Server.jar nogui
+ExecStop=/usr/local/bin/mcrcon -H 127.0.0.1 -P 25575 -p mcmc stop
+ExecStop=/bin/sh -c 'while kill -0 $MAINPID 2>/dev/null; do sleep 1; done'
+TimeoutStopSec=30
+
+[Install]
+WantedBy=multi-user.target
+```
+```properties [server.properties]
+enable-rcon=true
+rcon.password=mcmc
+rcon.port=25575
+```
+#### 最终步骤
 重载
 ```sh
 sudo systemctl daemon-reload
