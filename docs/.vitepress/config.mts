@@ -264,7 +264,7 @@ export default defineConfig({
 
     footer: {
       message: 'Frame <a href="https://vuejs.github.io/vitepress/v1/zh/" target="_blank">VitePress</a>',
-      copyright: '©2025 By Jacko <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2025416683号-2</a>'
+      copyright: '©2025-2026 By Jacko <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2025416683号-2</a>'
     }
   },
   locales: {
