@@ -34,6 +34,11 @@ features:
     details: 学校学习的第一门语言
     linkText: 看看老登语言 👴
     link: /translated/zh_cn/c/
+  - title: 后端
+    icon: 🧩
+    details: 程序员里最看不见但至关重要的大类
+    linkText: 与数据库、缓存、消息队列打交道 🫥
+    link: /translated/zh_cn//back-end/
   - title: 前端
     icon: ✨
     details: 繁琐又杂乱很怕被 AI 取代

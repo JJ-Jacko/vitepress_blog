@@ -34,6 +34,11 @@ features:
     details: The first programming language in college
     linkText: Explore boomer programming language 👴
     link: /c/
+  - title: Back-end
+    icon: 🧩
+    details: It is the most unseen but important broad category of programmers
+    linkText: Work with databases, caches, message queues 🫥
+    link: /back-end/
   - title: Front-end
     icon: ✨
     details: It's complex and messy, worried about being replaced by AI

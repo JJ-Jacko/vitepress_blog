@@ -34,6 +34,11 @@ features:
     details: 喺學校學習嘅第一門程式語言
     linkText: 睇下「死老嘢」👴
     link: /translated/zh_hk/c/
+  - title: 後端
+    icon: 🧩
+    details: 程式員入面最睇唔到但係最關鍵嘅大類
+    linkText: 同資料庫、Cache、Message Queue 打交道 🫥
+    link: /translated/zh_hk/back-end/
   - title: 前端
     icon: ✨
     details: 又繁複又亂仲好驚畀 AI 取代
