@@ -63,7 +63,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: 'Python data types', link: '/python/data_types' },
-            { text: 'pip', link: '/python/pip' },
+            { text: 'Packages Management', link: '/python/packages_management' },
             { text: 're module', link: '/python/module_re' },
             { text: 'shutil module', link: '/python/module_shutil' },
             { text: 'Regular expression', link: '/python/regular_expression' },
@@ -190,7 +190,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: 'Python 数据类型', link: '/translated/zh_cn/python/data_types' },
-            { text: 'pip', link: '/translated/zh_cn/python/pip' },
+            { text: '包管理', link: '/translated/zh_cn/python/packages_management' },
             { text: 're 正则库', link: '/translated/zh_cn/python/module_re' },
             { text: 'shutil 模块', link: '/translated/zh_cn/python/module_shutil' },
             { text: '正则表达式', link: '/translated/zh_cn/python/regular_expression' },

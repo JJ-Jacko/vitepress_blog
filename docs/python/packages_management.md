@@ -1,25 +1,11 @@
 ---
-title: pip
+title: Packages Management
 date: 2024/05/04 13:03
 location: Dongguan
 tags: Original Python
 ---
 
-## Vanilla
-### Configuration
-```ini [(Linux / Windows) ~/pip/pip.ini]
-[global]
-index-url = https://mirrors.tencent.com/pypi/simple/
-
-[install]
-trusted-host=mirrors.tencent.com
-```
-### Upgrade
-```sh
-python -m pip install --upgrade pip
-```
-
-## UV
+## uv (✨ Recommended)
 ### Configuration
 ::: code-group
 ```ini [(Linux) ~/.config/uv/uv.toml]
@@ -36,4 +22,18 @@ default = true
 ### Upgrade
 ```sh
 uv self update
+```
+
+## pip
+### Configuration
+```ini [(Linux / Windows) ~/pip/pip.ini]
+[global]
+index-url = https://mirrors.tencent.com/pypi/simple/
+
+[install]
+trusted-host=mirrors.tencent.com
+```
+### Upgrade
+```sh
+python -m pip install --upgrade pip
 ```
