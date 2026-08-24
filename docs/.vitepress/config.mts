@@ -165,7 +165,11 @@ export default defineConfig({
         },
         {
           text: 'Redis',
-          link: '/back-end/redis'
+          link: '/back-end/redis',
+          collapsed: false,
+          items: [
+            { text: 'Data Types', link: '/back-end/redis/data_types' },
+          ]
         }
       ],
       '/front-end': [
@@ -301,7 +305,11 @@ export default defineConfig({
         },
         {
           text: 'Redis',
-          link: '/translated/zh_cn/back-end/redis'
+          link: '/translated/zh_cn/back-end/redis',
+          collapsed: false,
+          items: [
+            { text: '数据类型', link: '/translated/zh_cn/back-end/redis/data_types' },
+          ]
         }
       ],
       '/translated/zh_cn/front-end': [
