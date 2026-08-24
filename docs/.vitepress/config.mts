@@ -59,7 +59,8 @@ export default defineConfig({
       // English (US)
       '/python': [
         {
-          text: 'Python🐍',
+          text: 'Language',
+          collapsed: false,
           items: [
             { text: 'Python data types', link: '/python/data_types' },
             { text: 'pip', link: '/python/pip' },
@@ -68,12 +69,24 @@ export default defineConfig({
             { text: 'Regular expression', link: '/python/regular_expression' },
             { text: 'File path related', link: '/python/file_path' },
             { text: 'File', link: '/python/file' },
-            { text: 'Connect database in Python', link: '/python/connect_database' },
-            { text: 'yt-dlp basic usage', link: '/python/yt-dlp' },
+            { text: 'Build Cpython from source code', link: '/python/build_cpython' },
+          ]
+        },
+        {
+          text: 'Design',
+          collapsed: false,
+          items: [
             { text: 'Strategy Pattern', link: '/python/strategy_pattern' },
             { text: 'Design Pattern', link: '/python/design_pattern' },
+          ]
+        },
+        {
+          text: 'Third-Party Libraries or Tools',
+          collapsed: false,
+          items: [
+            { text: 'Connect database in Python', link: '/python/connect_database' },
             { text: 'OpenAI SDK', link: '/python/openai_sdk' },
-            { text: 'Build Cpython from source code', link: '/python/build_cpython' },
+            { text: 'yt-dlp basic usage', link: '/python/yt-dlp' },
           ]
         }
       ],
@@ -173,7 +186,8 @@ export default defineConfig({
       // 中文 (简体)
       '/translated/zh_cn/python': [
         {
-          text: 'Python🐍',
+          text: '语言',
+          collapsed: false,
           items: [
             { text: 'Python 数据类型', link: '/translated/zh_cn/python/data_types' },
             { text: 'pip', link: '/translated/zh_cn/python/pip' },
@@ -182,12 +196,24 @@ export default defineConfig({
             { text: '正则表达式', link: '/translated/zh_cn/python/regular_expression' },
             { text: '文件路径相关', link: '/translated/zh_cn/python/file_path' },
             { text: '文件', link: '/translated/zh_cn/python/file' },
-            { text: 'Python 连接数据库', link: '/translated/zh_cn/python/connect_database' },
-            { text: 'yt-dlp 基本使用', link: '/translated/zh_cn/python/yt-dlp' },
+            { text: '从源码构建 Cpython', link: '/translated/zh_cn/python/build_cpython' },
+          ]
+        },
+        {
+          text: '设计',
+          collapsed: false,
+          items: [
             { text: '策略模式', link: '/translated/zh_cn/python/strategy_pattern' },
             { text: '设计模式', link: '/translated/zh_cn/python/design_pattern' },
+          ]
+        },
+        {
+          text: '第三方库或工具',
+          collapsed: false,
+          items: [
+            { text: 'Python 连接数据库', link: '/translated/zh_cn/python/connect_database' },
             { text: 'OpenAI SDK', link: '/translated/zh_cn/python/openai_sdk' },
-            { text: '从源码构建 Cpython', link: '/translated/zh_cn/python/build_cpython' },
+            { text: 'yt-dlp 基本使用', link: '/translated/zh_cn/python/yt-dlp' },
           ]
         }
       ],
