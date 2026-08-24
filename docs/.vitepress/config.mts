@@ -79,34 +79,47 @@ export default defineConfig({
       ],
       '/linux': [
         {
-          text: 'Linux🐧',
+          text: 'System',
+          collapsed: false,
           items: [
             { text: 'SSH', link: '/linux/ssh' },
             { text: 'Linux Hibernate Configuration', link: '/linux/hibernate' },
             { text: 'Linux System Backup & Restore', link: '/linux/system_backup_restore' },
             { text: 'Nvidia Driver', link: '/linux/nvidia_driver' },
-            { text: 'Nginx Reverse Proxy', link: '/linux/nginx_reverse_proxy' },
-            { text: 'Nginx Configure TLS', link: '/linux/nginx_tls' },
-            { text: 'Service Configuration', link: '/linux/service_configuration' },
-            { text: 'Mount Web Page', link: '/linux/mount_web_page' },
             { text: 'Shell Alias', link: '/linux/shell_alias' },
             { text: 'Environment variables', link: '/linux/env_var' },
             { text: 'zsh', link: '/linux/zsh' },
-            { text: 'Neovim', link: '/linux/nvim' },
             { text: 'Proxy', link: '/linux/proxy' },
             { text: 'Make install', link: '/linux/make_install' },
-            { text: 'Gitlab', link: '/linux/gitlab' },
             { text: 'Update kernel & headers', link: '/linux/upgrade_kernel&headers' },
             { text: 'Recovery root password', link: '/linux/recovery_root_passwd' },
-            { text: 'Samba Server', link: '/linux/samba_server' },
             { text: 'Install Arch Linux', link: '/linux/archlinux' },
             { text: 'Debian Clean', link: '/linux/debian_clean' },
+            { text: 'yum', link: '/linux/yum' },
+          ]
+        },
+        {
+          text: 'Tools Usage',
+          collapsed: false,
+          items: [
+            { text: 'Neovim', link: '/linux/nvim' },
             { text: 'Kali sniffs Wi-Fi', link: '/linux/kali_wifi' },
             { text: 'Crack archive', link: '/linux/crack_archive' },
             { text: 'Crack Android', link: '/linux/crack_android' },
-            { text: 'yum', link: '/linux/yum' },
-            { text: 'Minecraft Server', link: '/linux/minecraft_server' },
+          ]
+        },
+        {
+          text: 'Service Deployment',
+          collapsed: false,
+          items: [
+            { text: 'Nginx Reverse Proxy', link: '/linux/nginx_reverse_proxy' },
+            { text: 'Nginx Configure TLS', link: '/linux/nginx_tls' },
+            { text: 'Samba Server', link: '/linux/samba_server' },
+            { text: 'Mount Web Page', link: '/linux/mount_web_page' },
+            { text: 'Gitlab', link: '/linux/gitlab' },
+            { text: 'Service Configuration', link: '/linux/service_configuration' },
             { text: 'Intranet Penetration frp', link: '/linux/intranet_penetration_frp' },
+            { text: 'Minecraft Server', link: '/linux/minecraft_server' },
           ]
         }
       ],
@@ -180,34 +193,47 @@ export default defineConfig({
       ],
       '/translated/zh_cn/linux': [
         {
-          text: 'Linux🐧',
+          text: '系统',
+          collapsed: false,
           items: [
             { text: 'SSH', link: '/translated/zh_cn/linux/ssh' },
             { text: 'Linux 配置休眠', link: '/translated/zh_cn/linux/hibernate' },
             { text: 'Linux 系统备份还原', link: '/translated/zh_cn/linux/system_backup_restore' },
             { text: '英伟达驱动', link: '/translated/zh_cn/linux/nvidia_driver' },
-            { text: 'Nginx 反向代理', link: '/translated/zh_cn/linux/nginx_reverse_proxy' },
-            { text: 'Nginx 配置 TLS', link: '/translated/zh_cn/linux/nginx_tls' },
-            { text: '服务配置', link: '/translated/zh_cn/linux/service_configuration' },
-            { text: '网页挂载', link: '/translated/zh_cn/linux/mount_web_page' },
             { text: 'Shell 命令别名', link: '/translated/zh_cn/linux/shell_alias' },
             { text: '环境变量', link: '/translated/zh_cn/linux/env_var' },
             { text: 'zsh', link: '/translated/zh_cn/linux/zsh' },
-            { text: 'Neovim', link: '/translated/zh_cn/linux/nvim' },
             { text: '代理', link: '/translated/zh_cn/linux/proxy' },
             { text: '编译安装', link: '/translated/zh_cn/linux/make_install' },
-            { text: 'Gitlab', link: '/translated/zh_cn/linux/gitlab' },
             { text: '更新 kernel 及 headers', link: '/translated/zh_cn/linux/upgrade_kernel&headers' },
             { text: '恢复 root 密码', link: '/translated/zh_cn/linux/recovery_root_passwd' },
-            { text: 'Samba 服务器', link: '/translated/zh_cn/linux/samba_server' },
             { text: '安装 Arch Linux', link: '/translated/zh_cn/linux/archlinux' },
             { text: 'Debian 清理', link: '/translated/zh_cn/linux/debian_clean' },
+            { text: 'yum', link: '/translated/zh_cn/linux/yum' },
+          ]
+        },
+        {
+          text: '工具使用',
+          collapsed: false,
+          items: [
+            { text: 'Neovim', link: '/translated/zh_cn/linux/nvim' },
             { text: 'Kali 嗅探 Wi-Fi', link: '/translated/zh_cn/linux/kali_wifi' },
             { text: '破解压缩包', link: '/translated/zh_cn/linux/crack_archive' },
             { text: '安卓监听', link: '/translated/zh_cn/linux/crack_android' },
-            { text: 'yum', link: '/translated/zh_cn/linux/yum' },
-            { text: '我的世界服务器', link: '/translated/zh_cn/linux/minecraft_server' },
+          ]
+        },
+        {
+          text: '部署服务',
+          collapsed: false,
+          items: [
+            { text: 'Nginx 反向代理', link: '/translated/zh_cn/linux/nginx_reverse_proxy' },
+            { text: 'Nginx 配置 TLS', link: '/translated/zh_cn/linux/nginx_tls' },
+            { text: 'Samba 服务器', link: '/translated/zh_cn/linux/samba_server' },
+            { text: '网页挂载', link: '/translated/zh_cn/linux/mount_web_page' },
+            { text: 'Gitlab', link: '/translated/zh_cn/linux/gitlab' },
+            { text: '服务配置', link: '/translated/zh_cn/linux/service_configuration' },
             { text: '内网穿透 frp', link: '/translated/zh_cn/linux/intranet_penetration_frp' },
+            { text: '我的世界服务器', link: '/translated/zh_cn/linux/minecraft_server' },
           ]
         }
       ],
