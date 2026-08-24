@@ -158,6 +158,12 @@ export default defineConfig({
           ]
         }
       ],
+      '/back-end': [
+        {
+          text: 'MySQL',
+          link: '/back-end/mysql'
+        }
+      ],
       '/front-end': [
         {
           text: 'Fontend✨',
@@ -177,7 +183,6 @@ export default defineConfig({
             { text: 'Windows Configure Hibernate', link: '/other/windows_hibernate' },
             { text: 'Windows Stop Update', link: '/other/windows_stop_update' },
             { text: 'Legacy to UEFI', link: '/other/legacy_to_uefi' },
-            { text: 'MySQL', link: '/other/mysql' },
             { text: 'DIY Proxy', link: '/other/diy_proxy' },
           ]
         }
@@ -285,6 +290,12 @@ export default defineConfig({
           ]
         }
       ],
+      '/translated/zh_cn/back-end': [
+        {
+          text: 'MySQL',
+          link: '/translated/zh_cn/back-end/mysql'
+        }
+      ],
       '/translated/zh_cn/front-end': [
         {
           text: '前端✨',
@@ -304,7 +315,6 @@ export default defineConfig({
             { text: 'Windows 配置休眠', link: '/translated/zh_cn/other/windows_hibernate' },
             { text: 'Windows 停止更新', link: '/translated/zh_cn/other/windows_stop_update' },
             { text: 'Legacy 无损转 UEFI', link: '/translated/zh_cn/other/legacy_to_uefi' },
-            { text: 'MySQL', link: '/translated/zh_cn/other/mysql' },
             { text: '自建代理', link: '/translated/zh_cn/other/diy_proxy' },
           ]
         }
