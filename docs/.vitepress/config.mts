@@ -162,6 +162,10 @@ export default defineConfig({
         {
           text: 'MySQL',
           link: '/back-end/mysql'
+        },
+        {
+          text: 'Redis',
+          link: '/back-end/redis'
         }
       ],
       '/front-end': [
@@ -294,6 +298,10 @@ export default defineConfig({
         {
           text: 'MySQL',
           link: '/translated/zh_cn/back-end/mysql'
+        },
+        {
+          text: 'Redis',
+          link: '/translated/zh_cn/back-end/redis'
         }
       ],
       '/translated/zh_cn/front-end': [
