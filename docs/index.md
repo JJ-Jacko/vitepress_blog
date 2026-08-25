@@ -5,6 +5,8 @@ layout: home
 hero:
   name: "Jacko's Mini-world"
   tagline: personal blog
+  image:
+    src: /logo.png
   actions:
     - theme: alt
       text: Just browsing
