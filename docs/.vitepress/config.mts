@@ -65,6 +65,10 @@ export default defineConfig({
       ...zhHkSidebar
     },
  
+    nav: [
+      { text: 'CPS Test', link: 'https://cps.jacko.asia' },
+    ],
+
     socialLinks: [
       { icon: 'github', link: 'https://github.com/JJ-Jacko' },
       { icon: 'bilibili', link: 'https://space.bilibili.com/506999103' },
