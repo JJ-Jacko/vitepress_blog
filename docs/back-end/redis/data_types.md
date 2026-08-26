@@ -108,3 +108,22 @@ That means **ONLY** keep the elements whose indices are between 2 and 5.
 ```sh
 LTRIM names 2 5
 ```
+
+## Set
+Compared to the list, the elements in the set are **unique**.
+### List members
+```sh
+SMEMBERS names
+```
+### Add members
+```sh
+SADD names jacko john
+```
+### Remove members
+```sh
+SREM names jacko
+```
+### Check item is member of set
+```sh
+SADD names jacko
+```

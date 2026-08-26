@@ -108,3 +108,22 @@ LLEN names
 ```sh
 LTRIM names 2 5
 ```
+
+## 集合
+Compared to the list, the elements in the set are **unique**.
+### 列出成员
+```sh
+SMEMBERS names
+```
+### 添加成员
+```sh
+SADD names jacko john
+```
+### 移除成员
+```sh
+SREM names jacko
+```
+### 检查项目是否为集合的成员
+```sh
+SADD names jacko
+```
