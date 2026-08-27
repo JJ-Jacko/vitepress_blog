@@ -127,3 +127,44 @@ SREM names jacko
 ```sh
 SADD names jacko
 ```
+
+## Sorted set (Zset)
+### List members
+Index 0 to index -1 means first element to last element.
+```sh
+ZRANGE result 0 -1
+```
+```txt [OUTPUT] 
+1) "john"
+2) "jacko"
+3) "mike"
+```
+`WITHSCORES` will output with scores.
+```sh
+ZRANGE result 0 -1 WITHSCORES
+```
+```txt [OUTPUT] 
+1) "john"
+2) "77"
+3) "jacko"
+4) "88"
+5) "mike"
+6) "88"
+```
+### Add members
+```sh
+ZADD result 88 jacko 77 john 88 mike
+```
+### Show member's score
+```sh
+ZSCORE result jacko
+```
+### Show rank of member's score
+The default is from largest to smallest.
+```sh
+ZRANK result jacko
+```
+`ZREVRANK` command is from smallest to largest.
+```sh
+ZREVRANK result jacko
+```

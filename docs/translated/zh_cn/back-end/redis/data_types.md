@@ -127,3 +127,44 @@ SREM names jacko
 ```sh
 SADD names jacko
 ```
+
+## 有序集合
+### 列出成员
+索引 0 到 -1 意味着第一个元素到最后一个元素。
+```sh
+ZRANGE result 0 -1
+```
+```txt [OUTPUT] 
+1) "john"
+2) "jacko"
+3) "mike"
+```
+`WITHSCORES` 将会同时输出分数。
+```sh
+ZRANGE result 0 -1 WITHSCORES
+```
+```txt [OUTPUT] 
+1) "john"
+2) "77"
+3) "jacko"
+4) "88"
+5) "mike"
+6) "88"
+```
+### 添加成员
+```sh
+ZADD result 88 jacko 77 john 88 mike
+```
+### 展示成员的分数
+```sh
+ZSCORE result jacko
+```
+### 展示成员分数的排名
+默认是从最大到最小。
+```sh
+ZRANK result jacko
+```
+`ZREVRANK` 命令是从最小到最大。
+```sh
+ZREVRANK result jacko
+```
