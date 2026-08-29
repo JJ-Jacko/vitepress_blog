@@ -8,6 +8,6 @@
     "preview": "vitepress preview"
   },
   "dependencies": {
-    "vitepress-plugin-group-icons": "^1.6.5"
+    "vitepress-plugin-group-icons": "^1.7.6"
   }
 }
