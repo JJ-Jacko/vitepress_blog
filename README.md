@@ -6,8 +6,8 @@ Vitepress is a convenient tool for generating a documentation website from Markd
 
 ## 🚀 Usage
 ```sh
-npm install
+pnpm install
 ```
 ```sh
-npm run docs:dev
+pnpm run dev
 ```
