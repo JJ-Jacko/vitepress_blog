@@ -1,4 +1,6 @@
 {
+    "name": "vitepress_blog",
+    "compatibility_date": "2026-08-29",
     "assets": {
         "directory": ".vitepress/dist"
     }
