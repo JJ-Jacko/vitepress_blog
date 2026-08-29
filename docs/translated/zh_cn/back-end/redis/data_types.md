@@ -126,3 +126,56 @@ ZRANK result jacko
 ```sh
 ZREVRANK result jacko
 ```
+
+## 哈希
+### 创建哈希
+创建一个名字为 `person` 有字段 `name` 和 `age` 的哈希。
+```sh
+HSET person name jacko
+```
+```sh
+HSET person age 21
+```
+### 展示哈希
+```sh
+HGETALL person
+```
+```txt [OUTPUT] 
+1) "name"
+2) "jacko"
+3) "age"
+4) "21"
+```
+### 展示哈希所有的键
+```sh
+HKEYS person
+```
+```txt [OUTPUT] 
+1) "name"
+2) "age"
+```
+### 展示哈希的指定字段
+```sh
+HGET person name
+```
+```sh
+HGET person age
+```
+### 展示哈希的长度
+```sh
+HLEN person
+```
+### 删除哈希的指定字段
+```sh
+HDEL person name
+```
+```sh
+HDEL person age
+```
+### 检查哈希指定字段是否存在
+```sh
+HEXISTS person name
+```
+```sh
+HEXISTS person age
+```

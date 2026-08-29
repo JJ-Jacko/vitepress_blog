@@ -126,3 +126,56 @@ ZRANK result jacko
 ```sh
 ZREVRANK result jacko
 ```
+
+## Hash
+### Create hash
+Create a hash named `person` with fields `name` and `age`.
+```sh
+HSET person name jacko
+```
+```sh
+HSET person age 21
+```
+### Show hash
+```sh
+HGETALL person
+```
+```txt [OUTPUT] 
+1) "name"
+2) "jacko"
+3) "age"
+4) "21"
+```
+### Show hash all keys
+```sh
+HKEYS person
+```
+```txt [OUTPUT] 
+1) "name"
+2) "age"
+```
+### Show hash specific field
+```sh
+HGET person name
+```
+```sh
+HGET person age
+```
+### Show hash length
+```sh
+HLEN person
+```
+### Delete hash specific field
+```sh
+HDEL person name
+```
+```sh
+HDEL person age
+```
+### Check specific hash field exists
+```sh
+HEXISTS person name
+```
+```sh
+HEXISTS person age
+```
