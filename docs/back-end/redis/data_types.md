@@ -2,7 +2,7 @@
 title: Data Types
 date: 2026/08/24 22:06
 location: Dongguan
-tags: Original Redis Cache
+tags: Learn Redis Cache
 ---
 
 ## String

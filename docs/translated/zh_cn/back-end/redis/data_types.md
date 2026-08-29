@@ -2,7 +2,7 @@
 title: 数据类型
 date: 2026/08/24 22:06
 location: 东莞
-tags: 原创 Redis 缓存
+tags: 学习 Redis 缓存
 ---
 
 ## 字符串

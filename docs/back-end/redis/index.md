@@ -2,8 +2,12 @@
 title: Redis
 date: 2026/08/24 17:51
 location: Dongguan
-tags: Original Redis Cache
+tags: Learn Redis Cache
 ---
+
+Redis is a useful middleware in back-end world.
+This category is based on the practical [*one-hour Redis tutorial*](https://www.bilibili.com/video/BV1Jj411D7oG) by GeekHour,
+a well-known Bilibili creator.
 
 ## 📦 Installation
 Linux (Debian / Ubuntu)
