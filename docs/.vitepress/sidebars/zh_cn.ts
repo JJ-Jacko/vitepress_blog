@@ -75,6 +75,7 @@ export const sidebar: DefaultTheme.Sidebar = {
         { text: 'Samba 服务器', link: '/translated/zh_cn/linux/samba_server' },
         { text: '网页挂载', link: '/translated/zh_cn/linux/mount_web_page' },
         { text: 'Gitlab', link: '/translated/zh_cn/linux/gitlab' },
+        { text: 'Gitea', link: '/translated/zh_cn/linux/gitea' },
         { text: '服务配置', link: '/translated/zh_cn/linux/service_configuration' },
         { text: '内网穿透 frp', link: '/translated/zh_cn/linux/intranet_penetration_frp' },
         { text: '我的世界服务器', link: '/translated/zh_cn/linux/minecraft_server' },
