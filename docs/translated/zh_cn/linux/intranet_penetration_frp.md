@@ -5,7 +5,7 @@ location: 东莞
 tags: 原创 Linux frp
 ---
 
-[灵感来源](/linux/service_configuration)
+[灵感来源](/translated/zh_cn/linux/service_configuration)
 
 [frp](https://github.com/fatedier/frp) 是一款用于内网穿透的开源项目。
 他非常适合解决没有公网 IP 的问题
