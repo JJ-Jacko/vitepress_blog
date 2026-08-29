@@ -2,8 +2,12 @@
 title: MySQL
 date: 2024/10/30 11:27
 location: Dongguan
-tags: Original MySQL Database
+tags: Learn MySQL Database
 ---
+
+MySQL is a widely-used database in back-end world.
+This category is based on the practical [*Learn MySQL from scratch in one week*](https://www.bilibili.com/video/BV1H64y1U7GJ) by Han Shunping,
+a well-known Bilibili creator.
 
 ## Introduction
 [Community Edition Download](https://dev.mysql.com/downloads/)

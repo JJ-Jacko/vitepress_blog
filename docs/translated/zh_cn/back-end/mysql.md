@@ -2,8 +2,12 @@
 title: MySQL
 date: 2024/10/30 11:27
 location: 东莞
-tags: 原创 MySQL 数据库
+tags: 学习 MySQL 数据库
 ---
+
+MySQL 在后端领域是一款著名的数据库。
+这个章节基于知名哔哩哔哩 Up 主韩顺平的
+[《零基础一周学会MySQL》](https://www.bilibili.com/video/BV1H64y1U7GJ)
 
 ## 前言
 [社区版下载](https://dev.mysql.com/downloads/)
