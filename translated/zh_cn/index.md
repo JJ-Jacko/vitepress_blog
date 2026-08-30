@@ -5,6 +5,8 @@ layout: home
 hero:
   name: "Jacko 的小世界"
   tagline: 个人博客
+  image:
+    src: /logo.png
   actions:
     - theme: alt
       text: 随便逛逛
