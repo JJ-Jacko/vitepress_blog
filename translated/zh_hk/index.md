@@ -14,6 +14,9 @@ hero:
     - theme: brand
       text: 關於我
       link: /translated/zh_hk/me
+    - theme: alt
+      text: 訊息來源
+      link: /translated/zh_hk/info_source.md
 
 features:
   - title: Python

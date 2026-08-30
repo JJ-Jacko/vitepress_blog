@@ -14,6 +14,9 @@ hero:
     - theme: brand
       text: About me
       link: /me
+    - theme: alt
+      text: Info source
+      link: /info_source.md
 
 features:
   - title: Python
