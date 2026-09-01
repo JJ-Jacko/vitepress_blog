@@ -10,3 +10,5 @@ pnpm-workspace.yaml
 
 .vitepress/cache
 .vitepress/dist
+
+todo.md
