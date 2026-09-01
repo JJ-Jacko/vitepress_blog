@@ -4,6 +4,7 @@ const pages = [
     '/translated/zh_hk/linux',
     '/translated/zh_hk/java',
     '/translated/zh_hk/c',
+    '/translated/zh_hk/back-end',
     '/translated/zh_hk/front-end',
     '/translated/zh_hk/other'
 ]
