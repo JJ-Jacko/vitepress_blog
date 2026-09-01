@@ -15,6 +15,9 @@ hero:
       text: Explore
       link: /explore
     - theme: alt
+      text: Softwares & Tools
+      link: /software_tools.md
+    - theme: alt
       text: Info source
       link: /info_source.md
 

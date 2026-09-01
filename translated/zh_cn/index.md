@@ -15,6 +15,9 @@ hero:
       text: 随便逛逛
       link: /translated/zh_cn/explore
     - theme: alt
+      text: 软件和工具
+      link: /translated/zh_cn/software_tools.md
+    - theme: alt
       text: 信息来源
       link: /translated/zh_cn/info_source.md
 

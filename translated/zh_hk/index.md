@@ -15,6 +15,9 @@ hero:
       text: 隨便睇下
       link: /translated/zh_hk/explore
     - theme: alt
+      text: 軟體與工具
+      link: /translated/zh_hk/software_tools.md
+    - theme: alt
       text: 訊息來源
       link: /translated/zh_hk/info_source.md
 
