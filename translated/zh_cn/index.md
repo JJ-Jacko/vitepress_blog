@@ -8,12 +8,12 @@ hero:
   image:
     src: /logo.png
   actions:
-    - theme: alt
-      text: 随便逛逛
-      link: /translated/zh_cn/random
     - theme: brand
       text: 关于我
       link: /translated/zh_cn/me
+    - theme: alt
+      text: 随便逛逛
+      link: /translated/zh_cn/random
     - theme: alt
       text: 信息来源
       link: /translated/zh_cn/info_source.md

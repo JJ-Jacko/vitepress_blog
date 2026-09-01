@@ -8,12 +8,12 @@ hero:
   image:
     src: /logo.png
   actions:
-    - theme: alt
-      text: Just browsing
-      link: /random
     - theme: brand
       text: About me
       link: /me
+    - theme: alt
+      text: Just browsing
+      link: /random
     - theme: alt
       text: Info source
       link: /info_source.md
