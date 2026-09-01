@@ -12,8 +12,8 @@ hero:
       text: About me
       link: /me
     - theme: alt
-      text: Just browsing
-      link: /random
+      text: Explore
+      link: /explore
     - theme: alt
       text: Info source
       link: /info_source.md

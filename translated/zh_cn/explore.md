@@ -1,7 +1,3 @@
----
-title: random
----
-
 <script>
 const pages = [
     '/translated/zh_cn/python',

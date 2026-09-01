@@ -1,7 +1,3 @@
----
-title: random
----
-
 <script>
 const pages = [
     '/python',

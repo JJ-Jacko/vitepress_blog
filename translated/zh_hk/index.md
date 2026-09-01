@@ -13,7 +13,7 @@ hero:
       link: /translated/zh_hk/me
     - theme: alt
       text: 隨便睇下
-      link: /translated/zh_hk/random
+      link: /translated/zh_hk/explore
     - theme: alt
       text: 訊息來源
       link: /translated/zh_hk/info_source.md
