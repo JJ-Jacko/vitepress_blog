@@ -1,3 +1,9 @@
+---
+layout: page
+---
+
+<div class="explore-message">Finding content for you......</div>
+
 <script>
 const pages = [
     '/python',
@@ -14,4 +20,3 @@ if (typeof window !== 'undefined') {
     window.location.href = target
 }
 </script>
-Finding content for you......

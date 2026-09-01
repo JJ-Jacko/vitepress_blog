@@ -1,3 +1,9 @@
+---
+layout: page
+---
+
+<div class="explore-message">正为你挑选页面......</div>
+
 <script>
 const pages = [
     '/translated/zh_cn/python',
@@ -14,4 +20,3 @@ if (typeof window !== 'undefined') {
     window.location.href = target
 }
 </script>
-正为你挑选页面......
