@@ -31,7 +31,7 @@ location: 東莞
 * zsh
 * [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 
-## 操作系統 (虛擬機、容器)
+## 作業系統 (虛擬機、容器)
 * Windows 11: 
     - 在學習及工作中使用辦公軟體 (MS Office, Adobe)
     - 大多數遊戲在該平台運行
