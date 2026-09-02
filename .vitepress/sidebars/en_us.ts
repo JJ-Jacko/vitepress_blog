@@ -132,6 +132,7 @@ export const sidebar: DefaultTheme.Sidebar = {
       items: [
         { text: 'Git', link: '/other/git' },
         { text: 'Git Commit rule', link: '/other/git_commit_rule' },
+        { text: 'PowerShell', link: '/other/powershell' },
         { text: 'VirtualBox Disk Free', link: '/other/vbox_disk_free' },
         { text: 'VSCode', link: '/other/vscode' },
         { text: 'Windows Configure Hibernate', link: '/other/windows_hibernate' },

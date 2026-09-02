@@ -19,3 +19,10 @@ source ~/.bashrc
 source ~/.zshrc
 ```
 :::
+
+## Windows
+### 传统方法
+TODO
+
+### 基于 PowerShell 配置文件的方法
+[LINK](/translated/zh_cn/other/powershell#环境变量)

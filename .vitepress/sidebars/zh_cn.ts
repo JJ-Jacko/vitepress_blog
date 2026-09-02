@@ -132,6 +132,7 @@ export const sidebar: DefaultTheme.Sidebar = {
       items: [
         { text: 'Git 基本使用', link: '/translated/zh_cn/other/git' },
         { text: 'Git 提交规范', link: '/translated/zh_cn/other/git_commit_rule' },
+        { text: 'PowerShell', link: '/translated/zh_cn/other/powershell' },
         { text: 'VirtualBox 虚拟机磁盘释放空间', link: '/translated/zh_cn/other/vbox_disk_free' },
         { text: 'VSCode 配置及插件', link: '/translated/zh_cn/other/vscode' },
         { text: 'Windows 配置休眠', link: '/translated/zh_cn/other/windows_hibernate' },

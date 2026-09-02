@@ -19,3 +19,10 @@ source ~/.bashrc
 source ~/.zshrc
 ```
 :::
+
+## Windows
+### Traditional method
+TODO
+
+### PowerShell profile method
+[LINK](/other/powershell#environment-variables)
