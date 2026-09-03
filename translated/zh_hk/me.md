@@ -32,13 +32,18 @@ tech = {
 
 ## ♻️ 工作循環
 ```python
+tasks = []
+
 while True:
-    find_a_problem()                    # 找痛點
-    design_a_solution()                 # 設計方案
-    write_code()                        # 寫代碼
-    automate_the_boring_parts()         # 自動化繁瑣的部分
-    ship()                              # 交付
-    write_to_blog("blog.jacko.asia")    # 積纍至個人博客
+    if problem_idea := find_problem_or_idea():  # 找到痛點、想法暫放清單
+        tasks.append(problem_idea)
+    
+    task = tasks.pop()
+    task.design_a_solution()                    # 設計方案
+    task.write_code()                           # 寫代碼
+    task.automate_the_boring_parts()            # 自動化繁瑣的部分
+    task.ship()                                 # 交付
+    task.write_to_blog("blog.jacko.asia")       # 積纍至個人博客
 ```
 
 ## ✨ 理念

@@ -32,13 +32,18 @@ tech = {
 
 ## ♻️ Work Loop
 ```python
+tasks = []
+
 while True:
-    find_a_problem()
-    design_a_solution()
-    write_code()
-    automate_the_boring_parts()
-    ship()
-    write_to_blog("blog.jacko.asia")
+    if problem_idea := find_problem_or_idea():
+        tasks.append(problem_idea)
+    
+    task = tasks.pop()
+    task.design_a_solution()
+    task.write_code()
+    task.automate_the_boring_parts()
+    task.ship()
+    task.write_to_blog("blog.jacko.asia")
 ```
 
 ## ✨ Philosophy
