@@ -76,6 +76,7 @@ export const sidebar: DefaultTheme.Sidebar = {
         { text: 'Mount Web Page', link: '/linux/mount_web_page' },
         { text: 'Gitlab', link: '/linux/gitlab' },
         { text: 'Gitea', link: '/linux/gitea' },
+        { text: 'Jellyfin', link: '/linux/jellyfin' },
         { text: 'Service Configuration', link: '/linux/service_configuration' },
         { text: 'Intranet Penetration frp', link: '/linux/intranet_penetration_frp' },
         { text: 'Minecraft Server', link: '/linux/minecraft_server' },
