@@ -78,6 +78,7 @@ export const sidebar: DefaultTheme.Sidebar = {
         { text: 'Gitea', link: '/translated/zh_cn/linux/gitea' },
         { text: 'Jellyfin', link: '/translated/zh_cn/linux/jellyfin' },
         { text: 'OpenList', link: '/translated/zh_cn/linux/openlist' },
+        { text: 'qBittorrent', link: '/translated/zh_cn/linux/qbittorrent' },
         { text: '服务配置', link: '/translated/zh_cn/linux/service_configuration' },
         { text: '内网穿透 frp', link: '/translated/zh_cn/linux/intranet_penetration_frp' },
         { text: '我的世界服务器', link: '/translated/zh_cn/linux/minecraft_server' },

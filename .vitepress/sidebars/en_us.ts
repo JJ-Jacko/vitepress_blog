@@ -78,6 +78,7 @@ export const sidebar: DefaultTheme.Sidebar = {
         { text: 'Gitea', link: '/linux/gitea' },
         { text: 'Jellyfin', link: '/linux/jellyfin' },
         { text: 'OpenList', link: '/linux/openlist' },
+        { text: 'qBittorrent', link: '/linux/qbittorrent' },
         { text: 'Service Configuration', link: '/linux/service_configuration' },
         { text: 'Intranet Penetration frp', link: '/linux/intranet_penetration_frp' },
         { text: 'Minecraft Server', link: '/linux/minecraft_server' },
