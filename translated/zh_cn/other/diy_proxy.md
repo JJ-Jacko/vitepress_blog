@@ -15,7 +15,7 @@ tags: 原创 Linux 节点 sing-box vless hysteria2 reality
 配置也非常灵活，
 出于学习目的更推荐使用 sing-box 裸核搭建代理服务器。
 这里将使用 sing-box 裸核搭建 hysteria2 和 vless + reality 两种代理
-::: warning
+::: warning 警告
 本博客只作为技术研究，
 不鼓励任何个人及组织通过自建代理跳过各国家地区的网络限制，
 进行非法盈利，

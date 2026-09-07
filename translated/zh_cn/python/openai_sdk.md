@@ -36,7 +36,7 @@ client = openai.Client(
     base_url=base_url
 )
 ```
-::: warning
+::: warning 警告
 最佳实践是使用文件 `.env` 去保存 API key，
 并且将 **.env** 写入文件 `.gitignore` 以确保 API key 不会泄露。
 :::
