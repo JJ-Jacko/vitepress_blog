@@ -7,31 +7,31 @@ export const sidebar: DefaultTheme.Sidebar = {
       text: '语言',
       collapsed: false,
       items: [
-        { text: 'Python 数据类型', link: '/translated/zh_cn/python/data_types' },
-        { text: '包管理', link: '/translated/zh_cn/python/packages_management' },
-        { text: 're 正则库', link: '/translated/zh_cn/python/module_re' },
-        { text: 'shutil 模块', link: '/translated/zh_cn/python/module_shutil' },
-        { text: '正则表达式', link: '/translated/zh_cn/python/regular_expression' },
-        { text: '文件路径相关', link: '/translated/zh_cn/python/file_path' },
-        { text: '文件', link: '/translated/zh_cn/python/file' },
-        { text: '从源码构建 Cpython', link: '/translated/zh_cn/python/build_cpython' },
+        { text: 'Python 数据类型', link: '/translated/zh_cn/python/language/data_types' },
+        { text: '包管理', link: '/translated/zh_cn/python/language/packages_management' },
+        { text: 're 正则库', link: '/translated/zh_cn/python/language/module_re' },
+        { text: 'shutil 模块', link: '/translated/zh_cn/python/language/module_shutil' },
+        { text: '正则表达式', link: '/translated/zh_cn/python/language/regular_expression' },
+        { text: '文件路径相关', link: '/translated/zh_cn/python/language/file_path' },
+        { text: '文件', link: '/translated/zh_cn/python/language/file' },
+        { text: '从源码构建 Cpython', link: '/translated/zh_cn/python/language/build_cpython' },
       ]
     },
     {
       text: '设计',
       collapsed: false,
       items: [
-        { text: '策略模式', link: '/translated/zh_cn/python/strategy_pattern' },
-        { text: '设计模式', link: '/translated/zh_cn/python/design_pattern' },
+        { text: '策略模式', link: '/translated/zh_cn/python/design/strategy_pattern' },
+        { text: '设计模式', link: '/translated/zh_cn/python/design/design_pattern' },
       ]
     },
     {
       text: '第三方库或工具',
       collapsed: false,
       items: [
-        { text: 'Python 连接数据库', link: '/translated/zh_cn/python/connect_database' },
-        { text: 'OpenAI SDK', link: '/translated/zh_cn/python/openai_sdk' },
-        { text: 'yt-dlp 基本使用', link: '/translated/zh_cn/python/yt-dlp' },
+        { text: 'Python 连接数据库', link: '/translated/zh_cn/python/libs_tools/connect_database' },
+        { text: 'OpenAI SDK', link: '/translated/zh_cn/python/libs_tools/openai_sdk' },
+        { text: 'yt-dlp 基本使用', link: '/translated/zh_cn/python/libs_tools/yt-dlp' },
       ]
     }
   ],

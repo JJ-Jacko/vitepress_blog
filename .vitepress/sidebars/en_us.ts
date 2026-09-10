@@ -7,31 +7,31 @@ export const sidebar: DefaultTheme.Sidebar = {
       text: 'Language',
       collapsed: false,
       items: [
-        { text: 'Python data types', link: '/python/data_types' },
-        { text: 'Packages Management', link: '/python/packages_management' },
-        { text: 're module', link: '/python/module_re' },
-        { text: 'shutil module', link: '/python/module_shutil' },
-        { text: 'Regular expression', link: '/python/regular_expression' },
-        { text: 'File path related', link: '/python/file_path' },
-        { text: 'File', link: '/python/file' },
-        { text: 'Build Cpython from source code', link: '/python/build_cpython' },
+        { text: 'Python data types', link: '/python/language/data_types' },
+        { text: 'Packages Management', link: '/python/language/packages_management' },
+        { text: 're module', link: '/python/language/module_re' },
+        { text: 'shutil module', link: '/python/language/module_shutil' },
+        { text: 'Regular expression', link: '/python/language/regular_expression' },
+        { text: 'File path related', link: '/python/language/file_path' },
+        { text: 'File', link: '/python/language/file' },
+        { text: 'Build Cpython from source code', link: '/python/language/build_cpython' },
       ]
     },
     {
       text: 'Design',
       collapsed: false,
       items: [
-        { text: 'Strategy Pattern', link: '/python/strategy_pattern' },
-        { text: 'Design Pattern', link: '/python/design_pattern' },
+        { text: 'Strategy Pattern', link: '/python/design/strategy_pattern' },
+        { text: 'Design Pattern', link: '/python/design/design_pattern' },
       ]
     },
     {
       text: 'Third-Party Libraries or Tools',
       collapsed: false,
       items: [
-        { text: 'Connect database in Python', link: '/python/connect_database' },
-        { text: 'OpenAI SDK', link: '/python/openai_sdk' },
-        { text: 'yt-dlp basic usage', link: '/python/yt-dlp' },
+        { text: 'Connect database in Python', link: '/python/libs_tools/connect_database' },
+        { text: 'OpenAI SDK', link: '/python/libs_tools/openai_sdk' },
+        { text: 'yt-dlp basic usage', link: '/python/libs_tools/yt-dlp' },
       ]
     }
   ],
