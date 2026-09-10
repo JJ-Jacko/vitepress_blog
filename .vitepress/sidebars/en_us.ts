@@ -5,6 +5,7 @@ export const sidebar: DefaultTheme.Sidebar = {
   '/python': [
     {
       text: 'Language',
+      link: '/python',
       collapsed: false,
       items: [
         { text: 'Python data types', link: '/python/language/data_types' },

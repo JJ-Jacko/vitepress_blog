@@ -5,6 +5,7 @@ export const sidebar: DefaultTheme.Sidebar = {
   '/translated/zh_cn/python': [
     {
       text: '语言',
+      link: '/translated/zh_cn/python',
       collapsed: false,
       items: [
         { text: 'Python 数据类型', link: '/translated/zh_cn/python/language/data_types' },
