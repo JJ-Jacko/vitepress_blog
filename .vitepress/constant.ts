@@ -3,9 +3,13 @@ import { Post } from "./datas";
 
 // Paths
 export const pathPython = '/python';
+export const pathLinux = '/linux';
 export const pathPythonLanguage = `${pathPython}/language`;
 export const pathPythonDesign = `${pathPython}/design`;
 export const pathPythonLibsTools = `${pathPython}/libs_tools`;
+export const pathLinuxSystem = `${pathLinux}/system`;
+export const pathLinuxTools = `${pathLinux}/tools`;
+export const pathLinuxService = `${pathLinux}/service`;
 
 // Posts
 export const postsPythonLanguage: Post[] = [
@@ -82,11 +86,174 @@ export const postsPythonLibsTools: Post[] = [
     },
 ];
 
+export const postsLinuxSystem: Post[] = [
+    {
+        id: 'ssh',
+        nameEN: 'SSH',
+        nameCN: 'SSH',
+    },
+    {
+        id: 'hibernate',
+        nameEN: 'Linux Hibernate Configuration',
+        nameCN: 'Linux 配置休眠',
+    },
+    {
+        id: 'system_backup_restore',
+        nameEN: 'Linux System Backup & Restore',
+        nameCN: 'Linux 系统备份还原',
+    },
+    {
+        id: 'nvidia_driver',
+        nameEN: 'Nvidia Driver',
+        nameCN: '英伟达驱动',
+    },
+    {
+        id: 'shell_alias',
+        nameEN: 'Shell Alias',
+        nameCN: 'Shell 命令别名',
+    },
+    {
+        id: 'env_var',
+        nameEN: 'Environment variables',
+        nameCN: '环境变量',
+    },
+    {
+        id: 'zsh',
+        nameEN: 'zsh',
+        nameCN: 'zsh',
+    },
+    {
+        id: 'proxy',
+        nameEN: 'Proxy',
+        nameCN: '代理',
+    },
+    {
+        id: 'make_install',
+        nameEN: 'Compile and Install',
+        nameCN: '编译安装',
+    },
+    {
+        id: 'upgrade_kernel&headers',
+        nameEN: 'Upgrade Kernel and Headers',
+        nameCN: '更新 kernel 及 headers',
+    },
+    {
+        id: 'recovery_root_passwd',
+        nameEN: 'Recover Root Password',
+        nameCN: '恢复 root 密码',
+    },
+    {
+        id: 'archlinux',
+        nameEN: 'Install Arch Linux',
+        nameCN: '安装 Arch Linux',
+    },
+    {
+        id: 'debian_clean',
+        nameEN: 'Debian Clean',
+        nameCN: 'Debian 清理',
+    },
+    {
+        id: 'yum',
+        nameEN: 'yum',
+        nameCN: 'yum',
+    }
+];
+
+export const postsLinuxTools: Post[] = [
+    {
+        id: 'nvim',
+        nameEN: 'Neovim',
+        nameCN: 'Neovim',
+    },
+    {
+        id: 'kali_wifi',
+        nameEN: 'Kali sniffs Wi-Fi',
+        nameCN: 'Kali 嗅探 Wi-Fi',
+    },
+    {
+        id: 'crack_archive',
+        nameEN: 'Crack archive',
+        nameCN: '破解压缩包',
+    },
+    {
+        id: 'crack_android',
+        nameEN: 'Crack Android',
+        nameCN: '安卓监听',
+    },
+];
+
+export const postsLinuxService: Post[] = [
+    {
+        id: 'nginx_reverse_proxy',
+        nameEN: 'Nginx Reverse Proxy',
+        nameCN: 'Nginx 反向代理',
+    },
+    {
+        id: 'nginx_tls',
+        nameEN: 'Nginx Configure TLS',
+        nameCN: 'Nginx 配置 TLS',
+    },
+    {
+        id: 'samba_server',
+        nameEN: 'Samba Server',
+        nameCN: 'Samba 服务器',
+    },
+    {
+        id: 'mount_web_page',
+        nameEN: 'Mount Web Page',
+        nameCN: '网页挂载',
+    },
+    {
+        id: 'gitlab',
+        nameEN: 'Gitlab',
+        nameCN: 'Gitlab',
+    },
+    {
+        id: 'gitea',
+        nameEN: 'Gitea',
+        nameCN: 'Gitea',
+    },
+    {
+        id: 'jellyfin',
+        nameEN: 'Jellyfin',
+        nameCN: 'Jellyfin',
+    },
+    {
+        id: 'openlist',
+        nameEN: 'OpenList',
+        nameCN: 'OpenList',
+    },
+    {
+        id: 'qbittorrent',
+        nameEN: 'qBittorrent',
+        nameCN: 'qBittorrent',
+    },
+    {
+        id: 'service_configuration',
+        nameEN: 'Service Configuration',
+        nameCN: '服务配置',
+    },
+    {
+        id: 'intranet_penetration_frp',
+        nameEN: 'Intranet Penetration frp',
+        nameCN: '内网穿透 frp',
+    },
+    {
+        id: 'minecraft_server',
+        nameEN: 'Minecraft Server',
+        nameCN: '我的世界服务器',
+    },
+]
+
 // languages
 export const lanCN = '/translated/zh_cn';
 export const lanHK = '/translated/zh_hk';
 
 export const pathPythonCN           = `${lanCN}${pathPython}`;
+export const pathLinuxCN            = `${lanCN}${pathLinux}`;
 export const pathPythonLanguageCN   = `${lanCN}${pathPythonLanguage}`;
 export const pathPythonDesignCN     = `${lanCN}${pathPythonDesign}`;
 export const pathPythonLibsToolsCN  = `${lanCN}${pathPythonLibsTools}`;
+export const pathLinuxSystemCN      = `${lanCN}${pathLinuxSystem}`;
+export const pathLinuxToolsCN       = `${lanCN}${pathLinuxTools}`;
+export const pathLinuxServiceCN     = `${lanCN}${pathLinuxService}`;

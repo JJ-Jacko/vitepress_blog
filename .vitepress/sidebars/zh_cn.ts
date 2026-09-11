@@ -1,14 +1,21 @@
 import { DefaultTheme } from "vitepress";
 import {
   pathPythonCN            as pathPython,
+  pathLinuxCN             as pathLinux,
   pathPythonLanguageCN    as pathPythonLanguage,
   pathPythonDesignCN      as pathPythonDesign,
   pathPythonLibsToolsCN   as pathPythonLibsTools,
+  pathLinuxSystemCN       as pathLinuxSystem,
+  pathLinuxToolsCN        as pathLinuxTools,
+  pathLinuxServiceCN      as pathLinuxService,
 
   postsPythonLanguage,
   postsPythonDesign,
-  postsPythonLibsTools
-} from "../constant"
+  postsPythonLibsTools,
+  postsLinuxSystem,
+  postsLinuxTools,
+  postsLinuxService
+} from "../constant";
 
 
 export const sidebar: DefaultTheme.Sidebar = {
@@ -45,54 +52,36 @@ export const sidebar: DefaultTheme.Sidebar = {
         }))
     }
   ],
-  '/translated/zh_cn/linux': [
+  [pathLinux]: [
     {
       text: '系统',
       collapsed: false,
-      items: [
-        { text: 'SSH', link: '/translated/zh_cn/linux/ssh' },
-        { text: 'Linux 配置休眠', link: '/translated/zh_cn/linux/hibernate' },
-        { text: 'Linux 系统备份还原', link: '/translated/zh_cn/linux/system_backup_restore' },
-        { text: '英伟达驱动', link: '/translated/zh_cn/linux/nvidia_driver' },
-        { text: 'Shell 命令别名', link: '/translated/zh_cn/linux/shell_alias' },
-        { text: '环境变量', link: '/translated/zh_cn/linux/env_var' },
-        { text: 'zsh', link: '/translated/zh_cn/linux/zsh' },
-        { text: '代理', link: '/translated/zh_cn/linux/proxy' },
-        { text: '编译安装', link: '/translated/zh_cn/linux/make_install' },
-        { text: '更新 kernel 及 headers', link: '/translated/zh_cn/linux/upgrade_kernel&headers' },
-        { text: '恢复 root 密码', link: '/translated/zh_cn/linux/recovery_root_passwd' },
-        { text: '安装 Arch Linux', link: '/translated/zh_cn/linux/archlinux' },
-        { text: 'Debian 清理', link: '/translated/zh_cn/linux/debian_clean' },
-        { text: 'yum', link: '/translated/zh_cn/linux/yum' },
-      ]
+      items: postsLinuxSystem
+        .filter((post) => post.nameCN !== undefined)
+        .map((post) => ({
+          text: post.nameCN,
+          link: `${pathLinuxSystem}/${post.id}`
+        }))
     },
     {
       text: '工具使用',
       collapsed: false,
-      items: [
-        { text: 'Neovim', link: '/translated/zh_cn/linux/nvim' },
-        { text: 'Kali 嗅探 Wi-Fi', link: '/translated/zh_cn/linux/kali_wifi' },
-        { text: '破解压缩包', link: '/translated/zh_cn/linux/crack_archive' },
-        { text: '安卓监听', link: '/translated/zh_cn/linux/crack_android' },
-      ]
+      items: postsLinuxTools
+        .filter((post) => post.nameCN !== undefined)
+        .map((post) => ({
+          text: post.nameCN,
+          link: `${pathLinuxTools}/${post.id}`
+        }))
     },
     {
       text: '部署服务',
       collapsed: false,
-      items: [
-        { text: 'Nginx 反向代理', link: '/translated/zh_cn/linux/nginx_reverse_proxy' },
-        { text: 'Nginx 配置 TLS', link: '/translated/zh_cn/linux/nginx_tls' },
-        { text: 'Samba 服务器', link: '/translated/zh_cn/linux/samba_server' },
-        { text: '网页挂载', link: '/translated/zh_cn/linux/mount_web_page' },
-        { text: 'Gitlab', link: '/translated/zh_cn/linux/gitlab' },
-        { text: 'Gitea', link: '/translated/zh_cn/linux/gitea' },
-        { text: 'Jellyfin', link: '/translated/zh_cn/linux/jellyfin' },
-        { text: 'OpenList', link: '/translated/zh_cn/linux/openlist' },
-        { text: 'qBittorrent', link: '/translated/zh_cn/linux/qbittorrent' },
-        { text: '服务配置', link: '/translated/zh_cn/linux/service_configuration' },
-        { text: '内网穿透 frp', link: '/translated/zh_cn/linux/intranet_penetration_frp' },
-        { text: '我的世界服务器', link: '/translated/zh_cn/linux/minecraft_server' },
-      ]
+      items: postsLinuxService
+        .filter((post) => post.nameCN !== undefined)
+        .map((post) => ({
+          text: post.nameCN,
+          link: `${pathLinuxService}/${post.id}`
+        }))
     }
   ],
   '/translated/zh_cn/java': [
