@@ -4,12 +4,12 @@ import { Post } from "./datas";
 // Paths
 export const pathPython = '/python';
 export const pathLinux = '/linux';
-export const pathPythonLanguage = `${pathPython}/language`;
-export const pathPythonDesign = `${pathPython}/design`;
-export const pathPythonLibsTools = `${pathPython}/libs_tools`;
-export const pathLinuxSystem = `${pathLinux}/system`;
-export const pathLinuxTools = `${pathLinux}/tools`;
-export const pathLinuxService = `${pathLinux}/service`;
+export const pathPythonLanguage     = `${pathPython}/language`;
+export const pathPythonDesign       = `${pathPython}/design`;
+export const pathPythonLibsTools    = `${pathPython}/libs_tools`;
+export const pathLinuxSystem        = `${pathLinux}/system`;
+export const pathLinuxTools         = `${pathLinux}/tools`;
+export const pathLinuxService       = `${pathLinux}/service`;
 
 // Posts
 export const postsPythonLanguage: Post[] = [
