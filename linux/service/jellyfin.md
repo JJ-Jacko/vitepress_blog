@@ -5,7 +5,7 @@ location: Dongguan
 tags: Original Linux
 ---
 
-[Inspiration](/linux/service_configuration)
+[Inspiration](/linux/service/service_configuration)
 
 [Reference](https://jellyfin.org/downloads/linux): Official document.
 
@@ -14,7 +14,7 @@ about personal movies, musics hosting.
 
 ## Installation
 ### GPU driver
-* [Nvidia](/linux/nvidia_driver) GPU driver installation.
+* [Nvidia](/linux/system/nvidia_driver) GPU driver installation.
 ### FFmpeg
 Decode and encode require [FFmpeg](https://ffmpeg.org).
 ```sh

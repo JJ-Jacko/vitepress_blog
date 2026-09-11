@@ -6,7 +6,7 @@ tags: Original Linux Kali
 ---
 
 ## Install kernel headers
-[Details](/linux/upgrade_kernel&headers)
+[Details](/linux/system/upgrade_kernel&headers)
 
 ## Install driver
 ```sh

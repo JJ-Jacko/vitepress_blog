@@ -5,7 +5,7 @@ location: Dongguan
 tags: Original Linux git
 ---
 
-[Inspiration](/linux/service_configuration)
+[Inspiration](/linux/service/service_configuration)
 
 [Gitea](https://github.com/go-gitea/gitea) is a open source project
 about code hosting and CI/CD platform like [Github](https://github.com).

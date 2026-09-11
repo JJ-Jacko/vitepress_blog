@@ -50,7 +50,7 @@ Set-Alias python "python3.14"
 ::: warning 警告
 环境变量**仅在 PowerShell 实例中**生效。
 如果你想要为程序配置环境变量以访问，
-请使用[传统方法](/translated/zh_cn/linux/env_var#传统方法)。
+请使用[传统方法](/translated/zh_cn/linux/system/env_var#传统方法)。
 :::
 ### 程序根文件夹
 ```powershell [Microsoft.PowerShell_profile.ps1]

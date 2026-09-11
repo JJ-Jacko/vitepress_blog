@@ -5,7 +5,7 @@ location: Dongguan
 tags: Original Linux frp
 ---
 
-[Inspiration](/linux/service_configuration)
+[Inspiration](/linux/service/service_configuration)
 
 [frp](https://github.com/fatedier/frp) is a open source project about intranet penetration tool.
 It is very suitable for solving the problems of not having a public IP address.

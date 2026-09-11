@@ -21,7 +21,7 @@ java -jar Server.jar nogui
 服务器会继续在后台运行
 
 ## 永久性方案
-[灵感来源](/translated/zh_cn/linux/service_configuration)
+[灵感来源](/translated/zh_cn/linux/service/service_configuration)
 ### 先决条件
 你可以选择任意一种方式控制服务器进程，
 否则不能在服务器的后台使用指令

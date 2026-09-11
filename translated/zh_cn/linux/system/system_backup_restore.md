@@ -17,7 +17,7 @@ nvme0n1     259:0    0 232.9G  0 disk
 sda           8:0    0   3.6T  0 disk
 └─sda1        8:2    0     2T  0 part
 ```
-备份前可以进行 [清理](/translated/zh_cn/linux/debian_clean) 以减小备份文件的体积
+备份前可以进行 [清理](/translated/zh_cn/linux/system/debian_clean) 以减小备份文件的体积
 ### 通过 Live CD 启动
 ### 挂载根分区 `nvme0n1p3` 和备份分区 `sda1`
 ```sh
@@ -169,7 +169,7 @@ UUID=b09067e7-26ce-41fe-8853-8a4fbc5971a8  none           swap    sw            
 chroot /mnt/newroot /bin/bash
 ```
 ### 修复休眠配置（可选）
-[灵感来源](/translated/zh_cn/linux/hibernate)
+[灵感来源](/translated/zh_cn/linux/system/hibernate)
 ```properties[/etc/initramfs-tools/conf.d/resume]
 RESUME=UUID=b09067e7-26ce-41fe-8853-8a4fbc5971a8
 ```
@@ -190,7 +190,7 @@ update-grub
 ```
 ### 重启
 ### 重新安装英伟达驱动（可选）
-[灵感来源](/translated/zh_cn/linux/nvidia_driver)
+[灵感来源](/translated/zh_cn/linux/system/nvidia_driver)
 ```sh
 sudo apt purge "nvidia-*" firmware-misc-nonfree
 ```

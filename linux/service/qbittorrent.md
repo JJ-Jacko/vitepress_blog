@@ -5,7 +5,7 @@ location: Dongguan
 tags: Original Linux
 ---
 
-[Inspiration](/linux/service_configuration)
+[Inspiration](/linux/service/service_configuration)
 
 [qBittorrent Enhanced Edition](https://github.com/c0re100/qBittorrent-Enhanced-Edition) is a open source project
 about p2p downloading software.

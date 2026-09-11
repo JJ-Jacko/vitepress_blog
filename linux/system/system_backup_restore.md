@@ -17,7 +17,7 @@ nvme0n1     259:0    0 232.9G  0 disk
 sda           8:0    0   3.6T  0 disk
 └─sda1        8:2    0     2T  0 part
 ```
-[Clean](/linux/debian_clean) before backup to reduce the size of backup files
+[Clean](/linux/system/debian_clean) before backup to reduce the size of backup files
 ### Boot from Live CD
 ### Mount root partition `nvme0n1p3` and bakup partiion `sda1`
 ```sh
@@ -169,7 +169,7 @@ UUID=b09067e7-26ce-41fe-8853-8a4fbc5971a8  none           swap    sw            
 chroot /mnt/newroot /bin/bash
 ```
 ### Fix hibernation configuration (Optional)
-[Inspiration](/linux/hibernate)
+[Inspiration](/linux/system/hibernate)
 ```properties[/etc/initramfs-tools/conf.d/resume]
 RESUME=UUID=b09067e7-26ce-41fe-8853-8a4fbc5971a8
 ```
@@ -190,7 +190,7 @@ update-grub
 ```
 ### Reboot
 ### Reinstall nvidia driver (Optional)
-[Inspiration](/linux/nvidia_driver)
+[Inspiration](/linux/system/nvidia_driver)
 ```sh
 sudo apt purge "nvidia-*" firmware-misc-nonfree
 ```

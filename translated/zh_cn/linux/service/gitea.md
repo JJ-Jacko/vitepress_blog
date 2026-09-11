@@ -5,7 +5,7 @@ location: 东莞
 tags: 原创 Linux git
 ---
 
-[灵感来源](/translated/zh_cn/linux/service_configuration)
+[灵感来源](/translated/zh_cn/linux/service/service_configuration)
 
 [Gitea](https://github.com/go-gitea/gitea) 是一款有关代码托管
 以及 CI/CD 平台的开源项目就像是 [Github](https://github.com)。

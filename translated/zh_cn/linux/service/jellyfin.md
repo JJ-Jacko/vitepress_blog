@@ -5,7 +5,7 @@ location: 东莞
 tags: 原创 Linux
 ---
 
-[灵感来源](/linux/service_configuration)
+[灵感来源](/linux/service/service_configuration)
 
 [引用](https://jellyfin.org/downloads/linux): 官方文档。
 
@@ -14,7 +14,7 @@ tags: 原创 Linux
 
 ## 安装
 ### 显卡驱动
-* [英伟达](/translated/zh_cn/linux/nvidia_driver) 显卡安装。
+* [英伟达](/translated/zh_cn/linux/system/nvidia_driver) 显卡安装。
 ### FFmpeg
 解码和编码需要 [FFmpeg](https://ffmpeg.org)。
 ```sh

@@ -6,7 +6,7 @@ tags: 原创 Linux Kali
 ---
 
 ## 安装 kernel 对应 headers
-[详情](/translated/zh_cn/linux/upgrade_kernel&headers)
+[详情](/translated/zh_cn/linux/system/upgrade_kernel&headers)
 
 ## 安装驱动
 ```sh

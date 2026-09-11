@@ -54,7 +54,7 @@ location: Dongguan
 * [Reqable](https://github.com/reqable/reqable-app)
 
 ## Private web app
-* [Gitea](https://github.com/go-gitea/gitea): [Deploy steps](/linux/gitea)
+* [Gitea](https://github.com/go-gitea/gitea): [Deploy steps](/linux/service/gitea)
 * [Jellyfin](https://github.com/jellyfin/jellyfin)
 * [OpenList](https://github.com/OpenListTeam/openlist)
 * [qBittorrent Enhanced Edition](https://github.com/c0re100/qBittorrent-Enhanced-Edition)

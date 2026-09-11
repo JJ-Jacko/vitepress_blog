@@ -50,7 +50,7 @@ Set-Alias python "python3.14"
 ::: warning
 The environment variables will be active **ONLY in PowerShell session**.
 If you want to configure environment variables for programs to access,
-please using [traditional method](/linux/env_var#traditional-method).
+please using [traditional method](/linux/system/env_var#traditional-method).
 :::
 ### Programs root DIR
 ```powershell [Microsoft.PowerShell_profile.ps1]

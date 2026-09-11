@@ -5,7 +5,7 @@ location: Dongguan
 tags: Original Linux
 ---
 
-[Inspiration](/linux/service_configuration)
+[Inspiration](/linux/service/service_configuration)
 
 [OpenList](https://github.com/OpenListTeam/openlist) is a open source project
 about personal files hosting.
