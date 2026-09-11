@@ -1,39 +1,48 @@
 import { DefaultTheme } from "vitepress";
+import {
+  pathPythonCN            as pathPython,
+  pathPythonLanguageCN    as pathPythonLanguage,
+  pathPythonDesignCN      as pathPythonDesign,
+  pathPythonLibsToolsCN   as pathPythonLibsTools,
+
+  postsPythonLanguage,
+  postsPythonDesign,
+  postsPythonLibsTools
+} from "../constant"
 
 
 export const sidebar: DefaultTheme.Sidebar = {
-  '/translated/zh_cn/python': [
+  [pathPython]: [
     {
       text: '语言',
-      link: '/translated/zh_cn/python',
+      link: pathPython,
       collapsed: false,
-      items: [
-        { text: 'Python 数据类型', link: '/translated/zh_cn/python/language/data_types' },
-        { text: '包管理', link: '/translated/zh_cn/python/language/packages_management' },
-        { text: 're 正则库', link: '/translated/zh_cn/python/language/module_re' },
-        { text: 'shutil 模块', link: '/translated/zh_cn/python/language/module_shutil' },
-        { text: '正则表达式', link: '/translated/zh_cn/python/language/regular_expression' },
-        { text: '文件路径相关', link: '/translated/zh_cn/python/language/file_path' },
-        { text: '文件', link: '/translated/zh_cn/python/language/file' },
-        { text: '从源码构建 Cpython', link: '/translated/zh_cn/python/language/build_cpython' },
-      ]
+      items: postsPythonLanguage
+        .filter((post) => post.nameCN !== undefined)
+        .map((post) => ({
+          text: post.nameCN,
+          link: `${pathPythonLanguage}/${post.id}`
+        }))
     },
     {
       text: '设计',
       collapsed: false,
-      items: [
-        { text: '策略模式', link: '/translated/zh_cn/python/design/strategy_pattern' },
-        { text: '设计模式', link: '/translated/zh_cn/python/design/design_pattern' },
-      ]
+      items: postsPythonDesign
+        .filter((post) => post.nameCN !== undefined)
+        .map((post) => ({
+          text: post.nameCN,
+          link: `${pathPythonDesign}/${post.id}`
+        }))
     },
     {
       text: '第三方库或工具',
       collapsed: false,
-      items: [
-        { text: 'Python 连接数据库', link: '/translated/zh_cn/python/libs_tools/connect_database' },
-        { text: 'OpenAI SDK', link: '/translated/zh_cn/python/libs_tools/openai_sdk' },
-        { text: 'yt-dlp 基本使用', link: '/translated/zh_cn/python/libs_tools/yt-dlp' },
-      ]
+      items: postsPythonLibsTools
+        .filter((post) => post.nameCN !== undefined)
+        .map((post) => ({
+          text: post.nameCN,
+          link: `${pathPythonLibsTools}/${post.id}`
+        }))
     }
   ],
   '/translated/zh_cn/linux': [

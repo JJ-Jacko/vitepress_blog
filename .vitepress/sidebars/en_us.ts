@@ -1,39 +1,48 @@
 import { DefaultTheme } from "vitepress";
+import {
+  pathPython,
+  pathPythonLanguage,
+  pathPythonDesign,
+  pathPythonLibsTools,
+
+  postsPythonLanguage,
+  postsPythonDesign,
+  postsPythonLibsTools
+} from "../constant";
 
 
 export const sidebar: DefaultTheme.Sidebar = {
-  '/python': [
+  [pathPython]: [
     {
       text: 'Language',
-      link: '/python',
+      link: pathPython,
       collapsed: false,
-      items: [
-        { text: 'Python data types', link: '/python/language/data_types' },
-        { text: 'Packages Management', link: '/python/language/packages_management' },
-        { text: 're module', link: '/python/language/module_re' },
-        { text: 'shutil module', link: '/python/language/module_shutil' },
-        { text: 'Regular expression', link: '/python/language/regular_expression' },
-        { text: 'File path related', link: '/python/language/file_path' },
-        { text: 'File', link: '/python/language/file' },
-        { text: 'Build Cpython from source code', link: '/python/language/build_cpython' },
-      ]
+      items: postsPythonLanguage
+        .filter((post) => post.nameEN !== undefined)
+        .map((post) => ({
+          text: post.nameEN,
+          link: `${pathPythonLanguage}/${post.id}`
+        }))
     },
     {
       text: 'Design',
       collapsed: false,
-      items: [
-        { text: 'Strategy Pattern', link: '/python/design/strategy_pattern' },
-        { text: 'Design Pattern', link: '/python/design/design_pattern' },
-      ]
+      items: postsPythonDesign
+        .filter((post) => post.nameEN !== undefined)
+        .map((post) => ({
+          text: post.nameEN,
+          link: `${pathPythonDesign}/${post.id}`
+        }))
     },
     {
       text: 'Third-Party Libraries or Tools',
       collapsed: false,
-      items: [
-        { text: 'Connect database in Python', link: '/python/libs_tools/connect_database' },
-        { text: 'OpenAI SDK', link: '/python/libs_tools/openai_sdk' },
-        { text: 'yt-dlp basic usage', link: '/python/libs_tools/yt-dlp' },
-      ]
+      items: postsPythonLibsTools
+        .filter((post) => post.nameEN !== undefined)
+        .map((post) => ({
+          text: post.nameEN,
+          link: `${pathPythonLibsTools}/${post.id}`
+        }))
     }
   ],
   '/linux': [
