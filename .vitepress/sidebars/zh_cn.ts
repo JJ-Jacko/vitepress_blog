@@ -5,6 +5,7 @@ import {
   pathJavaCN              as pathJava,
   pathCCN                 as pathC,
   pathBackendCN           as pathBackend,
+  pathFrontendCN          as pathFrontend,
   pathPythonLanguageCN    as pathPythonLanguage,
   pathPythonDesignCN      as pathPythonDesign,
   pathPythonLibsToolsCN   as pathPythonLibsTools,
@@ -23,6 +24,7 @@ import {
   postsJava,
   postsC,
   postsBackendRedis,
+  postsFrontend,
 } from "../constant";
 
 
@@ -133,12 +135,16 @@ export const sidebar: DefaultTheme.Sidebar = {
         }))
     }
   ],
-  '/translated/zh_cn/front-end': [
+  [pathFrontend]: [
     {
       text: '前端✨',
-      items: [
-        { text: '微信小程序', link: '/translated/zh_cn/front-end/wechat_mini_program' },
-      ]
+      link: pathFrontend,
+      items: postsFrontend
+        .filter((post) => post.nameCN !== undefined)
+        .map((post) => ({
+          text: post.nameCN,
+          link: `${pathFrontend}/${post.id}`
+        }))
     }
   ],
   '/translated/zh_cn/other': [

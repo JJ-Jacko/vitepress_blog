@@ -5,6 +5,7 @@ import {
   pathJava,
   pathC,
   pathBackend,
+  pathFrontend,
   pathPythonLanguage,
   pathPythonDesign,
   pathPythonLibsTools,
@@ -23,6 +24,7 @@ import {
   postsJava,
   postsC,
   postsBackendRedis,
+  postsFrontend,
 } from "../constant";
 
 
@@ -133,12 +135,16 @@ export const sidebar: DefaultTheme.Sidebar = {
         }))
     }
   ],
-  '/front-end': [
+  [pathFrontend]: [
     {
       text: 'Fontend✨',
-      items: [
-        { text: 'WeChat Mini Program', link: '/front-end/wechat_mini_program' },
-      ]
+      link: pathFrontend,
+      items: postsFrontend
+        .filter((post) => post.nameEN !== undefined)
+        .map((post) => ({
+          text: post.nameEN,
+          link: `${pathFrontend}/${post.id}`
+        }))
     }
   ],
   '/other': [

@@ -7,6 +7,7 @@ export const pathLinux      = '/linux';
 export const pathJava       = '/java';
 export const pathC          = '/c';
 export const pathBackend    = '/back-end';
+export const pathFrontend   = '/front-end';
 export const pathPythonLanguage     = `${pathPython}/language`;
 export const pathPythonDesign       = `${pathPython}/design`;
 export const pathPythonLibsTools    = `${pathPython}/libs_tools`;
@@ -302,7 +303,15 @@ export const postsBackendRedis: Post[] = [
         nameEN: 'Data Types',
         nameCN: '数据类型',
     },
-]
+];
+
+export const postsFrontend: Post[] = [
+    {
+        id: 'wechat_mini_program',
+        nameEN: 'WeChat Mini Program',
+        nameCN: '微信小程序',
+    },
+];
 
 // languages
 export const lanCN = '/translated/zh_cn';
@@ -313,6 +322,7 @@ export const pathLinuxCN            = `${lanCN}${pathLinux}`;
 export const pathJavaCN             = `${lanCN}${pathJava}`;
 export const pathCCN                = `${lanCN}${pathC}`;
 export const pathBackendCN          = `${lanCN}${pathBackend}`;
+export const pathFrontendCN         = `${lanCN}${pathFrontend}`;
 export const pathPythonLanguageCN   = `${lanCN}${pathPythonLanguage}`;
 export const pathPythonDesignCN     = `${lanCN}${pathPythonDesign}`;
 export const pathPythonLibsToolsCN  = `${lanCN}${pathPythonLibsTools}`;
