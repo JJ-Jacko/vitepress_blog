@@ -6,6 +6,7 @@ import {
   pathC,
   pathBackend,
   pathFrontend,
+  pathOther,
   pathPythonLanguage,
   pathPythonDesign,
   pathPythonLibsTools,
@@ -25,6 +26,7 @@ import {
   postsC,
   postsBackendRedis,
   postsFrontend,
+  postsOther,
 } from "../constant";
 
 
@@ -147,20 +149,16 @@ export const sidebar: DefaultTheme.Sidebar = {
         }))
     }
   ],
-  '/other': [
+  [pathOther]: [
     {
       text: 'Other💻',
-      items: [
-        { text: 'Git', link: '/other/git' },
-        { text: 'Git Commit rule', link: '/other/git_commit_rule' },
-        { text: 'PowerShell', link: '/other/powershell' },
-        { text: 'VirtualBox Disk Free', link: '/other/vbox_disk_free' },
-        { text: 'VSCode', link: '/other/vscode' },
-        { text: 'Windows Configure Hibernate', link: '/other/windows_hibernate' },
-        { text: 'Windows Stop Update', link: '/other/windows_stop_update' },
-        { text: 'Legacy to UEFI', link: '/other/legacy_to_uefi' },
-        { text: 'DIY Proxy', link: '/other/diy_proxy' },
-      ]
+      link: pathOther,
+      items: postsOther
+        .filter((post) => post.nameEN !== undefined)
+        .map((post) => ({
+          text: post.nameEN,
+          link: `${pathOther}/${post.id}`
+        }))
     }
   ],
 }

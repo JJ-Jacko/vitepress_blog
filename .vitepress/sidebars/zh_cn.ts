@@ -6,6 +6,7 @@ import {
   pathCCN                 as pathC,
   pathBackendCN           as pathBackend,
   pathFrontendCN          as pathFrontend,
+  pathOtherCN             as pathOther,
   pathPythonLanguageCN    as pathPythonLanguage,
   pathPythonDesignCN      as pathPythonDesign,
   pathPythonLibsToolsCN   as pathPythonLibsTools,
@@ -25,6 +26,7 @@ import {
   postsC,
   postsBackendRedis,
   postsFrontend,
+  postsOther,
 } from "../constant";
 
 
@@ -147,20 +149,16 @@ export const sidebar: DefaultTheme.Sidebar = {
         }))
     }
   ],
-  '/translated/zh_cn/other': [
+  [pathOther]: [
     {
       text: '其他💻',
-      items: [
-        { text: 'Git 基本使用', link: '/translated/zh_cn/other/git' },
-        { text: 'Git 提交规范', link: '/translated/zh_cn/other/git_commit_rule' },
-        { text: 'PowerShell', link: '/translated/zh_cn/other/powershell' },
-        { text: 'VirtualBox 虚拟机磁盘释放空间', link: '/translated/zh_cn/other/vbox_disk_free' },
-        { text: 'VSCode 配置及插件', link: '/translated/zh_cn/other/vscode' },
-        { text: 'Windows 配置休眠', link: '/translated/zh_cn/other/windows_hibernate' },
-        { text: 'Windows 停止更新', link: '/translated/zh_cn/other/windows_stop_update' },
-        { text: 'Legacy 无损转 UEFI', link: '/translated/zh_cn/other/legacy_to_uefi' },
-        { text: '自建代理', link: '/translated/zh_cn/other/diy_proxy' },
-      ]
+      link: pathOther,
+      items: postsOther
+        .filter((post) => post.nameCN !== undefined)
+        .map((post) => ({
+          text: post.nameCN,
+          link: `${pathOther}/${post.id}`
+        }))
     }
   ],
 }

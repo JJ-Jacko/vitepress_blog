@@ -8,6 +8,7 @@ export const pathJava       = '/java';
 export const pathC          = '/c';
 export const pathBackend    = '/back-end';
 export const pathFrontend   = '/front-end';
+export const pathOther      = '/other';
 export const pathPythonLanguage     = `${pathPython}/language`;
 export const pathPythonDesign       = `${pathPython}/design`;
 export const pathPythonLibsTools    = `${pathPython}/libs_tools`;
@@ -313,6 +314,54 @@ export const postsFrontend: Post[] = [
     },
 ];
 
+export const postsOther: Post[] = [
+    {
+        id: 'git',
+        nameEN: 'Git',
+        nameCN: 'Git 基本使用',
+    },
+    {
+        id: 'git_commit_rule',
+        nameEN: 'Git Commit rule',
+        nameCN: 'Git 提交规范',
+    },
+    {
+        id: 'powershell',
+        nameEN: 'PowerShell',
+        nameCN: 'PowerShell',
+    },
+    {
+        id: 'vbox_disk_free',
+        nameEN: 'VirtualBox Disk Free',
+        nameCN: 'VirtualBox 虚拟机磁盘释放空间',
+    },
+    {
+        id: 'vscode',
+        nameEN: 'VSCode',
+        nameCN: 'VSCode 配置及插件',
+    },
+    {
+        id: 'windows_hibernate',
+        nameEN: 'Windows Configure Hibernate',
+        nameCN: 'Windows 配置休眠',
+    },
+    {
+        id: 'windows_stop_update',
+        nameEN: 'Windows Stop Update',
+        nameCN: 'Windows 停止更新',
+    },
+    {
+        id: 'legacy_to_uefi',
+        nameEN: 'Legacy to UEFI',
+        nameCN: 'Legacy 无损转 UEFI',
+    },
+    {
+        id: 'diy_proxy',
+        nameEN: 'DIY Proxy',
+        nameCN: '自建代理',
+    },
+];
+
 // languages
 export const lanCN = '/translated/zh_cn';
 export const lanHK = '/translated/zh_hk';
@@ -323,6 +372,7 @@ export const pathJavaCN             = `${lanCN}${pathJava}`;
 export const pathCCN                = `${lanCN}${pathC}`;
 export const pathBackendCN          = `${lanCN}${pathBackend}`;
 export const pathFrontendCN         = `${lanCN}${pathFrontend}`;
+export const pathOtherCN            = `${lanCN}${pathOther}`;
 export const pathPythonLanguageCN   = `${lanCN}${pathPythonLanguage}`;
 export const pathPythonDesignCN     = `${lanCN}${pathPythonDesign}`;
 export const pathPythonLibsToolsCN  = `${lanCN}${pathPythonLibsTools}`;
