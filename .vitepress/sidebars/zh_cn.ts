@@ -3,6 +3,7 @@ import {
   pathPythonCN            as pathPython,
   pathLinuxCN             as pathLinux,
   pathJavaCN              as pathJava,
+  pathCCN                 as pathC,
   pathPythonLanguageCN    as pathPythonLanguage,
   pathPythonDesignCN      as pathPythonDesign,
   pathPythonLibsToolsCN   as pathPythonLibsTools,
@@ -17,6 +18,7 @@ import {
   postsLinuxTools,
   postsLinuxService,
   postsJava,
+  postsC,
 } from "../constant";
 
 
@@ -98,15 +100,16 @@ export const sidebar: DefaultTheme.Sidebar = {
         }))
     }
   ],
-  '/translated/zh_cn/c': [
+  [pathC]: [
     {
       text: 'C',
-      items: [
-        { text: '环境搭建', link: '/translated/zh_cn/c/env' },
-        { text: '数据单位', link: '/translated/zh_cn/c/data_unit' },
-        { text: '数据类型', link: '/translated/zh_cn/c/data_types' },
-        { text: '运算符', link: '/translated/zh_cn/c/operator' },
-      ]
+      link: pathC,
+      items: postsC
+        .filter((post) => post.nameCN !== undefined)
+        .map((post) => ({
+          text: post.nameCN,
+          link: `${pathC}/${post.id}`
+        }))
     }
   ],
   '/translated/zh_cn/back-end': [

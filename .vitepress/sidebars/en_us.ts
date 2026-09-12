@@ -3,6 +3,7 @@ import {
   pathPython,
   pathLinux,
   pathJava,
+  pathC,
   pathPythonLanguage,
   pathPythonDesign,
   pathPythonLibsTools,
@@ -17,6 +18,7 @@ import {
   postsLinuxTools,
   postsLinuxService,
   postsJava,
+  postsC,
 } from "../constant";
 
 
@@ -98,15 +100,16 @@ export const sidebar: DefaultTheme.Sidebar = {
         }))
     }
   ],
-  '/c': [
+  [pathC]: [
     {
       text: 'C',
-      items: [
-        { text: 'Setup Environment', link: '/c/env' },
-        { text: 'Unit of Data', link: '/c/data_unit' },
-        { text: 'C Data Type', link: '/c/data_types' },
-        { text: 'Operator', link: '/c/operator' },
-      ]
+      link: pathC,
+      items: postsC
+        .filter((post) => post.nameEN !== undefined)
+        .map((post) => ({
+          text: post.nameEN,
+          link: `${pathC}/${post.id}`
+        }))
     }
   ],
   '/back-end': [

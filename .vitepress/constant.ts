@@ -5,6 +5,7 @@ import { Post } from "./datas";
 export const pathPython = '/python';
 export const pathLinux  = '/linux';
 export const pathJava   = '/java';
+export const pathC      = '/c';
 export const pathPythonLanguage     = `${pathPython}/language`;
 export const pathPythonDesign       = `${pathPython}/design`;
 export const pathPythonLibsTools    = `${pathPython}/libs_tools`;
@@ -269,6 +270,29 @@ export const postsJava: Post[] = [
     },
 ];
 
+export const postsC: Post[] = [
+    {
+        id: 'env',
+        nameEN: 'Setup Environment',
+        nameCN: '环境搭建',
+    },
+    {
+        id: 'data_unit',
+        nameEN: 'Unit of Data',
+        nameCN: '数据单位',
+    },
+    {
+        id: 'data_types',
+        nameEN: 'C Data Type',
+        nameCN: '数据类型',
+    },
+    {
+        id: 'operator',
+        nameEN: 'Operator',
+        nameCN: '运算符',
+    },
+];
+
 // languages
 export const lanCN = '/translated/zh_cn';
 export const lanHK = '/translated/zh_hk';
@@ -276,6 +300,7 @@ export const lanHK = '/translated/zh_hk';
 export const pathPythonCN           = `${lanCN}${pathPython}`;
 export const pathLinuxCN            = `${lanCN}${pathLinux}`;
 export const pathJavaCN             = `${lanCN}${pathJava}`;
+export const pathCCN                = `${lanCN}${pathC}`;
 export const pathPythonLanguageCN   = `${lanCN}${pathPythonLanguage}`;
 export const pathPythonDesignCN     = `${lanCN}${pathPythonDesign}`;
 export const pathPythonLibsToolsCN  = `${lanCN}${pathPythonLibsTools}`;
