@@ -4,12 +4,15 @@ import {
   pathLinux,
   pathJava,
   pathC,
+  pathBackend,
   pathPythonLanguage,
   pathPythonDesign,
   pathPythonLibsTools,
   pathLinuxSystem,
   pathLinuxTools,
   pathLinuxService,
+  pathBackendMySQL,
+  pathBackendRedis,
 
   postsPythonLanguage,
   postsPythonDesign,
@@ -19,6 +22,7 @@ import {
   postsLinuxService,
   postsJava,
   postsC,
+  postsBackendRedis,
 } from "../constant";
 
 
@@ -112,18 +116,21 @@ export const sidebar: DefaultTheme.Sidebar = {
         }))
     }
   ],
-  '/back-end': [
+  [pathBackend]: [
     {
       text: 'MySQL',
-      link: '/back-end/mysql'
+      link: pathBackendMySQL
     },
     {
       text: 'Redis',
-      link: '/back-end/redis',
+      link: pathBackendRedis,
       collapsed: false,
-      items: [
-        { text: 'Data Types', link: '/back-end/redis/data_types' },
-      ]
+      items: postsBackendRedis
+        .filter((post) => post.nameEN !== undefined)
+        .map((post) => ({
+          text: post.nameEN,
+          link: `${pathBackendRedis}/${post.id}`
+        }))
     }
   ],
   '/front-end': [

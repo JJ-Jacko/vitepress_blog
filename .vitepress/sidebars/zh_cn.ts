@@ -4,12 +4,15 @@ import {
   pathLinuxCN             as pathLinux,
   pathJavaCN              as pathJava,
   pathCCN                 as pathC,
+  pathBackendCN           as pathBackend,
   pathPythonLanguageCN    as pathPythonLanguage,
   pathPythonDesignCN      as pathPythonDesign,
   pathPythonLibsToolsCN   as pathPythonLibsTools,
   pathLinuxSystemCN       as pathLinuxSystem,
   pathLinuxToolsCN        as pathLinuxTools,
   pathLinuxServiceCN      as pathLinuxService,
+  pathBackendMySQLCN      as pathBackendMySQL,
+  pathBackendRedisCN      as pathBackendRedis,
 
   postsPythonLanguage,
   postsPythonDesign,
@@ -19,6 +22,7 @@ import {
   postsLinuxService,
   postsJava,
   postsC,
+  postsBackendRedis,
 } from "../constant";
 
 
@@ -112,18 +116,21 @@ export const sidebar: DefaultTheme.Sidebar = {
         }))
     }
   ],
-  '/translated/zh_cn/back-end': [
+  [pathBackend]: [
     {
       text: 'MySQL',
-      link: '/translated/zh_cn/back-end/mysql'
+      link: pathBackendMySQL
     },
     {
       text: 'Redis',
-      link: '/translated/zh_cn/back-end/redis',
+      link: pathBackendRedis,
       collapsed: false,
-      items: [
-        { text: '数据类型', link: '/translated/zh_cn/back-end/redis/data_types' },
-      ]
+      items: postsBackendRedis
+        .filter((post) => post.nameCN !== undefined)
+        .map((post) => ({
+          text: post.nameCN,
+          link: `${pathBackendRedis}/${post.id}`
+        }))
     }
   ],
   '/translated/zh_cn/front-end': [

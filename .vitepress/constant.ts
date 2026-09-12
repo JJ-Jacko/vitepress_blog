@@ -2,16 +2,19 @@ import { Post } from "./datas";
 
 
 // Paths
-export const pathPython = '/python';
-export const pathLinux  = '/linux';
-export const pathJava   = '/java';
-export const pathC      = '/c';
+export const pathPython     = '/python';
+export const pathLinux      = '/linux';
+export const pathJava       = '/java';
+export const pathC          = '/c';
+export const pathBackend    = '/back-end';
 export const pathPythonLanguage     = `${pathPython}/language`;
 export const pathPythonDesign       = `${pathPython}/design`;
 export const pathPythonLibsTools    = `${pathPython}/libs_tools`;
 export const pathLinuxSystem        = `${pathLinux}/system`;
 export const pathLinuxTools         = `${pathLinux}/tools`;
 export const pathLinuxService       = `${pathLinux}/service`;
+export const pathBackendMySQL       = `${pathBackend}/mysql`;
+export const pathBackendRedis       = `${pathBackend}/redis`;
 
 // Posts
 export const postsPythonLanguage: Post[] = [
@@ -293,6 +296,14 @@ export const postsC: Post[] = [
     },
 ];
 
+export const postsBackendRedis: Post[] = [
+    {
+        id: 'data_types',
+        nameEN: 'Data Types',
+        nameCN: '数据类型',
+    },
+]
+
 // languages
 export const lanCN = '/translated/zh_cn';
 export const lanHK = '/translated/zh_hk';
@@ -301,9 +312,12 @@ export const pathPythonCN           = `${lanCN}${pathPython}`;
 export const pathLinuxCN            = `${lanCN}${pathLinux}`;
 export const pathJavaCN             = `${lanCN}${pathJava}`;
 export const pathCCN                = `${lanCN}${pathC}`;
+export const pathBackendCN          = `${lanCN}${pathBackend}`;
 export const pathPythonLanguageCN   = `${lanCN}${pathPythonLanguage}`;
 export const pathPythonDesignCN     = `${lanCN}${pathPythonDesign}`;
 export const pathPythonLibsToolsCN  = `${lanCN}${pathPythonLibsTools}`;
 export const pathLinuxSystemCN      = `${lanCN}${pathLinuxSystem}`;
 export const pathLinuxToolsCN       = `${lanCN}${pathLinuxTools}`;
 export const pathLinuxServiceCN     = `${lanCN}${pathLinuxService}`;
+export const pathBackendMySQLCN     = `${lanCN}${pathBackendMySQL}`;
+export const pathBackendRedisCN     = `${lanCN}${pathBackendRedis}`;
