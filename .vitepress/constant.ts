@@ -3,7 +3,8 @@ import { Post } from "./datas";
 
 // Paths
 export const pathPython = '/python';
-export const pathLinux = '/linux';
+export const pathLinux  = '/linux';
+export const pathJava   = '/java';
 export const pathPythonLanguage     = `${pathPython}/language`;
 export const pathPythonDesign       = `${pathPython}/design`;
 export const pathPythonLibsTools    = `${pathPython}/libs_tools`;
@@ -243,7 +244,30 @@ export const postsLinuxService: Post[] = [
         nameEN: 'Minecraft Server',
         nameCN: '我的世界服务器',
     },
-]
+];
+
+export const postsJava: Post[] = [
+    {
+        id: 'data_types',
+        nameEN: 'Java Data Types',
+        nameCN: 'Java 数据类型',
+    },
+    {
+        id: 'date_time',
+        nameEN: 'Java Date Time',
+        nameCN: 'Java 日期时间',
+    },
+    {
+        id: 'pack_jar',
+        nameEN: 'Pack Jar',
+        nameCN: 'Jar 打包',
+    },
+    {
+        id: 'access_modifier',
+        nameEN: 'Access Modifier',
+        nameCN: '访问修饰符',
+    },
+];
 
 // languages
 export const lanCN = '/translated/zh_cn';
@@ -251,6 +275,7 @@ export const lanHK = '/translated/zh_hk';
 
 export const pathPythonCN           = `${lanCN}${pathPython}`;
 export const pathLinuxCN            = `${lanCN}${pathLinux}`;
+export const pathJavaCN             = `${lanCN}${pathJava}`;
 export const pathPythonLanguageCN   = `${lanCN}${pathPythonLanguage}`;
 export const pathPythonDesignCN     = `${lanCN}${pathPythonDesign}`;
 export const pathPythonLibsToolsCN  = `${lanCN}${pathPythonLibsTools}`;

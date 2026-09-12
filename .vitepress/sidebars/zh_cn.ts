@@ -2,6 +2,7 @@ import { DefaultTheme } from "vitepress";
 import {
   pathPythonCN            as pathPython,
   pathLinuxCN             as pathLinux,
+  pathJavaCN              as pathJava,
   pathPythonLanguageCN    as pathPythonLanguage,
   pathPythonDesignCN      as pathPythonDesign,
   pathPythonLibsToolsCN   as pathPythonLibsTools,
@@ -14,7 +15,8 @@ import {
   postsPythonLibsTools,
   postsLinuxSystem,
   postsLinuxTools,
-  postsLinuxService
+  postsLinuxService,
+  postsJava,
 } from "../constant";
 
 
@@ -84,15 +86,16 @@ export const sidebar: DefaultTheme.Sidebar = {
         }))
     }
   ],
-  '/translated/zh_cn/java': [
+  [pathJava]: [
     {
       text: 'Java☕',
-      items: [
-        { text: 'Java 数据类型', link: '/translated/zh_cn/java/data_types' },
-        { text: 'Java 日期时间', link: '/translated/zh_cn/java/date_time' },
-        { text: 'Jar 打包', link: '/translated/zh_cn/java/pack_jar' },
-        { text: '访问修饰符', link: '/translated/zh_cn/java/access_modifier' },
-      ]
+      link: pathJava,
+      items: postsJava
+        .filter((post) => post.nameCN !== undefined)
+        .map((post) => ({
+          text: post.nameCN,
+          link: `${pathJava}/${post.id}`
+        }))
     }
   ],
   '/translated/zh_cn/c': [

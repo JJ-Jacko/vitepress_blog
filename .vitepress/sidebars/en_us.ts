@@ -2,6 +2,7 @@ import { DefaultTheme } from "vitepress";
 import {
   pathPython,
   pathLinux,
+  pathJava,
   pathPythonLanguage,
   pathPythonDesign,
   pathPythonLibsTools,
@@ -15,6 +16,7 @@ import {
   postsLinuxSystem,
   postsLinuxTools,
   postsLinuxService,
+  postsJava,
 } from "../constant";
 
 
@@ -84,15 +86,16 @@ export const sidebar: DefaultTheme.Sidebar = {
         }))
     }
   ],
-  '/java': [
+  [pathJava]: [
     {
       text: 'Java☕',
-      items: [
-        { text: 'Java Data Types', link: '/java/data_types' },
-        { text: 'Java Date Time', link: '/java/date_time' },
-        { text: 'Pack Jar', link: '/java/pack_jar' },
-        { text: 'Access Modifier', link: '/java/access_modifier' },
-      ]
+      link: pathJava,
+      items: postsJava
+        .filter((post) => post.nameEN !== undefined)
+        .map((post) => ({
+          text: post.nameEN,
+          link: `${pathJava}/${post.id}`
+        }))
     }
   ],
   '/c': [
