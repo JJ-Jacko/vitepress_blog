@@ -1,164 +1,63 @@
 import { DefaultTheme } from "vitepress";
 import {
-  pathPython,
-  pathLinux,
-  pathJava,
-  pathC,
-  pathBackend,
-  pathFrontend,
-  pathOther,
-  pathPythonLanguage,
-  pathPythonDesign,
-  pathPythonLibsTools,
-  pathLinuxSystem,
-  pathLinuxTools,
-  pathLinuxService,
-  pathBackendMySQL,
-  pathBackendRedis,
-
-  postsPythonLanguage,
-  postsPythonDesign,
-  postsPythonLibsTools,
-  postsLinuxSystem,
-  postsLinuxTools,
-  postsLinuxService,
-  postsJava,
-  postsC,
-  postsBackendRedis,
-  postsFrontend,
-  postsOther,
+  categoryPython,
+  categoryLinux,
+  categoryJava,
+  categoryC,
+  categoryBackend,
+  categoryFrontend,
+  categoryOther,
 } from "../constant";
+import { Category } from "../datas";
+
+
+function categoryToSidebarItems(
+  category: Category
+): DefaultTheme.SidebarItem[] {
+  if (category.posts) {
+    return [{
+      text: category.nameEN,
+      link: category.introducePath,
+      items: category.posts
+        .filter((post) => post.nameEN !== undefined)
+        .map((post) => ({
+          text: post.nameEN,
+          link: `${category.path}/${post.id}`
+        }))
+    }];
+  } else if (category.childrens) {
+    return category.childrens
+      .map((child_category) => {
+        if (child_category.posts === undefined) {
+          return {
+            text: child_category.nameEN,
+            link: child_category.introducePath
+          }
+        } else {
+          return {
+            text: child_category.nameEN,
+            link: child_category.introducePath,
+            collapsed: false,
+            items: child_category.posts
+              .map((post) => ({
+                text: post.nameEN,
+                link: `${child_category.path}/${post.id}`
+              }))
+          }
+        }
+      });
+  } else {
+    return [];
+  }
+};
 
 
 export const sidebar: DefaultTheme.Sidebar = {
-  [pathPython]: [
-    {
-      text: 'Language',
-      link: pathPython,
-      collapsed: false,
-      items: postsPythonLanguage
-        .filter((post) => post.nameEN !== undefined)
-        .map((post) => ({
-          text: post.nameEN,
-          link: `${pathPythonLanguage}/${post.id}`
-        }))
-    },
-    {
-      text: 'Design',
-      collapsed: false,
-      items: postsPythonDesign
-        .filter((post) => post.nameEN !== undefined)
-        .map((post) => ({
-          text: post.nameEN,
-          link: `${pathPythonDesign}/${post.id}`
-        }))
-    },
-    {
-      text: 'Third-Party Libraries or Tools',
-      collapsed: false,
-      items: postsPythonLibsTools
-        .filter((post) => post.nameEN !== undefined)
-        .map((post) => ({
-          text: post.nameEN,
-          link: `${pathPythonLibsTools}/${post.id}`
-        }))
-    }
-  ],
-  [pathLinux]: [
-    {
-      text: 'System',
-      collapsed: false,
-      items: postsLinuxSystem
-        .filter((post) => post.nameEN !== undefined)
-        .map((post) => ({
-          text: post.nameEN,
-          link: `${pathLinuxSystem}/${post.id}`
-        }))
-    },
-    {
-      text: 'Tools Usage',
-      collapsed: false,
-      items: postsLinuxTools
-        .filter((post) => post.nameEN !== undefined)
-        .map((post) => ({
-          text: post.nameEN,
-          link: `${pathLinuxTools}/${post.id}`
-        }))
-    },
-    {
-      text: 'Service Deployment',
-      collapsed: false,
-      items: postsLinuxService
-        .filter((post) => post.nameEN !== undefined)
-        .map((post) => ({
-          text: post.nameEN,
-          link: `${pathLinuxService}/${post.id}`
-        }))
-    }
-  ],
-  [pathJava]: [
-    {
-      text: 'Java☕',
-      link: pathJava,
-      items: postsJava
-        .filter((post) => post.nameEN !== undefined)
-        .map((post) => ({
-          text: post.nameEN,
-          link: `${pathJava}/${post.id}`
-        }))
-    }
-  ],
-  [pathC]: [
-    {
-      text: 'C',
-      link: pathC,
-      items: postsC
-        .filter((post) => post.nameEN !== undefined)
-        .map((post) => ({
-          text: post.nameEN,
-          link: `${pathC}/${post.id}`
-        }))
-    }
-  ],
-  [pathBackend]: [
-    {
-      text: 'MySQL',
-      link: pathBackendMySQL
-    },
-    {
-      text: 'Redis',
-      link: pathBackendRedis,
-      collapsed: false,
-      items: postsBackendRedis
-        .filter((post) => post.nameEN !== undefined)
-        .map((post) => ({
-          text: post.nameEN,
-          link: `${pathBackendRedis}/${post.id}`
-        }))
-    }
-  ],
-  [pathFrontend]: [
-    {
-      text: 'Fontend✨',
-      link: pathFrontend,
-      items: postsFrontend
-        .filter((post) => post.nameEN !== undefined)
-        .map((post) => ({
-          text: post.nameEN,
-          link: `${pathFrontend}/${post.id}`
-        }))
-    }
-  ],
-  [pathOther]: [
-    {
-      text: 'Other💻',
-      link: pathOther,
-      items: postsOther
-        .filter((post) => post.nameEN !== undefined)
-        .map((post) => ({
-          text: post.nameEN,
-          link: `${pathOther}/${post.id}`
-        }))
-    }
-  ],
-}
+  [categoryPython.path]: categoryToSidebarItems(categoryPython),
+  [categoryLinux.path]: categoryToSidebarItems(categoryLinux),
+  [categoryJava.path]: categoryToSidebarItems(categoryJava),
+  [categoryC.path]: categoryToSidebarItems(categoryC),
+  [categoryBackend.path]: categoryToSidebarItems(categoryBackend),
+  [categoryFrontend.path]: categoryToSidebarItems(categoryFrontend),
+  [categoryOther.path]: categoryToSidebarItems(categoryOther),
+};
