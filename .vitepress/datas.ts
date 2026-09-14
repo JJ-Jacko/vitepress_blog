@@ -45,3 +45,6 @@ export class Category {
         this.childrens = childrens;
     }
 };
+
+
+export type Language = "en-US" | "zh-CN" | "zh-HK";

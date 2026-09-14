@@ -8,62 +8,18 @@ import {
   categoryFrontend,
   categoryOther,
 } from "../constant";
-import { Category } from "../datas";
+import { Language } from "../datas";
+import { categoryToSidebarItems } from "./tools";
 
 
-function categoryToSidebarItems(
-  category: Category
-): DefaultTheme.SidebarItem[] {
-  // Uncategorized Category
-  if (category.posts) {
-    return [{
-      text: category.nameEN,
-      link: category.introducePath,
-      items: category.posts
-        .filter((post) => post.nameEN !== undefined)
-        .map((post) => ({
-          text: post.nameEN,
-          link: `${category.path}/${post.id}`
-        }))
-    }];
-  }
-  
-  // Categorized Category
-  else if (category.childrens) {
-    return category.childrens
-      .map((child_category) => {
-        if (child_category.posts === undefined) {
-          return {
-            text: child_category.nameEN,
-            link: child_category.introducePath
-          }
-        } else {
-          return {
-            text: child_category.nameEN,
-            link: child_category.introducePath,
-            collapsed: false,
-            items: child_category.posts
-              .map((post) => ({
-                text: post.nameEN,
-                link: `${child_category.path}/${post.id}`
-              }))
-          }
-        }
-      });
-  }
-  
-  else {
-    return [];
-  }
-};
-
+const LANGUAGE: Language = "en-US";
 
 export const sidebar: DefaultTheme.Sidebar = {
-  [categoryPython.path]: categoryToSidebarItems(categoryPython),
-  [categoryLinux.path]: categoryToSidebarItems(categoryLinux),
-  [categoryJava.path]: categoryToSidebarItems(categoryJava),
-  [categoryC.path]: categoryToSidebarItems(categoryC),
-  [categoryBackend.path]: categoryToSidebarItems(categoryBackend),
-  [categoryFrontend.path]: categoryToSidebarItems(categoryFrontend),
-  [categoryOther.path]: categoryToSidebarItems(categoryOther),
+  [categoryPython.path]: categoryToSidebarItems(categoryPython, LANGUAGE),
+  [categoryLinux.path]: categoryToSidebarItems(categoryLinux, LANGUAGE),
+  [categoryJava.path]: categoryToSidebarItems(categoryJava, LANGUAGE),
+  [categoryC.path]: categoryToSidebarItems(categoryC, LANGUAGE),
+  [categoryBackend.path]: categoryToSidebarItems(categoryBackend, LANGUAGE),
+  [categoryFrontend.path]: categoryToSidebarItems(categoryFrontend, LANGUAGE),
+  [categoryOther.path]: categoryToSidebarItems(categoryOther, LANGUAGE),
 };
