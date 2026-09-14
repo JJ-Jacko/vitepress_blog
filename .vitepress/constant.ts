@@ -21,6 +21,26 @@ export const pathLinuxService       = `${pathLinux}/service`;
 export const pathBackendMySQL       = `${pathBackend}/mysql`;
 export const pathBackendRedis       = `${pathBackend}/redis`;
 
+// Languages
+export const lanCN = '/translated/zh_cn';
+export const lanHK = '/translated/zh_hk';
+
+export const pathPythonCN           = `${lanCN}${pathPython}`;
+export const pathLinuxCN            = `${lanCN}${pathLinux}`;
+export const pathJavaCN             = `${lanCN}${pathJava}`;
+export const pathCCN                = `${lanCN}${pathC}`;
+export const pathBackendCN          = `${lanCN}${pathBackend}`;
+export const pathFrontendCN         = `${lanCN}${pathFrontend}`;
+export const pathOtherCN            = `${lanCN}${pathOther}`;
+export const pathPythonLanguageCN   = `${lanCN}${pathPythonLanguage}`;
+export const pathPythonDesignCN     = `${lanCN}${pathPythonDesign}`;
+export const pathPythonLibsToolsCN  = `${lanCN}${pathPythonLibsTools}`;
+export const pathLinuxSystemCN      = `${lanCN}${pathLinuxSystem}`;
+export const pathLinuxToolsCN       = `${lanCN}${pathLinuxTools}`;
+export const pathLinuxServiceCN     = `${lanCN}${pathLinuxService}`;
+export const pathBackendMySQLCN     = `${lanCN}${pathBackendMySQL}`;
+export const pathBackendRedisCN     = `${lanCN}${pathBackendRedis}`;
+
 // Posts
 export const postsPythonLanguage: Post[] = [
     {
@@ -365,6 +385,7 @@ export const postsOther: Post[] = [
     },
 ];
 
+// Categories
 export const categoryPython: Category = {
     path: pathPython,
     childrens: [
@@ -468,23 +489,3 @@ export const categoryOther: Category = {
     nameCN: '其他💻',
     posts: postsOther
 };
-
-// languages
-export const lanCN = '/translated/zh_cn';
-export const lanHK = '/translated/zh_hk';
-
-export const pathPythonCN           = `${lanCN}${pathPython}`;
-export const pathLinuxCN            = `${lanCN}${pathLinux}`;
-export const pathJavaCN             = `${lanCN}${pathJava}`;
-export const pathCCN                = `${lanCN}${pathC}`;
-export const pathBackendCN          = `${lanCN}${pathBackend}`;
-export const pathFrontendCN         = `${lanCN}${pathFrontend}`;
-export const pathOtherCN            = `${lanCN}${pathOther}`;
-export const pathPythonLanguageCN   = `${lanCN}${pathPythonLanguage}`;
-export const pathPythonDesignCN     = `${lanCN}${pathPythonDesign}`;
-export const pathPythonLibsToolsCN  = `${lanCN}${pathPythonLibsTools}`;
-export const pathLinuxSystemCN      = `${lanCN}${pathLinuxSystem}`;
-export const pathLinuxToolsCN       = `${lanCN}${pathLinuxTools}`;
-export const pathLinuxServiceCN     = `${lanCN}${pathLinuxService}`;
-export const pathBackendMySQLCN     = `${lanCN}${pathBackendMySQL}`;
-export const pathBackendRedisCN     = `${lanCN}${pathBackendRedis}`;

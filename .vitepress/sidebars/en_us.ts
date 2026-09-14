@@ -14,6 +14,7 @@ import { Category } from "../datas";
 function categoryToSidebarItems(
   category: Category
 ): DefaultTheme.SidebarItem[] {
+  // Uncategorized Category
   if (category.posts) {
     return [{
       text: category.nameEN,
@@ -25,7 +26,10 @@ function categoryToSidebarItems(
           link: `${category.path}/${post.id}`
         }))
     }];
-  } else if (category.childrens) {
+  }
+  
+  // Categorized Category
+  else if (category.childrens) {
     return category.childrens
       .map((child_category) => {
         if (child_category.posts === undefined) {
@@ -46,7 +50,9 @@ function categoryToSidebarItems(
           }
         }
       });
-  } else {
+  }
+  
+  else {
     return [];
   }
 };
