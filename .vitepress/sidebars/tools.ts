@@ -1,6 +1,7 @@
 import { DefaultTheme } from "vitepress";
 
 import { Category, Language } from "../datas";
+import { lanPathMap } from "../constant";
 
 
 function actionEn(
@@ -94,6 +95,33 @@ function actionCN(
   else {
     return [];
   }
+};
+
+
+export function replacePath(
+  category: Category,
+  language: Language
+): Category {
+  const newCategory = structuredClone(category);
+  
+  // Process sub-category
+  if (newCategory.childrens) {
+    const childs_replaced: Category[] = [];
+    
+    newCategory.childrens.forEach((sub_category) => {
+      childs_replaced.push(replacePath(sub_category, language));
+    });
+    
+    newCategory.childrens = childs_replaced;
+  }
+
+  // Replace path
+  newCategory.path = `${lanPathMap[language]}${newCategory.path}`;
+  if (newCategory.introducePath) {
+    newCategory.introducePath = `${lanPathMap[language]}${newCategory.introducePath}`;
+  }
+
+  return newCategory;
 };
 
 

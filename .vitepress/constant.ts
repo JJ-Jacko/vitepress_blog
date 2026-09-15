@@ -1,45 +1,33 @@
 import {
     Post,
-    Category
+    Category,
+    Language
 } from "./datas";
 
 
 // Paths
-export const pathPython     = '/python';
-export const pathLinux      = '/linux';
-export const pathJava       = '/java';
-export const pathC          = '/c';
-export const pathBackend    = '/back-end';
-export const pathFrontend   = '/front-end';
-export const pathOther      = '/other';
-export const pathPythonLanguage     = `${pathPython}/language`;
-export const pathPythonDesign       = `${pathPython}/design`;
-export const pathPythonLibsTools    = `${pathPython}/libs_tools`;
-export const pathLinuxSystem        = `${pathLinux}/system`;
-export const pathLinuxTools         = `${pathLinux}/tools`;
-export const pathLinuxService       = `${pathLinux}/service`;
-export const pathBackendMySQL       = `${pathBackend}/mysql`;
-export const pathBackendRedis       = `${pathBackend}/redis`;
+const pathPython     = '/python';
+const pathLinux      = '/linux';
+const pathJava       = '/java';
+const pathC          = '/c';
+const pathBackend    = '/back-end';
+const pathFrontend   = '/front-end';
+const pathOther      = '/other';
+const pathPythonLanguage     = `${pathPython}/language`;
+const pathPythonDesign       = `${pathPython}/design`;
+const pathPythonLibsTools    = `${pathPython}/libs_tools`;
+const pathLinuxSystem        = `${pathLinux}/system`;
+const pathLinuxTools         = `${pathLinux}/tools`;
+const pathLinuxService       = `${pathLinux}/service`;
+const pathBackendMySQL       = `${pathBackend}/mysql`;
+const pathBackendRedis       = `${pathBackend}/redis`;
 
 // Languages
-export const lanCN = '/translated/zh_cn';
-export const lanHK = '/translated/zh_hk';
-
-export const pathPythonCN           = `${lanCN}${pathPython}`;
-export const pathLinuxCN            = `${lanCN}${pathLinux}`;
-export const pathJavaCN             = `${lanCN}${pathJava}`;
-export const pathCCN                = `${lanCN}${pathC}`;
-export const pathBackendCN          = `${lanCN}${pathBackend}`;
-export const pathFrontendCN         = `${lanCN}${pathFrontend}`;
-export const pathOtherCN            = `${lanCN}${pathOther}`;
-export const pathPythonLanguageCN   = `${lanCN}${pathPythonLanguage}`;
-export const pathPythonDesignCN     = `${lanCN}${pathPythonDesign}`;
-export const pathPythonLibsToolsCN  = `${lanCN}${pathPythonLibsTools}`;
-export const pathLinuxSystemCN      = `${lanCN}${pathLinuxSystem}`;
-export const pathLinuxToolsCN       = `${lanCN}${pathLinuxTools}`;
-export const pathLinuxServiceCN     = `${lanCN}${pathLinuxService}`;
-export const pathBackendMySQLCN     = `${lanCN}${pathBackendMySQL}`;
-export const pathBackendRedisCN     = `${lanCN}${pathBackendRedis}`;
+export const lanPathMap: Record<Language, string> = {
+    "en-US": "",
+    "zh-CN": '/translated/zh_cn',
+    "zh-HK": '/translated/zh_hk',
+};
 
 // Posts
 export const postsPythonLanguage: Post[] = [
