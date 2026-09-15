@@ -1,5 +1,6 @@
 # VSCode
-.vscode
+.vscode/*
+!.vscode/launch.json
 
 # Project
 node_modules

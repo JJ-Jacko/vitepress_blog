@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "tsx": "^4.23.13",
     "vitepress": "^1.6.4"
   },
   "scripts": {
