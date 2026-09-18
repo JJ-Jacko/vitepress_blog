@@ -323,6 +323,11 @@ export const postsFrontend: Post[] = [
         nameEN: 'WeChat Mini Program',
         nameCN: '微信小程序',
     },
+    {
+        id: 'env',
+        nameEN: 'Environment',
+        nameCN: '环境',
+    }
 ];
 
 export const postsOther: Post[] = [
