@@ -371,6 +371,11 @@ export const postsOther: Post[] = [
         nameEN: 'DIY Proxy',
         nameCN: '自建代理',
     },
+    {
+        id: 'sing-box',
+        nameEN: 'sing-box',
+        nameCN: 'sing-box',
+    }
 ];
 
 // Categories
