@@ -21,6 +21,15 @@ const pathLinuxTools         = `${pathLinux}/tools`;
 const pathLinuxService       = `${pathLinux}/service`;
 const pathBackendMySQL       = `${pathBackend}/mysql`;
 const pathBackendRedis       = `${pathBackend}/redis`;
+export const allEntriesPath = [
+    pathPython,
+    pathLinux,
+    pathJava,
+    pathC,
+    pathBackend,
+    pathFrontend,
+    pathOther,
+];
 
 // Languages
 export const lanPathMap: Record<Language, string> = {
