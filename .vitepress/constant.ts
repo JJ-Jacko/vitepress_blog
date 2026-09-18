@@ -147,7 +147,7 @@ export const postsLinuxSystem: Post[] = [
     },
     {
         id: 'make_install',
-        nameEN: 'Compile and Install',
+        nameEN: 'Make install',
         nameCN: '编译安装',
     },
     {
