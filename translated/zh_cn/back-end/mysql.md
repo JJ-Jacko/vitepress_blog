@@ -18,6 +18,9 @@ MySQL 在后端领域是一款著名的数据库。
 sudo apt install ./mysql-apt-config.deb
 ```
 ```sh
+sudo apt update
+```
+```sh
 sudo apt install mysql-community-server
 ```
 在 TUI 中进行初始化

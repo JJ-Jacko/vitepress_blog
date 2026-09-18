@@ -18,6 +18,9 @@ a well-known Bilibili creator.
 sudo apt install ./mysql-apt-config.deb
 ```
 ```sh
+sudo apt update
+```
+```sh
 sudo apt install mysql-community-server
 ```
 Initialize in TUI
