@@ -392,6 +392,20 @@ export const postsOther: Post[] = [
     }
 ];
 
+export const allPosts: Post[] = [
+    ...postsPythonLanguage,
+    ...postsPythonDesign,
+    ...postsPythonLibsTools,
+    ...postsLinuxSystem,
+    ...postsLinuxTools,
+    ...postsLinuxService,
+    ...postsJava,
+    ...postsC,
+    ...postsBackendRedis,
+    ...postsFrontend,
+    ...postsOther
+];
+
 // Categories
 export const categoryPython: Category = {
     path: pathPython,
