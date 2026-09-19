@@ -1,5 +1,6 @@
 import { Post, Location } from "./datas";
-import { allPosts, locations } from "./constant";
+import { locations } from "./constants";
+import { allPosts } from "./constants/posts";
 
 
 export function getPost(postID: string): Post | null {

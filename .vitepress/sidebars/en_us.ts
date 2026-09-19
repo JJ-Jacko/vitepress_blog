@@ -7,7 +7,7 @@ import {
   categoryBackend,
   categoryFrontend,
   categoryOther,
-} from "../constant";
+} from "../constants/categories";
 import { Language } from "../datas";
 import { categoryToSidebarItems } from "./tools";
 

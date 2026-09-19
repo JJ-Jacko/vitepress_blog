@@ -1,4 +1,5 @@
-import { allEntriesPath, lanPathMap } from "./constant";
+import { lanPathMap } from "./constants";
+import { allEntriesPath } from "./constants/paths";
 import { Language } from "./datas";
 
 

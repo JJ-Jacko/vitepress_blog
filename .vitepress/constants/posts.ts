@@ -1,45 +1,7 @@
-import {
-    Post,
-    Category,
-    Language,
-    Location,
-} from "./datas";
+import { Post } from "../datas";
 
 
-// Paths
-const pathPython     = '/python';
-const pathLinux      = '/linux';
-const pathJava       = '/java';
-const pathC          = '/c';
-const pathBackend    = '/back-end';
-const pathFrontend   = '/front-end';
-const pathOther      = '/other';
-const pathPythonLanguage     = `${pathPython}/language`;
-const pathPythonDesign       = `${pathPython}/design`;
-const pathPythonLibsTools    = `${pathPython}/libs_tools`;
-const pathLinuxSystem        = `${pathLinux}/system`;
-const pathLinuxTools         = `${pathLinux}/tools`;
-const pathLinuxService       = `${pathLinux}/service`;
-const pathBackendMySQL       = `${pathBackend}/mysql`;
-const pathBackendRedis       = `${pathBackend}/redis`;
-export const allEntriesPath = [
-    pathPython,
-    pathLinux,
-    pathJava,
-    pathC,
-    pathBackend,
-    pathFrontend,
-    pathOther,
-];
-
-// Languages
-export const lanPathMap: Record<Language, string> = {
-    "en-US": "",
-    "zh-CN": '/translated/zh_cn',
-    "zh-HK": '/translated/zh_hk',
-};
-
-// Posts
+// Python
 export const postsPythonLanguage: Post[] = [
     {
         id: 'data_types',
@@ -128,6 +90,7 @@ export const postsPythonLibsTools: Post[] = [
     },
 ];
 
+// Linux
 export const postsLinuxSystem: Post[] = [
     {
         id: 'ssh',
@@ -317,6 +280,7 @@ export const postsLinuxService: Post[] = [
     },
 ];
 
+// Java
 export const postsJava: Post[] = [
     {
         id: 'data_types',
@@ -344,6 +308,7 @@ export const postsJava: Post[] = [
     },
 ];
 
+// C
 export const postsC: Post[] = [
     {
         id: 'env',
@@ -371,6 +336,7 @@ export const postsC: Post[] = [
     },
 ];
 
+// Back-end
 export const postsBackendRedis: Post[] = [
     {
         id: 'data_types',
@@ -380,6 +346,7 @@ export const postsBackendRedis: Post[] = [
     },
 ];
 
+// Front-end
 export const postsFrontend: Post[] = [
     {
         id: 'wechat_mini_program',
@@ -395,6 +362,7 @@ export const postsFrontend: Post[] = [
     }
 ];
 
+// Other
 export const postsOther: Post[] = [
     {
         id: 'git',
@@ -458,6 +426,7 @@ export const postsOther: Post[] = [
     }
 ];
 
+// All
 export const allPosts: Post[] = [
     ...postsPythonLanguage,
     ...postsPythonDesign,
@@ -470,128 +439,4 @@ export const allPosts: Post[] = [
     ...postsBackendRedis,
     ...postsFrontend,
     ...postsOther
-];
-
-// Categories
-export const categoryPython: Category = {
-    path: pathPython,
-    childrens: [
-        {
-            path: pathPythonLanguage,
-            introducePath: pathPython,
-            nameEN: 'Language',
-            nameCN: '语言',
-            posts: postsPythonLanguage
-        },
-        {
-            path: pathPythonDesign,
-            nameEN: 'Design',
-            nameCN: '设计',
-            posts: postsPythonDesign
-        },
-        {
-            path: pathPythonLibsTools,
-            nameEN: 'Third-Party Libraries or Tools',
-            nameCN: '第三方库或工具',
-            posts: postsPythonLibsTools
-        },
-    ]
-};
-
-export const categoryLinux: Category = {
-    path: pathLinux,
-    childrens: [
-        {
-            path: pathLinuxSystem,
-            introducePath: pathLinux,
-            nameEN: 'System',
-            nameCN: '系统',
-            posts: postsLinuxSystem
-        },
-        {
-            path: pathLinuxTools,
-            nameEN: 'Tools Usage',
-            nameCN: '工具使用',
-            posts: postsLinuxTools
-        },
-        {
-            path: pathLinuxService,
-            nameEN: 'Service Deployment',
-            nameCN: '部署服务',
-            posts: postsLinuxService
-        },
-    ]
-};
-
-export const categoryJava: Category = {
-    path: pathJava,
-    introducePath: pathJava,
-    nameEN: 'Java☕',
-    nameCN: 'Java☕',
-    posts: postsJava,
-};
-
-export const categoryC: Category = {
-    path: pathC,
-    introducePath: pathC,
-    nameEN: 'C',
-    nameCN: 'C',
-    posts: postsC
-};
-
-export const categoryBackend: Category = {
-    path: pathBackend,
-    introducePath: pathBackend,
-    nameEN: 'Backend🧩',
-    nameCN: '后端🧩',
-    childrens: [
-        {
-            path: pathBackendMySQL,
-            introducePath: pathBackendMySQL,
-            nameEN: 'MySQL',
-            nameCN: 'MySQL'
-        },
-        {
-            path: pathBackendRedis,
-            introducePath: pathBackendRedis,
-            nameEN: 'Redis',
-            nameCN: 'Redis',
-            posts: postsBackendRedis
-        }
-    ]
-};
-
-export const categoryFrontend: Category = {
-    path: pathFrontend,
-    introducePath: pathFrontend,
-    nameEN: 'Fontend✨',
-    nameCN: '前端✨',
-    posts: postsFrontend
-};
-
-export const categoryOther: Category = {
-    path: pathOther,
-    introducePath: pathOther,
-    nameEN: 'Other💻',
-    nameCN: '其他💻',
-    posts: postsOther
-};
-
-// Locations
-export const locations: Location[] = [
-    {
-        nameEN: 'Shenzhen',
-        nameCN: '深圳',
-        nameHK: '深圳'
-    },
-    {
-        nameEN: 'Dongguan',
-        nameCN: '东莞',
-        nameHK: '東莞'
-    },
-    {
-        nameEN: 'Guangzhou',
-        nameCN: '广州',
-        nameHK: '廣州'
-    },
 ];
