@@ -1,16 +1,19 @@
 export class Post {
     id: string;
+    date: Date;
     nameEN?: string;
     nameCN?: string;
     nameHK?: string;
 
     constructor(
         id: string,
+        date: Date,
         nameEN?: string,
         nameCN?: string,
         nameHK?: string
     ) {
         this.id = id;
+        this.date = date;
         this.nameEN = nameEN;
         this.nameCN = nameCN;
         this.nameHK = nameHK;

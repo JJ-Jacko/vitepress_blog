@@ -23,10 +23,13 @@
         title = computed(() => post.value?.nameHK ?? '');
     }
 
+    const date = computed(() => post.value?.date?.toLocaleString());
+
 </script>
 
 <template>
     <div v-if="post">
         <h1 class="article-meta-title" v-if="title">{{ title }}</h1>
+        <div v-if="date">📅 {{ date }}</div>
     </div>
 </template>
