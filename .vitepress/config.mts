@@ -82,16 +82,16 @@ export default defineConfig({
   locales: {
     root: {
       label: '🇺🇸 English (US)',
-      lang: 'en_us'
+      lang: 'en-US'
     },
     zh_hk: {
       label: '🇭🇰 中文 (廣東話)',
-      lang: 'zh_hk',
+      lang: 'zh-HK',
       link: '/translated/zh_hk'
     },
     zh_cn: {
       label: '🇨🇳 中文 (简体)',
-      lang: 'zh_cn',
+      lang: 'zh-CN',
       link: '/translated/zh_cn'
     },
   },
