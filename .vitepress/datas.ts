@@ -47,4 +47,21 @@ export class Category {
 };
 
 
+export class Location {
+    nameEN: string;
+    nameCN: string;
+    nameHK: string;
+
+    constructor(
+        nameEN: string,
+        nameCN: string,
+        nameHK: string,
+    ) {
+        this.nameEN = nameEN;
+        this.nameCN = nameCN;
+        this.nameHK = nameHK;
+    }
+}
+
+
 export type Language = "en-US" | "zh-CN" | "zh-HK";
