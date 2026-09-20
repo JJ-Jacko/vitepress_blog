@@ -1,4 +1,4 @@
-import { Post, Location } from "./datas";
+import { Post, Location, LocationCode } from "./datas";
 import { locations } from "./constants";
 import { allPosts } from "./constants/posts";
 
@@ -12,9 +12,9 @@ export function getPost(postID: string): Post | null {
 };
 
 
-export function getLocation(nameEN: string): Location | null {
+export function getLocation(code: LocationCode): Location | null {
     const location = locations.find((location) => {
-        return nameEN === location.nameEN;
+        return code === location.code;
     });
     
     return location ?? null;

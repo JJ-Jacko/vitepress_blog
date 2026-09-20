@@ -1,6 +1,14 @@
+export enum LocationCode {
+    sz = "Shenzhen",
+    dg = "Dongguan",
+    gz = "Guangzhou",
+}
+
+
 export class Post {
     id: string;
     date: Date;
+    location: LocationCode;
     nameEN?: string;
     nameCN?: string;
     nameHK?: string;
@@ -8,12 +16,14 @@ export class Post {
     constructor(
         id: string,
         date: Date,
+        location: LocationCode,
         nameEN?: string,
         nameCN?: string,
         nameHK?: string
     ) {
         this.id = id;
         this.date = date;
+        this.location = location;
         this.nameEN = nameEN;
         this.nameCN = nameCN;
         this.nameHK = nameHK;
@@ -51,15 +61,18 @@ export class Category {
 
 
 export class Location {
+    code: LocationCode;
     nameEN: string;
     nameCN: string;
     nameHK: string;
 
     constructor(
+        code: LocationCode,
         nameEN: string,
         nameCN: string,
         nameHK: string,
     ) {
+        this.code = code;
         this.nameEN = nameEN;
         this.nameCN = nameCN;
         this.nameHK = nameHK;
