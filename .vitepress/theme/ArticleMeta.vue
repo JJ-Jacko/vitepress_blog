@@ -7,8 +7,14 @@
 
     const { page, lang } = useData();
     const post = computed(() => {
-        const fileName = page.value.relativePath.split('/').pop();
-        const postID = fileName?.replace(/\.md$/, '') ?? '';
+        const filePathsItems = page.value.relativePath.split('/');
+        const fileNameItems = filePathsItems.at(-1)?.split('.');
+        let postID;
+        if (filePathsItems.at(-1) === "index.md") {
+            postID = `${filePathsItems?.at(-2)}.index`;
+        } else {
+            postID = fileNameItems?.at(0) ?? '';
+        }
         return getPost(postID);
     });
 

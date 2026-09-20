@@ -591,7 +591,7 @@ const postsSingle: Post[] = [
         nameHK: 'MySQL',
     },
     {
-        id: 'redis',
+        id: 'redis.index',
         date: new Date("2026-08-24 17:51"),
         location: LocationCode.dg,
         tags: [TagCode.learn, TagCode.cache, TagCode.redis],
