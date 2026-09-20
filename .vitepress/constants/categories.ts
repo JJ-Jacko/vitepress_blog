@@ -1,137 +1,108 @@
 import { Category } from "../datas";
-import {
-    pathPython,
-    pathLinux,
-    pathJava,
-    pathC,
-    pathBackend,
-    pathFrontend,
-    pathOther,
-
-    pathPythonLanguage,
-    pathPythonDesign,
-    pathPythonLibsTools,
-    pathLinuxSystem,
-    pathLinuxService,
-    pathLinuxTools,
-    pathBackendMySQL,
-    pathBackendRedis,
-} from "./paths";
-import {
-    postsPythonLanguage,
-    postsPythonDesign,
-    postsPythonLibsTools,
-    postsLinuxSystem,
-    postsLinuxTools,
-    postsLinuxService,
-    postsJava,
-    postsC,
-    postsBackendRedis,
-    postsFrontend,
-    postsOther,
-} from "./posts";
+import * as paths from "./paths";
+import * as posts from "./posts";
 
 
-export const categoryPython: Category = {
-    path: pathPython,
+export const python: Category = {
+    path: paths.python,
     childrens: [
         {
-            path: pathPythonLanguage,
-            introducePath: pathPython,
+            path: paths.pythonLanguage,
+            introducePath: paths.python,
             nameEN: 'Language',
             nameCN: '语言',
-            posts: postsPythonLanguage
+            posts: posts.pythonLanguage
         },
         {
-            path: pathPythonDesign,
+            path: paths.pythonDesign,
             nameEN: 'Design',
             nameCN: '设计',
-            posts: postsPythonDesign
+            posts: posts.pythonDesign
         },
         {
-            path: pathPythonLibsTools,
+            path: paths.pythonLibsTools,
             nameEN: 'Third-Party Libraries or Tools',
             nameCN: '第三方库或工具',
-            posts: postsPythonLibsTools
+            posts: posts.pythonLibsTools
         },
     ]
 };
 
-export const categoryLinux: Category = {
-    path: pathLinux,
+export const linux: Category = {
+    path: paths.linux,
     childrens: [
         {
-            path: pathLinuxSystem,
-            introducePath: pathLinux,
+            path: paths.linuxSystem,
+            introducePath: paths.linux,
             nameEN: 'System',
             nameCN: '系统',
-            posts: postsLinuxSystem
+            posts: posts.linuxSystem
         },
         {
-            path: pathLinuxTools,
+            path: paths.linuxTools,
             nameEN: 'Tools Usage',
             nameCN: '工具使用',
-            posts: postsLinuxTools
+            posts: posts.linuxTools
         },
         {
-            path: pathLinuxService,
+            path: paths.linuxService,
             nameEN: 'Service Deployment',
             nameCN: '部署服务',
-            posts: postsLinuxService
+            posts: posts.linuxService
         },
     ]
 };
 
-export const categoryJava: Category = {
-    path: pathJava,
-    introducePath: pathJava,
+export const java: Category = {
+    path: paths.java,
+    introducePath: paths.java,
     nameEN: 'Java☕',
     nameCN: 'Java☕',
-    posts: postsJava,
+    posts: posts.java,
 };
 
-export const categoryC: Category = {
-    path: pathC,
-    introducePath: pathC,
+export const c: Category = {
+    path: paths.c,
+    introducePath: paths.c,
     nameEN: 'C',
     nameCN: 'C',
-    posts: postsC
+    posts: posts.c
 };
 
-export const categoryBackend: Category = {
-    path: pathBackend,
-    introducePath: pathBackend,
+export const backend: Category = {
+    path: paths.backend,
+    introducePath: paths.backend,
     nameEN: 'Backend🧩',
     nameCN: '后端🧩',
     childrens: [
         {
-            path: pathBackendMySQL,
-            introducePath: pathBackendMySQL,
+            path: paths.backendMySQL,
+            introducePath: paths.backendMySQL,
             nameEN: 'MySQL',
             nameCN: 'MySQL'
         },
         {
-            path: pathBackendRedis,
-            introducePath: pathBackendRedis,
+            path: paths.backendRedis,
+            introducePath: paths.backendRedis,
             nameEN: 'Redis',
             nameCN: 'Redis',
-            posts: postsBackendRedis
+            posts: posts.backendRedis
         }
     ]
 };
 
-export const categoryFrontend: Category = {
-    path: pathFrontend,
-    introducePath: pathFrontend,
+export const frontend: Category = {
+    path: paths.frontend,
+    introducePath: paths.frontend,
     nameEN: 'Fontend✨',
     nameCN: '前端✨',
-    posts: postsFrontend
+    posts: posts.frontend
 };
 
-export const categoryOther: Category = {
-    path: pathOther,
-    introducePath: pathOther,
+export const other: Category = {
+    path: paths.other,
+    introducePath: paths.other,
     nameEN: 'Other💻',
     nameCN: '其他💻',
-    posts: postsOther
+    posts: posts.other
 };

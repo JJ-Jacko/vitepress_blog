@@ -1,29 +1,29 @@
 // Root
-export const pathPython = '/python';
-export const pathLinux = '/linux';
-export const pathJava = '/java';
-export const pathC = '/c';
-export const pathBackend = '/back-end';
-export const pathFrontend = '/front-end';
-export const pathOther = '/other';
+export const python = '/python';
+export const linux = '/linux';
+export const java = '/java';
+export const c = '/c';
+export const backend = '/back-end';
+export const frontend = '/front-end';
+export const other = '/other';
 
 // All root
-export const allEntriesPath = [
-    pathPython,
-    pathLinux,
-    pathJava,
-    pathC,
-    pathBackend,
-    pathFrontend,
-    pathOther,
+export const allRoot = [
+    python,
+    linux,
+    java,
+    c,
+    backend,
+    frontend,
+    other,
 ];
 
 // Sub
-export const pathPythonLanguage = `${pathPython}/language`;
-export const pathPythonDesign = `${pathPython}/design`;
-export const pathPythonLibsTools = `${pathPython}/libs_tools`;
-export const pathLinuxSystem = `${pathLinux}/system`;
-export const pathLinuxTools = `${pathLinux}/tools`;
-export const pathLinuxService = `${pathLinux}/service`;
-export const pathBackendMySQL = `${pathBackend}/mysql`;
-export const pathBackendRedis = `${pathBackend}/redis`;
+export const pythonLanguage = `${python}/language`;
+export const pythonDesign = `${python}/design`;
+export const pythonLibsTools = `${python}/libs_tools`;
+export const linuxSystem = `${linux}/system`;
+export const linuxTools = `${linux}/tools`;
+export const linuxService = `${linux}/service`;
+export const backendMySQL = `${backend}/mysql`;
+export const backendRedis = `${backend}/redis`;

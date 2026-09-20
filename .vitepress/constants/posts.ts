@@ -2,7 +2,7 @@ import { Post, LocationCode, TagCode } from "../datas";
 
 
 // Python
-export const postsPythonLanguage: Post[] = [
+export const pythonLanguage: Post[] = [
     {
         id: 'data_types',
         date: new Date("2025-06-10 16:00"),
@@ -70,7 +70,7 @@ export const postsPythonLanguage: Post[] = [
     },
 ];
 
-export const postsPythonDesign: Post[] = [
+export const pythonDesign: Post[] = [
     {
         id: 'strategy_pattern',
         date: new Date("2026-07-12 21:26"),
@@ -89,7 +89,7 @@ export const postsPythonDesign: Post[] = [
     },
 ];
 
-export const postsPythonLibsTools: Post[] = [
+export const pythonLibsTools: Post[] = [
     {
         id: 'connect_database',
         date: new Date("2025-06-10 16:00"),
@@ -117,7 +117,7 @@ export const postsPythonLibsTools: Post[] = [
 ];
 
 // Linux
-export const postsLinuxSystem: Post[] = [
+export const linuxSystem: Post[] = [
     {
         id: 'ssh',
         date: new Date("2024-05-12 11:49"),
@@ -232,7 +232,7 @@ export const postsLinuxSystem: Post[] = [
     }
 ];
 
-export const postsLinuxTools: Post[] = [
+export const linuxTools: Post[] = [
     {
         id: 'nvim',
         date: new Date("2024-05-04 12:51"),
@@ -267,7 +267,7 @@ export const postsLinuxTools: Post[] = [
     },
 ];
 
-export const postsLinuxService: Post[] = [
+export const linuxService: Post[] = [
     {
         id: 'nginx_reverse_proxy',
         date: new Date("2025-06-11 16:30"),
@@ -367,7 +367,7 @@ export const postsLinuxService: Post[] = [
 ];
 
 // Java
-export const postsJava: Post[] = [
+export const java: Post[] = [
     {
         id: 'data_types',
         date: new Date("2025-06-10 16:00"),
@@ -403,7 +403,7 @@ export const postsJava: Post[] = [
 ];
 
 // C
-export const postsC: Post[] = [
+export const c: Post[] = [
     {
         id: 'env',
         date: new Date("2025-12-24 16:59"),
@@ -439,7 +439,7 @@ export const postsC: Post[] = [
 ];
 
 // Back-end
-export const postsBackendRedis: Post[] = [
+export const backendRedis: Post[] = [
     {
         id: 'data_types',
         date: new Date("2026-08-24 22:06"),
@@ -451,7 +451,7 @@ export const postsBackendRedis: Post[] = [
 ];
 
 // Front-end
-export const postsFrontend: Post[] = [
+export const frontend: Post[] = [
     {
         id: 'wechat_mini_program',
         date: new Date("2023-11-08 21:05"),
@@ -471,7 +471,7 @@ export const postsFrontend: Post[] = [
 ];
 
 // Other
-export const postsOther: Post[] = [
+export const other: Post[] = [
     {
         id: 'git',
         date: new Date("2024-08-31 00:09"),
@@ -555,7 +555,7 @@ export const postsOther: Post[] = [
 ];
 
 // Single
-const postsSingle: Post[] = [
+const single: Post[] = [
     {
         id: 'me',
         date: new Date("2026-08-18 15:32"),
@@ -602,17 +602,17 @@ const postsSingle: Post[] = [
 ];
 
 // All
-export const allPosts: Post[] = [
-    ...postsPythonLanguage,
-    ...postsPythonDesign,
-    ...postsPythonLibsTools,
-    ...postsLinuxSystem,
-    ...postsLinuxTools,
-    ...postsLinuxService,
-    ...postsJava,
-    ...postsC,
-    ...postsBackendRedis,
-    ...postsFrontend,
-    ...postsOther,
-    ...postsSingle,
+export const all: Post[] = [
+    ...pythonLanguage,
+    ...pythonDesign,
+    ...pythonLibsTools,
+    ...linuxSystem,
+    ...linuxTools,
+    ...linuxService,
+    ...java,
+    ...c,
+    ...backendRedis,
+    ...frontend,
+    ...other,
+    ...single,
 ];

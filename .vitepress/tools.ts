@@ -1,10 +1,10 @@
 import { Post, Location, LocationCode, TagCode, Tag } from "./datas";
 import { locations, tags } from "./constants";
-import { allPosts } from "./constants/posts";
+import * as posts from "./constants/posts";
 
 
 export function getPost(postID: string): Post | null {
-    const post = allPosts.find((post) => {
+    const post = posts.all.find((post) => {
         return postID === post.id;
     });
     

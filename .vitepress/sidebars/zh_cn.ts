@@ -1,26 +1,18 @@
 import { DefaultTheme } from "vitepress";
-import {
-  categoryPython,
-  categoryLinux,
-  categoryJava,
-  categoryC,
-  categoryBackend,
-  categoryFrontend,
-  categoryOther,
-} from "../constants/categories";
+import * as categories from "../constants/categories";
 import { Language } from "../datas";
 import { categoryToSidebarItems, replacePath } from "./tools";
 
 
 const LANGUAGE: Language = "zh-CN";
 
-const categoryPythonReplaced = replacePath(categoryPython, LANGUAGE);
-const categoryLinuxReplaced = replacePath(categoryLinux, LANGUAGE);
-const categoryJavaReplaced = replacePath(categoryJava, LANGUAGE);
-const categoryCReplaced = replacePath(categoryC, LANGUAGE);
-const categoryBackendReplaced = replacePath(categoryBackend, LANGUAGE);
-const categoryFrontendReplaced = replacePath(categoryFrontend, LANGUAGE);
-const categoryOtherReplaced = replacePath(categoryOther, LANGUAGE);
+const categoryPythonReplaced = replacePath(categories.python, LANGUAGE);
+const categoryLinuxReplaced = replacePath(categories.linux, LANGUAGE);
+const categoryJavaReplaced = replacePath(categories.java, LANGUAGE);
+const categoryCReplaced = replacePath(categories.c, LANGUAGE);
+const categoryBackendReplaced = replacePath(categories.backend, LANGUAGE);
+const categoryFrontendReplaced = replacePath(categories.frontend, LANGUAGE);
+const categoryOtherReplaced = replacePath(categories.other, LANGUAGE);
 
 
 export const sidebar: DefaultTheme.Sidebar = {

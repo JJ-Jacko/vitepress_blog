@@ -1,13 +1,5 @@
 import { DefaultTheme } from "vitepress";
-import {
-  categoryPython,
-  categoryLinux,
-  categoryJava,
-  categoryC,
-  categoryBackend,
-  categoryFrontend,
-  categoryOther,
-} from "../constants/categories";
+import * as categories from "../constants/categories";
 import { Language } from "../datas";
 import { categoryToSidebarItems } from "./tools";
 
@@ -15,11 +7,11 @@ import { categoryToSidebarItems } from "./tools";
 const LANGUAGE: Language = "en-US";
 
 export const sidebar: DefaultTheme.Sidebar = {
-  [categoryPython.path]: categoryToSidebarItems(categoryPython, LANGUAGE),
-  [categoryLinux.path]: categoryToSidebarItems(categoryLinux, LANGUAGE),
-  [categoryJava.path]: categoryToSidebarItems(categoryJava, LANGUAGE),
-  [categoryC.path]: categoryToSidebarItems(categoryC, LANGUAGE),
-  [categoryBackend.path]: categoryToSidebarItems(categoryBackend, LANGUAGE),
-  [categoryFrontend.path]: categoryToSidebarItems(categoryFrontend, LANGUAGE),
-  [categoryOther.path]: categoryToSidebarItems(categoryOther, LANGUAGE),
+  [categories.python.path]: categoryToSidebarItems(categories.python, LANGUAGE),
+  [categories.linux.path]: categoryToSidebarItems(categories.linux, LANGUAGE),
+  [categories.java.path]: categoryToSidebarItems(categories.java, LANGUAGE),
+  [categories.c.path]: categoryToSidebarItems(categories.c, LANGUAGE),
+  [categories.backend.path]: categoryToSidebarItems(categories.backend, LANGUAGE),
+  [categories.frontend.path]: categoryToSidebarItems(categories.frontend, LANGUAGE),
+  [categories.other.path]: categoryToSidebarItems(categories.other, LANGUAGE),
 };

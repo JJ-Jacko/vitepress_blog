@@ -1,5 +1,5 @@
 import { lanPathMap } from "./constants";
-import { allEntriesPath } from "./constants/paths";
+import * as paths from "./constants/paths";
 import { Language } from "./datas";
 
 
@@ -15,19 +15,19 @@ function replacePath(paths: string[] , language: Language): string[] {
 
 
 export function jumpToRandomEntriesPath(language: Language) {
-    let paths: string[];
+    let targets: string[];
     if (language === "en-US") {
-        paths = allEntriesPath;
+        targets = paths.allRoot;
     } else if (language === "zh-CN") {
-        paths = replacePath(allEntriesPath, "zh-CN");
+        targets = replacePath(paths.allRoot, "zh-CN");
     } else if (language === "zh-HK") {
-        paths = replacePath(allEntriesPath, "zh-HK");
+        targets = replacePath(paths.allRoot, "zh-HK");
     } else {
-        paths = [];
+        targets = [];
     }
     
-    const index = Math.floor(Math.random() * paths.length);
-    const target = paths[index];
+    const index = Math.floor(Math.random() * targets.length);
+    const target = targets[index];
 
     if (typeof window !== 'undefined') {
         window.location.href = target;
