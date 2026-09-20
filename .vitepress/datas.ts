@@ -42,7 +42,7 @@ export class Post {
     id: string;
     date: Date;
     location: LocationCode;
-    tags: TagCode[];
+    tags?: TagCode[];
     nameEN?: string;
     nameCN?: string;
     nameHK?: string;
@@ -51,7 +51,7 @@ export class Post {
         id: string,
         date: Date,
         location: LocationCode,
-        tags: TagCode[],
+        tags?: TagCode[],
         nameEN?: string,
         nameCN?: string,
         nameHK?: string

@@ -554,6 +554,34 @@ export const postsOther: Post[] = [
     }
 ];
 
+// Single
+const postsSingle: Post[] = [
+    {
+        id: 'me',
+        date: new Date("2026-08-18 15:32"),
+        location: LocationCode.dg,
+        nameEN: 'About me',
+        nameCN: '关于我',
+        nameHK: '關於我',
+    },
+    {
+        id: 'software_tools',
+        date: new Date("2026-09-01 13:32"),
+        location: LocationCode.dg,
+        nameEN: 'Softwares and Tools Using',
+        nameCN: '软件和工具',
+        nameHK: '軟體與工具',
+    },
+    {
+        id: 'info_source',
+        date: new Date("2026-08-30 16:32"),
+        location: LocationCode.dg,
+        nameEN: 'Information Source',
+        nameCN: '信息来源',
+        nameHK: '訊息來源',
+    },
+];
+
 // All
 export const allPosts: Post[] = [
     ...postsPythonLanguage,
@@ -566,5 +594,6 @@ export const allPosts: Post[] = [
     ...postsC,
     ...postsBackendRedis,
     ...postsFrontend,
-    ...postsOther
+    ...postsOther,
+    ...postsSingle,
 ];
