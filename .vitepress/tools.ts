@@ -1,5 +1,5 @@
-import { Post, Location, LocationCode } from "./datas";
-import { locations } from "./constants";
+import { Post, Location, LocationCode, TagCode, Tag } from "./datas";
+import { locations, tags } from "./constants";
 import { allPosts } from "./constants/posts";
 
 
@@ -18,4 +18,13 @@ export function getLocation(code: LocationCode): Location | null {
     });
     
     return location ?? null;
+};
+
+
+export function getTag(code: TagCode): Tag | null {
+    const tag = tags.find((tag) => {
+        return code === tag.code;
+    });
+    
+    return tag ?? null;
 };
