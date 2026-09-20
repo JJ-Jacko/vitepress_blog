@@ -580,6 +580,25 @@ const postsSingle: Post[] = [
         nameCN: '信息来源',
         nameHK: '訊息來源',
     },
+
+    {
+        id: 'mysql',
+        date: new Date("2024-10-30 11:27"),
+        location: LocationCode.dg,
+        tags: [TagCode.learn, TagCode.database, TagCode.mysql],
+        nameEN: 'MySQL',
+        nameCN: 'MySQL',
+        nameHK: 'MySQL',
+    },
+    {
+        id: 'redis',
+        date: new Date("2026-08-24 17:51"),
+        location: LocationCode.dg,
+        tags: [TagCode.learn, TagCode.cache, TagCode.redis],
+        nameEN: 'Redis',
+        nameCN: 'Redis',
+        nameHK: 'Redis',
+    },
 ];
 
 // All

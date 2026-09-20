@@ -69,6 +69,24 @@ export const tags: Tag[] = [
         nameHK: "資料庫"
     },
     {
+        code: TagCode.mysql,
+        nameEN: "MySQL",
+        nameCN: "MySQL",
+        nameHK: "MySQL"
+    },
+    {
+        code: TagCode.cache,
+        nameEN: "Cache",
+        nameCN: "缓存",
+        nameHK: "快取"
+    },
+    {
+        code: TagCode.redis,
+        nameEN: "Redis",
+        nameCN: "Redis",
+        nameHK: "Redis"
+    },
+    {
         code: TagCode.nvidia,
         nameEN: "Nvidia",
         nameCN: "英伟达",
