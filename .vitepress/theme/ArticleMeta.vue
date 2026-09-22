@@ -6,17 +6,7 @@
 
 
     const { page, lang } = useData();
-    const post = computed(() => {
-        const filePathsItems = page.value.relativePath.split('/');
-        const fileNameItems = filePathsItems.at(-1)?.split('.');
-        let postID;
-        if (filePathsItems.at(-1) === "index.md") {
-            postID = `${filePathsItems?.at(-2)}.index`;
-        } else {
-            postID = fileNameItems?.at(0) ?? '';
-        }
-        return getPost(postID);
-    });
+    const post = computed(() => getPost(page.value.relativePath));
 
     let title;
     let location;
