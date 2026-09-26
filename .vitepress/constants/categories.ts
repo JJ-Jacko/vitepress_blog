@@ -88,7 +88,8 @@ export const backend: Category = {
             nameCN: 'Redis',
             posts: posts.backendRedis
         }
-    ]
+    ],
+    posts: posts.backend
 };
 
 export const frontend: Category = {
@@ -106,3 +107,13 @@ export const other: Category = {
     nameCN: '其他💻',
     posts: posts.other
 };
+
+export const all: Category[] = [
+    python,
+    linux,
+    java,
+    c,
+    backend,
+    frontend,
+    other
+];

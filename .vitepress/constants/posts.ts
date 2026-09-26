@@ -439,6 +439,18 @@ export const c: Post[] = [
 ];
 
 // Back-end
+export const backend: Post[] = [
+    {
+        id: 'mysql',
+        date: new Date("2024-10-30 11:27"),
+        location: LocationCode.dg,
+        tags: [TagCode.learn, TagCode.database, TagCode.mysql],
+        nameEN: 'MySQL',
+        nameCN: 'MySQL',
+        nameHK: 'MySQL',
+    },
+];
+
 export const backendRedis: Post[] = [
     {
         id: 'data_types',
@@ -582,15 +594,6 @@ const single: Post[] = [
     },
 
     {
-        id: 'mysql',
-        date: new Date("2024-10-30 11:27"),
-        location: LocationCode.dg,
-        tags: [TagCode.learn, TagCode.database, TagCode.mysql],
-        nameEN: 'MySQL',
-        nameCN: 'MySQL',
-        nameHK: 'MySQL',
-    },
-    {
         id: 'redis.index',
         date: new Date("2026-08-24 17:51"),
         location: LocationCode.dg,
@@ -611,6 +614,7 @@ export const all: Post[] = [
     ...linuxService,
     ...java,
     ...c,
+    ...backend,
     ...backendRedis,
     ...frontend,
     ...other,
