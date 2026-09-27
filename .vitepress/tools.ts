@@ -21,7 +21,12 @@ function findPostFromShortPath(
             if (post) return post;
             else continue;
         }
-        // else if ()
+        // Both have posts & childrens
+        else if (category.posts !== undefined && category.childrens !== undefined) {
+            if (category.path === shortPath) {
+                return category.posts.find((post) => post.id === postID);
+            }
+        }
     }
 };
 
