@@ -17,11 +17,11 @@ const categoryOtherReplaced = categoryReplaceLanPath(categories.other, LANGUAGE)
 
 
 export const sidebar: DefaultTheme.Sidebar = {
-  [categoryPythonReplaced.path]: categoryToSidebarItems(categoryPythonReplaced, LANGUAGE),
-  [categoryLinuxReplaced.path]: categoryToSidebarItems(categoryLinuxReplaced, LANGUAGE),
-  [categoryJavaReplaced.path]: categoryToSidebarItems(categoryJavaReplaced, LANGUAGE),
-  [categoryCReplaced.path]: categoryToSidebarItems(categoryCReplaced, LANGUAGE),
-  [categoryBackendReplaced.path]: categoryToSidebarItems(categoryBackendReplaced, LANGUAGE),
-  [categoryFrontendReplaced.path]: categoryToSidebarItems(categoryFrontendReplaced, LANGUAGE),
-  [categoryOtherReplaced.path]: categoryToSidebarItems(categoryOtherReplaced, LANGUAGE),
+    [categoryPythonReplaced.path]: categoryToSidebarItems(categoryPythonReplaced, LANGUAGE),
+    [categoryLinuxReplaced.path]: categoryToSidebarItems(categoryLinuxReplaced, LANGUAGE),
+    [categoryJavaReplaced.path]: categoryToSidebarItems(categoryJavaReplaced, LANGUAGE),
+    [categoryCReplaced.path]: categoryToSidebarItems(categoryCReplaced, LANGUAGE),
+    [categoryBackendReplaced.path]: categoryToSidebarItems(categoryBackendReplaced, LANGUAGE),
+    [categoryFrontendReplaced.path]: categoryToSidebarItems(categoryFrontendReplaced, LANGUAGE),
+    [categoryOtherReplaced.path]: categoryToSidebarItems(categoryOtherReplaced, LANGUAGE),
 };
