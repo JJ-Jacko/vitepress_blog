@@ -1,6 +1,37 @@
-import { Post, Location, LocationCode, TagCode, Tag, Category } from "./datas";
+import { Post, Location, Language, lanPathMap, LocationCode, TagCode, Tag, Category } from "./datas";
 import { locations, tags } from "./constants";
 import * as categories from "./constants/categories";
+
+
+/**
+ * replace target language path to category
+ * @returns replaced target language path category
+ */
+export function categoryReplaceLanPath(
+    category: Category,
+    language: Language
+): Category {
+    const newCategory = structuredClone(category);
+    
+    // Process sub-category
+    if (newCategory.childrens) {
+        const childs_replaced: Category[] = [];
+        
+        newCategory.childrens.forEach((sub_category) => {
+            childs_replaced.push(categoryReplaceLanPath(sub_category, language));
+        });
+        
+        newCategory.childrens = childs_replaced;
+    }
+
+    // Replace path
+    newCategory.path = `${lanPathMap[language]}${newCategory.path}`;
+    if (newCategory.introducePath) {
+        newCategory.introducePath = `${lanPathMap[language]}${newCategory.introducePath}`;
+    }
+
+    return newCategory;
+};
 
 
 function findPostFromShortPath(
