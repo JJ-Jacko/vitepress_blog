@@ -1,7 +1,6 @@
 import { DefaultTheme } from "vitepress";
 
-import { Category, Language } from "../datas";
-import { lanPathMap } from "../constants";
+import { Category, Language, lanPathMap } from "../datas";
 
 
 function actionEn(

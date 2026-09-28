@@ -1,6 +1,5 @@
-import { lanPathMap } from "./constants";
 import * as paths from "./constants/paths";
-import { Language } from "./datas";
+import { Language, lanPathMap } from "./datas";
 
 
 function replacePath(paths: string[] , language: Language): string[] {

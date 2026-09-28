@@ -1,18 +1,10 @@
 import {
-    Language,
     Location,
     LocationCode,
     Tag,
     TagCode,
 } from "../datas";
 
-
-// Languages
-export const lanPathMap: Record<Language, string> = {
-    "en-US": "",
-    "zh-CN": '/translated/zh_cn',
-    "zh-HK": '/translated/zh_hk',
-};
 
 // Locations
 export const locations: Location[] = [

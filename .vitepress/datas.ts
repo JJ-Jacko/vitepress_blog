@@ -1,3 +1,18 @@
+export type Language = "en-US" | "zh-CN" | "zh-HK";
+export type LocalizedName = "nameEN" | "nameCN" | "nameHK";
+
+export const lanPathMap: Record<Language, string> = {
+    "en-US": "",
+    "zh-CN": '/translated/zh_cn',
+    "zh-HK": '/translated/zh_hk',
+};
+
+export const lanLocalizedNameMap: Record<Language, LocalizedName> = {
+    "en-US": "nameEN",
+    "zh-CN": "nameCN",
+    "zh-HK": "nameHK",
+}
+
 export enum LocationCode {
     sz = "Shenzhen",
     dg = "Dongguan",
@@ -137,6 +152,3 @@ export class Tag {
         this.nameHK = nameHK;
     }
 };
-
-
-export type Language = "en-US" | "zh-CN" | "zh-HK";
