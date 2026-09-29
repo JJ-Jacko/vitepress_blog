@@ -9,8 +9,8 @@ export function categoryToSidebarItems(
 ): DefaultTheme.SidebarItem[] {
     const localizedName = lanLocalizedNameMap[language];
 
-    // Uncategorized Category
-    if (category.posts) {
+    // Only have posts
+    if (category.posts !== undefined && category.childrens === undefined) {
         return [{
             text: category[localizedName],
             link: category.introducePath,
@@ -22,9 +22,31 @@ export function categoryToSidebarItems(
                 }))
         }];
     }
-
-    // Categorized Category
-    else if (category.childrens) {
+    // Only have childrens
+    else if (category.childrens !== undefined && category.posts === undefined) {
+        return category.childrens
+            .map((child_category) => {
+                if (child_category.posts === undefined) {
+                    return {
+                        text: child_category[localizedName],
+                        link: child_category.introducePath
+                    }
+                } else {
+                    return {
+                        text: child_category[localizedName],
+                        link: child_category.introducePath,
+                        collapsed: false,
+                        items: child_category.posts
+                            .map((post) => ({
+                                text: post[localizedName],
+                                link: `${child_category.path}/${post.id}`
+                            }))
+                    }
+                }
+            });
+    }
+    // Both have posts & childrens
+    else if (category.posts !== undefined && category.childrens !== undefined) {
         return category.childrens
             .map((child_category) => {
                 if (child_category.posts === undefined) {
