@@ -3,59 +3,31 @@
     import { useData } from 'vitepress';
 
     import { getPost, getLocation, getTag } from "../tools";
+    import { Language, lanLocalizedNameMap } from "../datas";
 
 
     const { page, lang } = useData();
     const post = computed(() => getPost(page.value.relativePath));
+    const currentLanguage = lang.value as Language;
+    const localizedName = lanLocalizedNameMap[currentLanguage];
 
     let title;
     let location;
     let tags;
-    if (lang.value === "en-US") {
-        title = computed(() => post.value?.nameEN ?? '');
-        location = computed(() => {
-            const code = post.value?.location;
-            return code ? getLocation(code)?.nameEN ?? '' : '';
+    
+    title = computed(() => post.value?.[localizedName] ?? '');
+    location = computed(() => {
+        const code = post.value?.location;
+        return code ? getLocation(code)?.[localizedName] ?? '' : '';
+    });
+    tags = computed(() => {
+        let res = '';
+        post.value?.tags?.forEach((code) => {
+            const tag = getTag(code);
+            res = `${res}${tag?.[localizedName]} `;
         });
-        tags = computed(() => {
-            let res = '';
-            post.value?.tags?.forEach((code) => {
-                const tag = getTag(code);
-                res = `${res}${tag?.nameEN} `;
-            });
-            return res;
-        });
-    }
-    else if (lang.value === "zh-CN") {
-        title = computed(() => post.value?.nameCN ?? '');
-        location = computed(() => {
-            const code = post.value?.location;
-            return code ? getLocation(code)?.nameCN ?? '' : '';
-        });
-        tags = computed(() => {
-            let res = '';
-            post.value?.tags?.forEach((code) => {
-                const tag = getTag(code);
-                res = `${res}${tag?.nameCN} `;
-            });
-            return res;
-        });
-    }
-    else if (lang.value === "zh-HK") {
-        title = computed(() => post.value?.nameHK ?? '');
-        location = computed(() => {
-            const code = post.value?.location;
-            return code ? getLocation(code)?.nameHK ?? '' : '';
-        });
-        tags = computed(() => {
-            let res = '';
-            post.value?.tags?.forEach((code) => {
-                const tag = getTag(code);
-                res = `${res}${tag?.nameHK} `;
-            });
-            return res;
-        });
-    }
+        return res;
+    });
 
     const date = computed(() => post.value?.date?.toLocaleString());
 
