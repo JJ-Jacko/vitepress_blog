@@ -567,7 +567,7 @@ export const other: Post[] = [
 ];
 
 // Single
-const single: Post[] = [
+export const single: Post[] = [
     {
         id: 'me',
         date: new Date("2026-08-18 15:32"),
@@ -593,6 +593,7 @@ const single: Post[] = [
         nameHK: '訊息來源',
     },
 
+    // Posts which are the introduce of sub-category
     {
         id: 'redis.index',
         date: new Date("2026-08-24 17:51"),

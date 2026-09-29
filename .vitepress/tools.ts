@@ -1,6 +1,7 @@
 import { Post, Location, Language, lanPathMap, LocationCode, TagCode, Tag, Category } from "./datas";
 import { locations, tags } from "./constants";
 import * as categories from "./constants/categories";
+import * as posts from "./constants/posts";
 
 
 /**
@@ -55,7 +56,14 @@ function findPostFromShortPath(
         }
         // Both have posts & childrens
         else if (category.posts !== undefined && category.childrens !== undefined) {
-            return category.posts.find((post) => post.id === postID);
+            // Post in category
+            const post = category.posts.find((post) => post.id === postID);
+            if (post) return post;
+
+            // Post in sub-category
+            const subPost = findPostFromShortPath(category.childrens, postID, shortPath);
+            if (subPost) return subPost;
+            else continue;
         }
     }
 };
@@ -83,8 +91,9 @@ export function getPost(relativePath: string): Post | null {
         postID = fileNameItems?.at(0) ?? '';
     }
     
-    // Find post
-    const post = findPostFromShortPath(categories.all, postID, shortPath);
+    // Find post, falling back to standalone posts (e.g. sub-category introduce pages)
+    const post = findPostFromShortPath(categories.all, postID, shortPath)
+        ?? posts.single.find((post) => post.id === postID);
     
     return post ?? null;
 };
