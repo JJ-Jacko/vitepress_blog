@@ -40,23 +40,22 @@ function findPostFromShortPath(
     shortPath: string
 ): Post | undefined {
     for (const category of categories) {
-        // Only have posts
-        if (category.posts !== undefined && category.childrens === undefined) {
-            if (category.path === shortPath) {
-                return category.posts.find((post) => post.id === postID);
-            }
-        }
+        // Skip categories whose paths do not start the short path
+        if (!shortPath.startsWith(category.path)) continue;
+        
         // Only have childrens
-        else if (category.childrens !== undefined && category.posts === undefined) {
+        if (category.childrens !== undefined && category.posts === undefined) {
             let post = findPostFromShortPath(category.childrens, postID, shortPath);
             if (post) return post;
             else continue;
         }
+        // Only have posts
+        else if (category.posts !== undefined && category.childrens === undefined) {
+            return category.posts.find((post) => post.id === postID);
+        }
         // Both have posts & childrens
         else if (category.posts !== undefined && category.childrens !== undefined) {
-            if (category.path === shortPath) {
-                return category.posts.find((post) => post.id === postID);
-            }
+            return category.posts.find((post) => post.id === postID);
         }
     }
 };
