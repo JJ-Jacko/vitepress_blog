@@ -1,10 +1,3 @@
----
-title: qBittorrent
-date: 2026/09/05 19:50
-location: Dongguan
-tags: Original Linux
----
-
 [Inspiration](/linux/service/service_configuration)
 
 [qBittorrent Enhanced Edition](https://github.com/c0re100/qBittorrent-Enhanced-Edition) is a open source project

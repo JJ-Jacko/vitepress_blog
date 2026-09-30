@@ -1,10 +1,3 @@
----
-title: Debian Clean
-date: 2026/04/18 12:42
-location: Dongguan
-tags: Original Linux
----
-
 ## Software packages deb
 ### Clean orphaned packages
 ```sh

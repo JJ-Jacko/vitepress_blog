@@ -1,10 +1,3 @@
----
-title: yum
-date: 2024/06/05 21:06
-location: Dongguan
-tags: Original Linux
----
-
 ## Change sources
 Backup
 ```sh

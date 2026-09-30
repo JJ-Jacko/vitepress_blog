@@ -1,10 +1,3 @@
----
-title: Java 数据类型
-date: 2025/06/10 16:00
-location: 深圳
-tags: 原创 Java
----
-
 ## 基本数据类型
 ### 整形
 * int

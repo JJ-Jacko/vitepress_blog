@@ -1,10 +1,3 @@
----
-title: Environment
-date: 2026/09/18 14:34
-location: Guangzhou
-tags: Original
----
-
 ## Tools
 * IDE: [VSCode](https://code.visualstudio.com) (ONLY Recommended)
     * ~~Live preview~~ (NOT Recommended, now using Vite instead)

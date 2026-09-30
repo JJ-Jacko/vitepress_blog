@@ -1,10 +1,3 @@
----
-title: yt-dlp basic usage
-date: 2024/04/20 10:51
-location: Dongguan
-tags: Original Python
----
-
 ## Ready to use
 ```sh
 yt-dlp --cookies .\cookie.txt [url]

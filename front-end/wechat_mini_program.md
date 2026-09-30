@@ -1,10 +1,3 @@
----
-title: WeChat Mini Program
-date: 2023/11/08 21:05
-location: Dongguan
-tags: Original WeChat Mini Program
----
-
 ## Add a page
 ```json [/app.json]
 "pages": [

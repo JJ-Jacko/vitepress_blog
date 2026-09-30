@@ -1,10 +1,3 @@
----
-title: Jellyfin
-date: 2026/09/05 19:12
-location: 东莞
-tags: 原创 Linux
----
-
 [灵感来源](/linux/service/service_configuration)
 
 [引用](https://jellyfin.org/downloads/linux): 官方文档。

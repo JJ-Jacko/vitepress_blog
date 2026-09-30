@@ -1,10 +1,3 @@
----
-title: Neovim
-date: 2024/05/04 12:51
-location: Dongguan
-tags: Original Linux vim
----
-
 ## Key map
 * `k` Pp
 * `j` Down

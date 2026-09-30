@@ -1,10 +1,3 @@
----
-title: Proxy
-date: 2024/08/19 14:17
-location: Dongguan
-tags: Original Linux
----
-
 ## Shell session
 ```sh [~/.bashrc]
 export ALL_PROXY="socks5://192.168.6.101:10808"

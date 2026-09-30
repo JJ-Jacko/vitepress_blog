@@ -1,10 +1,3 @@
----
-title: Data Types
-date: 2026/08/24 22:06
-location: Dongguan
-tags: Learn Redis Cache
----
-
 ## String
 ### Set string type data
 ```sh

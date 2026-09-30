@@ -1,10 +1,3 @@
----
-title: 恢复 root 密码
-date: 2024/05/12 12:20
-location: 东莞
-tags: 原创 Linux
----
-
 ## 进入 grub 编辑模式
 持续按方向键 <kbd>↑</kbd> <kbd>↓</kbd> <kbd>←</kbd> <kbd>→</kbd> 停在此界面
 

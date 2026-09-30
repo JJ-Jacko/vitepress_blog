@@ -1,10 +1,3 @@
----
-title: 破解压缩包
-date: 2024/08/04 11:56
-location: 东莞
-tags: 原创 Linux
----
-
 ## 安装
 john the ripper
 ```sh

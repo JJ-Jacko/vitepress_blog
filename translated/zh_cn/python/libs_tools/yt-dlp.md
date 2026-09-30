@@ -1,10 +1,3 @@
----
-title: yt-dlp 基本使用
-date: 2024/04/20 10:51
-location: 东莞
-tags: 原创 Python
----
-
 ## 一键使用
 ```sh
 yt-dlp --cookies .\cookie.txt [url]

@@ -1,10 +1,3 @@
----
-title: 环境
-date: 2026/09/18 14:34
-location: 广州
-tags: 原创
----
-
 ## 工具
 * 集成开放环境: [VSCode](https://code.visualstudio.com) (唯一推荐)
     * ~~Live preview~~ (不推荐, 如今用 Vite 替代)

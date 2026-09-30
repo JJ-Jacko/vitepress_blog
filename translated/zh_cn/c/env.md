@@ -1,10 +1,3 @@
----
-title: 环境搭建
-date: 2025/12/24 16:59
-location: 东莞
-tags: 原创 C
----
-
 Windows 上的 C 开发主要是在微软体系下的 `Visual Studio` 下开发
 
 比较“巨无霸”

@@ -1,10 +1,3 @@
----
-title: Nginx 配置 TLS
-date: 2025/06/11 16:40
-location: 深圳
-tags: 原创 Linux Nginx
----
-
 ## 挂载
 ```nginx [/etc/nginx/sites-enabled/mysite]
 server {

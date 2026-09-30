@@ -1,10 +1,3 @@
----
-title: Intranet Penetration frp
-date: 2026/04/24 12:22
-location: Dongguan
-tags: Original Linux frp
----
-
 [Inspiration](/linux/service/service_configuration)
 
 [frp](https://github.com/fatedier/frp) is a open source project about intranet penetration tool.

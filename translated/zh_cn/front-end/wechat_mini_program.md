@@ -1,10 +1,3 @@
----
-title: 微信小程序
-date: 2023/11/08 21:05
-location: 东莞
-tags: 原创 微信小程序
----
-
 ## 添加页面
 ```json [/app.json]
 "pages": [

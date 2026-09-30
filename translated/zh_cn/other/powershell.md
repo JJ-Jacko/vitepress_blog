@@ -1,10 +1,3 @@
----
-title: PowerShell
-date: 2026/09/02 15:25
-location: 东莞
-tags: 原创 Windows PowerShell shell
----
-
 [PowerShell](https://github.com/powershell/powershell)
 为 Windows 用户打造类似 Unix 的命令行体验。
 

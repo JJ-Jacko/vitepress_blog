@@ -1,10 +1,3 @@
----
-title: 策略模式
-date: 2026/07/12 21:26
-location: 东莞
-tags: 原创 Python 程序设计
----
-
 ## 示例
 ### 定义抽象类
 ```python

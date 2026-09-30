@@ -1,10 +1,3 @@
----
-title: Java Date Time
-date: 2025/04/22 11:03
-location: Shenzhen
-tags: Original Java
----
-
 ## 1st generation of date time
 Import package
 ```java

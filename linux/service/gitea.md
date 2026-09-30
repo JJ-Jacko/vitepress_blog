@@ -1,10 +1,3 @@
----
-title: Gitea
-date: 2026/08/29 17:05
-location: Dongguan
-tags: Original Linux git
----
-
 [Inspiration](/linux/service/service_configuration)
 
 [Gitea](https://github.com/go-gitea/gitea) is a open source project

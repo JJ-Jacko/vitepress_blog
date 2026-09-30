@@ -1,10 +1,3 @@
----
-title: 包管理
-date: 2024/05/04 13:03
-location: 东莞
-tags: 原创 Python
----
-
 ## uv (✨ 推荐)
 ### 配置
 ::: code-group

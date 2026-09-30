@@ -1,10 +1,3 @@
----
-title: 代理
-date: 2024/08/19 14:17
-location: 东莞
-tags: 原创 Linux
----
-
 ## Shell 实例
 ```sh [~/.bashrc]
 export ALL_PROXY="socks5://192.168.6.101:10808"

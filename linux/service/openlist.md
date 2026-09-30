@@ -1,10 +1,3 @@
----
-title: OpenList
-date: 2026/09/05 19:33
-location: Dongguan
-tags: Original Linux
----
-
 [Inspiration](/linux/service/service_configuration)
 
 [OpenList](https://github.com/OpenListTeam/openlist) is a open source project

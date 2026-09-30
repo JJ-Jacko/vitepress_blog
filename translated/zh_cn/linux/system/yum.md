@@ -1,10 +1,3 @@
----
-title: yum
-date: 2024/06/05 21:06
-location: 东莞
-tags: 原创 Linux
----
-
 ## 换源
 备份
 ```sh

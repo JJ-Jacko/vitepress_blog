@@ -1,10 +1,3 @@
----
-title: sing-box
-date: 2026/09/18 08:33
-location: Guangzhou
-tags: Original proxy
----
-
 [sing-box](https://github.com/SagerNet/sing-box) is a open source project
 about proxy server and client 
 

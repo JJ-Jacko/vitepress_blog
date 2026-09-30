@@ -1,10 +1,3 @@
----
-title: 内网穿透 frp
-date: 2026/04/24 12:22
-location: 东莞
-tags: 原创 Linux frp
----
-
 [灵感来源](/translated/zh_cn/linux/service/service_configuration)
 
 [frp](https://github.com/fatedier/frp) 是一款用于内网穿透的开源项目。

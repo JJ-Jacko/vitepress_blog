@@ -1,10 +1,3 @@
----
-title: Setup Environment
-date: 2025/12/24 16:59
-location: Dongguan
-tags: Original C
----
-
 When it comes to C on Windows, `Visual Studio` is the go-to tool, but it is such a bloated monster to deal with.
 
 This part will focus on setting up the enviroment within the Linux open-source ecosystem.

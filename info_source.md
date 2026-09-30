@@ -1,9 +1,3 @@
----
-title: Information Source
-date: 2026/08/30 16:32
-location: Dongguan
----
-
 ## Github
 
 ## Bilibili

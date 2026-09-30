@@ -1,10 +1,3 @@
----
-title: Python 连接数据库
-date: 2025/06/10 16:00
-location: 深圳
-tags: 原创 Python MySQL
----
-
 ## pymysql 直接查询
 ### 依赖
 ```sh

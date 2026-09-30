@@ -1,10 +1,3 @@
----
-title: Linux 配置休眠
-date: 2025/07/18 22:13
-location: 深圳
-tags: 原创 Linux
----
-
 ## 配置 swap
 ```
 TODO

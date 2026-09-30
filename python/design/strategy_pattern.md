@@ -1,10 +1,3 @@
----
-title: Strategy Pattern
-date: 2026/07/12 21:26
-location: Dongguan
-tags: Original Python Programming-Design
----
-
 ## Example
 ### Define the abstract class
 ```python

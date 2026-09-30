@@ -1,10 +1,3 @@
----
-title: Virtualbox Disk Free
-date: 2024/11/22 14:53
-location: Dongguan
-tags: Original VirtualBox VM
----
-
 ## Zero out free space
 ### Windows
 [Official sdelete link](https://docs.microsoft.com/en-us/sysinternals/downloads/sdelete)

@@ -1,10 +1,3 @@
----
-title: 网页挂载
-date: 2025/06/10 23:00
-location: 深圳
-tags: 原创 Linux Nginx Apache
----
-
 ## Python
 仅适合临时使用
 ```sh

@@ -1,10 +1,3 @@
----
-title: Samba Server
-date: 2024/06/04 23:26
-location: Dongguan
-tags: Original Linux
----
-
 ## Install
 ```sh
 apt install samba

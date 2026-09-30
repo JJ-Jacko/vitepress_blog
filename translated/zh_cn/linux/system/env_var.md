@@ -1,10 +1,3 @@
----
-title: 环境变量
-date: 2022/07/28 22:13
-location: 东莞
-tags: 原创 Linux
----
-
 ## Linux
 ```sh [~/.bashrc ~/.zshrc]
 export JAVA_HOME=/usr/local/java

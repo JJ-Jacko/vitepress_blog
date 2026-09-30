@@ -1,10 +1,3 @@
----
-title: Packages Management
-date: 2024/05/04 13:03
-location: Dongguan
-tags: Original Python
----
-
 ## uv (✨ Recommended)
 ### Configuration
 ::: code-group

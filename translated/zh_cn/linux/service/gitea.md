@@ -1,10 +1,3 @@
----
-title: Gitea
-date: 2026/08/29 17:05
-location: 东莞
-tags: 原创 Linux git
----
-
 [灵感来源](/translated/zh_cn/linux/service/service_configuration)
 
 [Gitea](https://github.com/go-gitea/gitea) 是一款有关代码托管

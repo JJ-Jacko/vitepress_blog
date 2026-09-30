@@ -1,10 +1,3 @@
----
-title: Python data types
-date: 2025/06/10 16:00
-location: Shenzhen
-tags: Original Python
----
-
 ## Number
 * Integer int
 * Decimal float

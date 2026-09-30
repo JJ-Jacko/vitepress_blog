@@ -1,10 +1,3 @@
----
-title: Connect database in Python
-date: 2025/06/10 16:00
-location: Shenzhen
-tags: Original Python MySQL
----
-
 ## Go Straight to query in pymysql
 ### Dependence
 ```sh

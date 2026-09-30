@@ -1,10 +1,3 @@
----
-title: Legacy 无损转 UEFI
-date: 2022/02/12 01:12
-location: 东莞
-tags: 原创 Windows
----
-
 ## 进 BIOS 改为 UEFI 模式
 ## DiskGenius 建立 UEFI 样式分区
 ### 建立 300 MB 的 ESP/MSR 分区

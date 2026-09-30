@@ -1,10 +1,3 @@
----
-title: 设计模式
-date: 2026/08/08 18:16
-location: 东莞
-tags: 学习 Python 程序设计
----
-
 ## 一般流程
 ```python
 class DatabaseConnection:

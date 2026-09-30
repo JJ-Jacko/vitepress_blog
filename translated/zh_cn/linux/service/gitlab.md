@@ -1,10 +1,3 @@
----
-title: Gitlab
-date: 2024/08/19 15:03
-location: 东莞
-tags: 原创 Linux git
----
-
 ## 添加源
 ```sh
 curl -s https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash

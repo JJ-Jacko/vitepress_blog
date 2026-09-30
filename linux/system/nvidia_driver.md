@@ -1,10 +1,3 @@
----
-title: Nvidia Driver
-date: 2026/04/18 12:48
-location: Dongguan
-tags: Original Linux Nvidia
----
-
 ## Enable non-free repositories
 Ensure that the Components include `non-free` and `non-free-firmware`
 ```ini{4,10,16,22} [/etc/apt/sources.list.d/debian.sources]

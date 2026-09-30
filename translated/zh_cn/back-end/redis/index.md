@@ -1,10 +1,3 @@
----
-title: Redis
-date: 2026/08/24 17:51
-location: 东莞
-tags: 学习 Redis 缓存
----
-
 Redis 是一款在后端领域非常有用的中间件。
 这个章节基于知名哔哩哔哩 Up 主 GeekHour 的
 [《一小时 Redis 教程》](https://www.bilibili.com/video/BV1Jj411D7oG)

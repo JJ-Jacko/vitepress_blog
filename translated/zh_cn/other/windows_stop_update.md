@@ -1,10 +1,3 @@
----
-title: Windows 停止更新
-date: 2026/04/18 11:40
-location: 东莞
-tags: 原创 Windows
----
-
 ## 设置 Windows 更新最大暂停天数
 ```powershell
 Set-ItemProperty `

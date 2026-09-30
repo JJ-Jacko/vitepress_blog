@@ -1,10 +1,3 @@
----
-title: OpenAI SDK
-date: 2026/08/20 21:57
-location: Dongguan
-tags: Learn Python AI-Agent
----
-
 Most of the LLM provider using [OpenAI SDK](https://github.com/openai/openai-python) as standard,
 (e.g. [Deepseek](https://www.deepseek.com), [KIMI](https://www.kimi.com)).
 You can use [LanChain](https://www.langchain.com) instead, but it is so heavy and over-designed.

@@ -1,10 +1,3 @@
----
-title: Kali sniffs Wi-Fi
-date: 2024/02/20 12:46
-location: Dongguan
-tags: Original Linux Kali
----
-
 ## Install kernel headers
 [Details](/linux/system/upgrade_kernel&headers)
 

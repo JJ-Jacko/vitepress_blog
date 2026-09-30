@@ -1,10 +1,3 @@
----
-title: File path related
-date: 2024/08/15 14:22
-location: Dongguan
-tags: Original Python
----
-
 ## Import
 ```py
 import os

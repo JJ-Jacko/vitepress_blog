@@ -1,10 +1,3 @@
----
-title: Minecraft Server
-date: 2026/04/18 14:42
-location: Dongguan
-tags: Original Linux Minecraft
----
-
 ## Temporary solution
 Use screen to start the server,
 you can use commands in the background of the server

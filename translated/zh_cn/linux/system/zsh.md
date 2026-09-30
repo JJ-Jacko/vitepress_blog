@@ -1,10 +1,3 @@
----
-title: zsh
-date: 2024/08/31 00:25
-location: 东莞
-tags: 原创 Linux
----
-
 ## 安装
 ::: code-group
 ```sh [Arch]

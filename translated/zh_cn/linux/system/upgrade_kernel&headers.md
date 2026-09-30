@@ -1,10 +1,3 @@
----
-title: 更新 kernel 及 headers
-date: 2024/02/20 14:30
-location: 东莞
-tags: 原创 Linux
----
-
 ## 查看当前状态
 正在使用的 kernel
 ```sh

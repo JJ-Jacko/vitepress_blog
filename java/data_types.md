@@ -1,10 +1,3 @@
----
-title: Java Data Types
-date: 2025/06/10 16:00
-location: Shenzhen
-tags: Original Java
----
-
 ## Basic data types
 ### Integer
 * int

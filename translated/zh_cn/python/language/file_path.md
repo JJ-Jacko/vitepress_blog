@@ -1,10 +1,3 @@
----
-title: 文件路径相关
-date: 2024/08/15 14:22
-location: 东莞
-tags: 原创 Python
----
-
 ## 导包
 ```py
 import os

@@ -1,11 +1,3 @@
----
-title: zsh
-date: 2024/08/31 00:25
-location: Dongguan
-tags: Original Linux
----
-
-
 ## Install
 ::: code-group
 ```sh [Arch]

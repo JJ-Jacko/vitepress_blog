@@ -1,10 +1,3 @@
----
-title: Mount Web Page
-date: 2025/06/10 23:00
-location: Shenzhen
-tags: Original Linux Nginx Apache
----
-
 ## Python
 Only suitable for temporary use
 ```sh

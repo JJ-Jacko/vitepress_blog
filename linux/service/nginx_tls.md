@@ -1,10 +1,3 @@
----
-title: Nginx Configure TLS
-date: 2025/06/11 16:40
-location: Shenzhen
-tags: Original Linux Nginx
----
-
 ## Mount
 ```nginx [/etc/nginx/sites-enabled/mysite]
 server {

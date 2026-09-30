@@ -1,9 +1,3 @@
----
-title: 關於我
-date: 2026/08/18 15:32
-location: 東莞
----
-
 ## 📋 描述
 ```python
 resp = client.responses.create(

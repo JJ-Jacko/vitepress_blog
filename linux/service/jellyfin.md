@@ -1,10 +1,3 @@
----
-title: Jellyfin
-date: 2026/09/05 19:12
-location: Dongguan
-tags: Original Linux
----
-
 [Inspiration](/linux/service/service_configuration)
 
 [Reference](https://jellyfin.org/downloads/linux): Official document.

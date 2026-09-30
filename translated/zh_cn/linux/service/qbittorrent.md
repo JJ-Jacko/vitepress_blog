@@ -1,10 +1,3 @@
----
-title: qBittorrent
-date: 2026/09/05 19:50
-location: 东莞
-tags: 原创 Linux
----
-
 [灵感来源](/translated/zh_cn/linux/service/service_configuration)
 
 [qBittorrent 增强版](https://github.com/c0re100/qBittorrent-Enhanced-Edition) 是一个有关 p2p 下载软件的开源项目。

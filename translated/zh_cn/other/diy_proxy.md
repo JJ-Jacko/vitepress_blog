@@ -1,9 +1,3 @@
----
-title: 自建代理
-date: 2026/04/18 15:25
-location: 东莞
-tags: 原创 Linux 节点 sing-box vless hysteria2 reality
----
 ## 前言
 由于 [s-ui](https://github.com/alireza0/s-ui) 和 [3x-ui](https://github.com/MHSanaei/3x-ui) 都是基于
 [sing-box](https://github.com/SagerNet/sing-box) 或 [xray](https://github.com/XTLS/Xray-core) 

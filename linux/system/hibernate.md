@@ -1,10 +1,3 @@
----
-title: Linux Hibernate Configuration
-date: 2025/07/18
-location: Shenzhen
-tags: Original Linux
----
-
 ## Configure swap
 ```
 TODO

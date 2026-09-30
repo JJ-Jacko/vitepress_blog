@@ -1,10 +1,3 @@
----
-title: Neovim
-date: 2024/05/04 12:51
-location: 东莞
-tags: 原创 Linux vim
----
-
 ## 按键映射
 * `k` 上
 * `j` 下

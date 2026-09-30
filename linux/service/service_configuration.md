@@ -1,10 +1,3 @@
----
-title: Service Configuration
-date: 2026/04/18 13:32
-location: Dongguan
-tags: Original Linux
----
-
 ## Configure users and groups
 ### Add service user `web_runner`
 ```sh

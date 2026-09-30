@@ -1,10 +1,3 @@
----
-title: Linux System Backup & Restore
-date: 2026/04/25 17:13
-location: Dongguan
-tags: Original Linux
----
-
 ## Backup
 * `nvme0n1p3` The SSD partition installed system which needed to backup
 * `sda1` The HDD partition which used to save image

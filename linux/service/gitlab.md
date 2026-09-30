@@ -1,10 +1,3 @@
----
-title: Gitlab
-date: 2024/08/19 15:03
-location: Dongguan
-tags: Original Linux git
----
-
 ## Add source
 ```sh
 curl -s https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash

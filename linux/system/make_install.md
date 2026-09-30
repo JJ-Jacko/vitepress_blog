@@ -1,10 +1,3 @@
----
-title: Make install
-date: 2024/07/26 23:46
-location: Dongguan
-tags: Original Linux gcc make
----
-
 ## General Process
 Configuration
 ```sh

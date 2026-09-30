@@ -1,9 +1,3 @@
----
-title: Softwares and Tools Using
-date: 2026/09/01 13:32
-location: Dongguan
----
-
 ## AI
 ### Code agent
 * Github Copilot *in VSCode*: Support mainstream second new models.

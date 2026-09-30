@@ -1,10 +1,3 @@
----
-title: Debian 清理
-date: 2026/04/18 12:42
-location: 东莞
-tags: 原创 Linux
----
-
 ## 软件包 deb
 ### 清理孤儿包
 ```sh

@@ -1,10 +1,3 @@
----
-title: PowerShell
-date: 2026/09/02 15:25
-location: Dongguan
-tags: Original Windows PowerShell shell
----
-
 [PowerShell](https://github.com/powershell/powershell)
 make up unix-like command experience for Windows users.
 

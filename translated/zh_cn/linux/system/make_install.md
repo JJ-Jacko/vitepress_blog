@@ -1,10 +1,3 @@
----
-title: 编译安装
-date: 2024/07/26 23:46
-location: 东莞
-tags: 原创 Linux gcc make
----
-
 ## 一般流程
 配置
 ```sh

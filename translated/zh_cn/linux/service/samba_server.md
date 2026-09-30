@@ -1,10 +1,3 @@
----
-title: Samba 服务器
-date: 2024/06/04 23:26
-location: 东莞
-tags: 原创 Linux
----
-
 ## 安装
 ```sh
 apt install samba

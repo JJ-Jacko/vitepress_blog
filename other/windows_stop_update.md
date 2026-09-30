@@ -1,10 +1,3 @@
----
-title: Windows Stop Update
-date: 2026/04/18 11:40
-location: Dongguan
-tags: Original Windows
----
-
 ## Set Windows update max pause days
 ```powershell
 Set-ItemProperty `

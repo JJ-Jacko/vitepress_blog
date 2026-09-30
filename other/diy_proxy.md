@@ -1,9 +1,3 @@
----
-title: DIY Proxy
-date: 2026/04/18 15:25
-location: Dongguan
-tags: Original Linux proxy sing-box vless hysteria2 reality
----
 ## Introduction
 Both [s-ui](https://github.com/alireza0/s-ui) and [3x-ui](https://github.com/MHSanaei/3x-ui) are GUI wrappers based on
 [sing-box](https://github.com/SagerNet/sing-box) or [xray](https://github.com/XTLS/Xray-core).

@@ -1,10 +1,3 @@
----
-title: Recovery root password
-date: 2024/05/12 12:20
-location: Dongguan
-tags: Original Linux
----
-
 ## Enter grub edit mode
 Press and hold arrow key <kbd>↑</kbd> <kbd>↓</kbd> <kbd>←</kbd> <kbd>→</kbd> to stay on this screen
 

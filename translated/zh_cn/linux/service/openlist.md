@@ -1,10 +1,3 @@
----
-title: OpenList
-date: 2026/09/05 19:33
-location: 东莞
-tags: 原创 Linux
----
-
 [灵感来源](/translated/zh_cn/linux/service/service_configuration)
 
 [OpenList](https://github.com/OpenListTeam/openlist) 是一个有关个人文件托管的开源项目。

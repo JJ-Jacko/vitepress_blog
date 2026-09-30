@@ -1,11 +1,3 @@
----
-title: Operator
-date: 2025/12/25 13:41
-location: Dongguan
-tags: Original C
----
-
-
 ## Bitwise AND `&`
 Convert to binary, elign each bit, and only assign a value of 1 if both bits are 1; otherwise, assign a value of 0.
 ```txt{4}

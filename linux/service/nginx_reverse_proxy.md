@@ -1,10 +1,3 @@
----
-title: Nginx Reverse Proxy
-date: 2025/06/11 16:30
-location: Shenzhen
-tags: Original Linux Nginx
----
-  
 ## Project on Nginx
 ```nginx [/etc/nginx/sites-enabled/mysite]
 server {

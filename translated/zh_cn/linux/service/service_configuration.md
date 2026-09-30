@@ -1,10 +1,3 @@
----
-title: 服务配置
-date: 2026/04/18 13:32
-location: 东莞
-tags: 原创 Linux
----
-
 ## 配置用户及组
 ### 添加服务运行用户 `web_runner`
 ```sh

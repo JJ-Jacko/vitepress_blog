@@ -1,10 +1,3 @@
----
-title: OpenAI SDK
-date: 2026/08/20 21:57
-location: 东莞
-tags: 学习 Python 智能体
----
-
 大部分的大语言模型使用 [OpenAI SDK](https://github.com/openai/openai-python) 作为标准，
 比如 [Deepseek](https://www.deepseek.com) 和 [KIMI](https://www.kimi.com)。
 你可以使用 [LanChain](https://www.langchain.com) 作为平替，但他太重而且过度设计了。

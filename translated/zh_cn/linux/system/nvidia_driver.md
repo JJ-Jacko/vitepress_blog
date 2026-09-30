@@ -1,10 +1,3 @@
----
-title: 英伟达驱动
-date: 2026/04/18 12:48
-location: 东莞
-tags: 原创 Linux 英伟达
----
-
 ## 启用非自由软件的仓库
 确保 Conponents 包含 `non-free` 和 `non-free-firmware`
 ```ini{4,10,16,22} [/etc/apt/sources.list.d/debian.sources]

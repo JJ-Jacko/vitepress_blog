@@ -1,9 +1,3 @@
----
-title: About me
-date: 2026/08/18 15:32
-location: Dongguan
----
-
 ## 📋 Description
 ```python
 resp = client.responses.create(

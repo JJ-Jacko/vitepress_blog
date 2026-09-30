@@ -1,9 +1,3 @@
----
-title: 軟體與工具
-date: 2026/09/01 13:32
-location: 東莞
----
-
 ## AI
 ### 編碼智能體
 * Github Copilot *VSCode 集成*: 支援主流第二新的模型

@@ -1,10 +1,3 @@
----
-title: Design Pattern
-date: 2026/08/08 18:16
-location: Dongguan
-tags: Learn Python Programming-Design
----
-
 ## General Process
 ```python
 class DatabaseConnection:
