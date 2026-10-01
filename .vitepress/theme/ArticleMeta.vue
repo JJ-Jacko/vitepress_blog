@@ -7,28 +7,23 @@
 
 
     const { page, lang } = useData();
-    const post = computed(() => getPost(page.value.relativePath));
-    const currentLanguage = lang.value as Language;
-    const localizedName = lanLocalizedNameMap[currentLanguage];
-
-    let title;
-    let location;
-    let tags;
     
-    title = computed(() => post.value?.[localizedName] ?? '');
-    location = computed(() => {
+    const post = computed(() => getPost(page.value.relativePath));
+    const currentLanCode = computed(() => lang.value as Language);
+    const localizedName = computed(() => lanLocalizedNameMap[currentLanCode.value]);
+    const title = computed(() => post.value?.[localizedName.value] ?? '');
+    const location = computed(() => {
         const code = post.value?.location;
-        return code ? getLocation(code)?.[localizedName] ?? '' : '';
+        return code ? getLocation(code)?.[localizedName.value] ?? '' : '';
     });
-    tags = computed(() => {
+    const tags = computed(() => {
         let res = '';
         post.value?.tags?.forEach((code) => {
             const tag = getTag(code);
-            res = `${res}${tag?.[localizedName]} `;
+            res = `${res}${tag?.[localizedName.value]} `;
         });
         return res;
     });
-
     const date = computed(() => post.value?.date?.toLocaleString());
 
 </script>
