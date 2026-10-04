@@ -66,3 +66,8 @@ export const python: Category = {
 * Chinese: `/translated/zh_cn/python/language/data_types.md`
 > **Attention:**
 > The post Markdown file name **MUST** match `post.id`.
+#### *Git commit
+Commit message like this:
+```txt
+feat(post.java.env)
+```
