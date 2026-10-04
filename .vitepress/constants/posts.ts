@@ -369,6 +369,14 @@ export const linuxService: Post[] = [
 // Java
 export const java: Post[] = [
     {
+        id: 'env',
+        date: new Date("2026-10-04 14:56"),
+        location: LocationCode.dg,
+        tags: [TagCode.original],
+        nameEN: 'Setup Environment',
+        nameCN: '环境搭建',
+    },
+    {
         id: 'data_types',
         date: new Date("2025-06-10 16:00"),
         location: LocationCode.sz,
