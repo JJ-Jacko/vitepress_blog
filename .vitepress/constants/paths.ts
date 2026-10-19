@@ -25,5 +25,7 @@ export const pythonLibsTools = `${python}/libs_tools`;
 export const linuxSystem = `${linux}/system`;
 export const linuxTools = `${linux}/tools`;
 export const linuxService = `${linux}/service`;
+export const javaLanguage = `${java}/language`;
+export const javaMinecraft = `${java}/minecraft`;
 export const backendMySQL = `${backend}/mysql`;
 export const backendRedis = `${backend}/redis`;

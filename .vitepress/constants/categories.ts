@@ -55,10 +55,21 @@ export const linux: Category = {
 
 export const java: Category = {
     path: paths.java,
-    introducePath: paths.java,
-    nameEN: 'Java☕',
-    nameCN: 'Java☕',
-    posts: posts.java,
+    childrens: [
+        {
+            path: paths.javaLanguage,
+            introducePath: paths.java,
+            nameEN: 'Language',
+            nameCN: '语言',
+            posts: posts.javaLanguage
+        },
+        {
+            path: paths.javaMinecraft,
+            nameEN: 'Minecraft',
+            nameCN: '我的世界 (麦块)',
+            posts: posts.javaMinecraft
+        }
+    ]
 };
 
 export const c: Category = {

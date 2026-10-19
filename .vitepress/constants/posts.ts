@@ -367,7 +367,7 @@ export const linuxService: Post[] = [
 ];
 
 // Java
-export const java: Post[] = [
+export const javaLanguage: Post[] = [
     {
         id: 'env',
         date: new Date("2026-10-04 14:56"),
@@ -408,6 +408,10 @@ export const java: Post[] = [
         nameEN: 'Access Modifier',
         nameCN: '访问修饰符',
     },
+];
+
+export const javaMinecraft: Post[] = [
+
 ];
 
 // C
@@ -621,7 +625,8 @@ export const all: Post[] = [
     ...linuxSystem,
     ...linuxTools,
     ...linuxService,
-    ...java,
+    ...javaLanguage,
+    ...javaMinecraft,
     ...c,
     ...backend,
     ...backendRedis,
