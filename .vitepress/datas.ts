@@ -40,6 +40,7 @@ export enum TagCode {
     apache = "Apache",
     git = "Git",
     network = "Network",
+    game = "Game",
     minecraft = "Minecraft",
     wechatMiniProgram = "wechatMiniProgram",
     powershell = "PowerShell",

@@ -411,7 +411,14 @@ export const javaLanguage: Post[] = [
 ];
 
 export const javaMinecraft: Post[] = [
-
+    {
+        id: 'key_class',
+        date: new Date("2026-10-19 15:10"),
+        location: LocationCode.gz,
+        tags: [TagCode.original, TagCode.minecraft, TagCode.game],
+        nameEN: 'Key Class',
+        nameCN: '关键类',
+    },
 ];
 
 // C

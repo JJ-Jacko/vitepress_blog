@@ -145,6 +145,12 @@ export const tags: Tag[] = [
         nameHK: "Network"
     },
     {
+        code: TagCode.game,
+        nameEN: "Game",
+        nameCN: "游戏",
+        nameHK: "游戲"
+    },
+    {
         code: TagCode.minecraft,
         nameEN: "Minecraft",
         nameCN: "我的世界",
