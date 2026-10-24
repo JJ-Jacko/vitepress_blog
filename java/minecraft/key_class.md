@@ -37,3 +37,8 @@ Generate vanilla item tags.
 ### VanillaBlockItemTagsProvider
 Generate vanilla block item tags.
 * Package: net.minecraft.data.tags
+
+## Components
+### DataComponents
+Register vanilla components.
+* Package: net.minecraft.core.component

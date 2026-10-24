@@ -37,3 +37,8 @@
 ### VanillaBlockItemTagsProvider
 生成原版的方块物品标签
 * 包: net.minecraft.data.tags
+
+## 组件
+### DataComponents
+注册原版组件
+* 包: net.minecraft.core.component
