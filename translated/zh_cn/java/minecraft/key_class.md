@@ -31,6 +31,12 @@
 * 包: net.minecraft.tags
 
 ## 生成器
+### ItemModelGenerators
+生成原版的物品模型
+* 包: net.minecraft.client.data.models
+### BlockModelGenerators
+生成原版的方块模型
+* 包: net.minecraft.client.data.models
 ### VanillaItemTagsProvider
 生成原版的物品标签
 * 包: net.minecraft.data.tags

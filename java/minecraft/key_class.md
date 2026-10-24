@@ -31,6 +31,12 @@ Register vanilla block tags.
 * Package: net.minecraft.tags
 
 ## Generators
+### ItemModelGenerators
+Generate vanilla item model.
+* Package: net.minecraft.client.data.models
+### BlockModelGenerators
+Generate vanilla block model.
+* Package: net.minecraft.client.data.models
 ### VanillaItemTagsProvider
 Generate vanilla item tags.
 * Package: net.minecraft.data.tags
