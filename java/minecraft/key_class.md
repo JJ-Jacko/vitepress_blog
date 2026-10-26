@@ -37,6 +37,9 @@ Generate vanilla item model.
 ### BlockModelGenerators
 Generate vanilla block model.
 * Package: net.minecraft.client.data.models
+### VanillaRecipeProvider
+Generate vanilla Recipe.
+* Package: net.minecraft.data.recipes.packs
 ### VanillaItemTagsProvider
 Generate vanilla item tags.
 * Package: net.minecraft.data.tags

@@ -37,6 +37,9 @@
 ### BlockModelGenerators
 生成原版的方块模型
 * 包: net.minecraft.client.data.models
+### VanillaRecipeProvider
+生成原版的配方
+* 包: net.minecraft.data.recipes.packs
 ### VanillaItemTagsProvider
 生成原版的物品标签
 * 包: net.minecraft.data.tags
