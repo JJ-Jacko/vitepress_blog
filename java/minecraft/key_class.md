@@ -1,10 +1,10 @@
 ## Items
 ### ItemIds
 Register vanilla items ids.
-* Package: net.minecraft.references
+* `net.minecraft.references`
 ### Items
 Register vanilla items.
-* Package: net.minecraft.world.item
+* `net.minecraft.world.item`
 
 ## Blocks
 ::: tip
@@ -14,40 +14,40 @@ Register vanilla items.
 :::
 ### BlockItemIds
 Register vanilla block items ids.
-* Package: net.minecraft.references
+* `net.minecraft.references`
 ### BlockIds
 Register vanilla blocks ids.
-* Package: net.minecraft.references
+* `net.minecraft.references`
 ### Blocks
 Register vanilla block items and blocks.
-* Package: net.minecraft.world.level.block
+* `net.minecraft.world.level.block`
 
 ## Tags
 ### ItemTags
 Register vanilla item tags.
-* Package: net.minecraft.tags
+* `net.minecraft.tags`
 ### BlockTags
 Register vanilla block tags.
-* Package: net.minecraft.tags
+* `net.minecraft.tags`
 
 ## Generators
 ### ItemModelGenerators
 Generate vanilla item model.
-* Package: net.minecraft.client.data.models
+* `net.minecraft.client.data.models`
 ### BlockModelGenerators
 Generate vanilla block model.
-* Package: net.minecraft.client.data.models
+* `net.minecraft.client.data.models`
 ### VanillaRecipeProvider
 Generate vanilla Recipe.
-* Package: net.minecraft.data.recipes.packs
+* `net.minecraft.data.recipes.packs`
 ### VanillaItemTagsProvider
 Generate vanilla item tags.
-* Package: net.minecraft.data.tags
+* `net.minecraft.data.tags`
 ### VanillaBlockItemTagsProvider
 Generate vanilla block item tags.
-* Package: net.minecraft.data.tags
+* `net.minecraft.data.tags`
 
 ## Components
 ### DataComponents
 Register vanilla components.
-* Package: net.minecraft.core.component
+* `net.minecraft.core.component`
