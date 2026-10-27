@@ -11,18 +11,21 @@ export const python: Category = {
             introducePath: paths.python,
             nameEN: 'Language',
             nameCN: '语言',
+            nameHK: '語言',
             posts: posts.pythonLanguage
         },
         {
             path: paths.pythonDesign,
             nameEN: 'Design',
             nameCN: '设计',
+            nameHK: '設計',
             posts: posts.pythonDesign
         },
         {
             path: paths.pythonLibsTools,
             nameEN: 'Third-Party Libraries or Tools',
             nameCN: '第三方库或工具',
+            nameHK: '第三方庫或工具',
             posts: posts.pythonLibsTools
         },
     ]
