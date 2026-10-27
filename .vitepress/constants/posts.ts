@@ -10,6 +10,7 @@ export const pythonLanguage: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Python data types',
         nameCN: 'Python 数据类型',
+        nameHK: 'Python 數據類型'
 
     },
     {
@@ -19,6 +20,7 @@ export const pythonLanguage: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Packages Management',
         nameCN: '包管理',
+        nameHK: 'Python 套件管理',
     },
     {
         id: 'module_re',
@@ -27,6 +29,7 @@ export const pythonLanguage: Post[] = [
         tags: [TagCode.original],
         nameEN: 're module',
         nameCN: 're 正则库',
+        nameHK: 're 正則表達式庫',
     },
     {
         id: 'module_shutil',
@@ -35,6 +38,7 @@ export const pythonLanguage: Post[] = [
         tags: [TagCode.original],
         nameEN: 'shutil module',
         nameCN: 'shutil 模块',
+        nameHK: 'shutil 模組',
     },
     {
         id: 'regular_expression',
@@ -43,6 +47,7 @@ export const pythonLanguage: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Regular expression',
         nameCN: '正则表达式',
+        nameHK: '正則表達式',
     },
     {
         id: 'file_path',
@@ -51,6 +56,7 @@ export const pythonLanguage: Post[] = [
         tags: [TagCode.original],
         nameEN: 'File path related',
         nameCN: '文件路径相关',
+        nameHK: '檔案路徑相關',
     },
     {
         id: 'file',
@@ -59,6 +65,7 @@ export const pythonLanguage: Post[] = [
         tags: [TagCode.original],
         nameEN: 'File',
         nameCN: '文件',
+        nameHK: '檔案',
     },
     {
         id: 'build_cpython',
@@ -67,6 +74,7 @@ export const pythonLanguage: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Build Cpython from source code',
         nameCN: '从源码构建 Cpython',
+        nameHK: '從原始碼編譯 CPython',
     },
 ];
 
@@ -78,6 +86,7 @@ export const pythonDesign: Post[] = [
         tags: [TagCode.original, TagCode.programmingDesign],
         nameEN: 'Strategy Pattern',
         nameCN: '策略模式',
+        nameHK: '策略模式',
     },
     {
         id: 'design_pattern',
@@ -86,6 +95,7 @@ export const pythonDesign: Post[] = [
         tags: [TagCode.original, TagCode.programmingDesign],
         nameEN: 'Design Pattern',
         nameCN: '设计模式',
+        nameHK: '設計模式',
     },
 ];
 
@@ -97,6 +107,7 @@ export const pythonLibsTools: Post[] = [
         tags: [TagCode.original, TagCode.database],
         nameEN: 'Connect database in Python',
         nameCN: 'Python 连接数据库',
+        nameHK: 'Python 連接資料庫',
     },
     {
         id: 'openai_sdk',
@@ -105,6 +116,7 @@ export const pythonLibsTools: Post[] = [
         tags: [TagCode.learn, TagCode.aiAgent],
         nameEN: 'OpenAI SDK',
         nameCN: 'OpenAI SDK',
+        nameHK: 'OpenAI SDK',
     },
     {
         id: 'yt-dlp',
@@ -113,6 +125,7 @@ export const pythonLibsTools: Post[] = [
         tags: [TagCode.original],
         nameEN: 'yt-dlp basic usage',
         nameCN: 'yt-dlp 基本使用',
+        nameHK: 'yt-dlp 基本用法',
     },
 ];
 
