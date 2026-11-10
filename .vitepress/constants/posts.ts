@@ -531,6 +531,7 @@ export const backendRedis: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Data Types',
         nameCN: '数据类型',
+        nameHK: '數據類型',
     },
 ];
 

@@ -94,18 +94,21 @@ export const backend: Category = {
     introducePath: paths.backend,
     nameEN: 'Backend🧩',
     nameCN: '后端🧩',
+    nameHK: '後端🧩',
     childrens: [
         {
             path: paths.backendMySQL,
             introducePath: paths.backendMySQL,
             nameEN: 'MySQL',
-            nameCN: 'MySQL'
+            nameCN: 'MySQL',
+            nameHK: 'MySQL'
         },
         {
             path: paths.backendRedis,
             introducePath: paths.backendRedis,
             nameEN: 'Redis',
             nameCN: 'Redis',
+            nameHK: 'Redis',
             posts: posts.backendRedis
         }
     ],
