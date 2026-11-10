@@ -85,6 +85,7 @@ export const c: Category = {
     introducePath: paths.c,
     nameEN: 'C',
     nameCN: 'C',
+    nameHK: 'C',
     posts: posts.c
 };
 

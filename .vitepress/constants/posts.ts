@@ -479,6 +479,7 @@ export const c: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Setup Environment',
         nameCN: '环境搭建',
+        nameHK: '環境設定',
     },
     {
         id: 'data_unit',
@@ -487,6 +488,7 @@ export const c: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Unit of Data',
         nameCN: '数据单位',
+        nameHK: '數據單位',
     },
     {
         id: 'data_types',
@@ -495,6 +497,7 @@ export const c: Post[] = [
         tags: [TagCode.original],
         nameEN: 'C Data Type',
         nameCN: '数据类型',
+        nameHK: '數據類型',
     },
     {
         id: 'operator',
@@ -503,6 +506,7 @@ export const c: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Operator',
         nameCN: '运算符',
+        nameHK: '運算子',
     },
 ];
 
