@@ -46,7 +46,7 @@ export const tags: Tag[] = [
         code: TagCode.aiAgent,
         nameEN: "AI-Agent",
         nameCN: "智能体",
-        nameHK: "智慧體"
+        nameHK: "智能體"
     },
     {
         code: TagCode.programmingDesign,

@@ -10,6 +10,7 @@ export const pythonLanguage: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Python data types',
         nameCN: 'Python 数据类型',
+        nameHK: 'Python 數據類型'
 
     },
     {
@@ -19,6 +20,7 @@ export const pythonLanguage: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Packages Management',
         nameCN: '包管理',
+        nameHK: 'Python 套件管理',
     },
     {
         id: 'module_re',
@@ -27,6 +29,7 @@ export const pythonLanguage: Post[] = [
         tags: [TagCode.original],
         nameEN: 're module',
         nameCN: 're 正则库',
+        nameHK: 're 正則表達式庫',
     },
     {
         id: 'module_shutil',
@@ -35,6 +38,7 @@ export const pythonLanguage: Post[] = [
         tags: [TagCode.original],
         nameEN: 'shutil module',
         nameCN: 'shutil 模块',
+        nameHK: 'shutil 模組',
     },
     {
         id: 'regular_expression',
@@ -43,6 +47,7 @@ export const pythonLanguage: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Regular expression',
         nameCN: '正则表达式',
+        nameHK: '正則表達式',
     },
     {
         id: 'file_path',
@@ -51,6 +56,7 @@ export const pythonLanguage: Post[] = [
         tags: [TagCode.original],
         nameEN: 'File path related',
         nameCN: '文件路径相关',
+        nameHK: '檔案路徑相關',
     },
     {
         id: 'file',
@@ -59,6 +65,7 @@ export const pythonLanguage: Post[] = [
         tags: [TagCode.original],
         nameEN: 'File',
         nameCN: '文件',
+        nameHK: '檔案',
     },
     {
         id: 'build_cpython',
@@ -67,6 +74,7 @@ export const pythonLanguage: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Build Cpython from source code',
         nameCN: '从源码构建 Cpython',
+        nameHK: '從原始碼編譯 CPython',
     },
 ];
 
@@ -78,6 +86,7 @@ export const pythonDesign: Post[] = [
         tags: [TagCode.original, TagCode.programmingDesign],
         nameEN: 'Strategy Pattern',
         nameCN: '策略模式',
+        nameHK: '策略模式',
     },
     {
         id: 'design_pattern',
@@ -86,6 +95,7 @@ export const pythonDesign: Post[] = [
         tags: [TagCode.original, TagCode.programmingDesign],
         nameEN: 'Design Pattern',
         nameCN: '设计模式',
+        nameHK: '設計模式',
     },
 ];
 
@@ -97,6 +107,7 @@ export const pythonLibsTools: Post[] = [
         tags: [TagCode.original, TagCode.database],
         nameEN: 'Connect database in Python',
         nameCN: 'Python 连接数据库',
+        nameHK: 'Python 連接資料庫',
     },
     {
         id: 'openai_sdk',
@@ -105,6 +116,7 @@ export const pythonLibsTools: Post[] = [
         tags: [TagCode.learn, TagCode.aiAgent],
         nameEN: 'OpenAI SDK',
         nameCN: 'OpenAI SDK',
+        nameHK: 'OpenAI SDK',
     },
     {
         id: 'yt-dlp',
@@ -113,6 +125,7 @@ export const pythonLibsTools: Post[] = [
         tags: [TagCode.original],
         nameEN: 'yt-dlp basic usage',
         nameCN: 'yt-dlp 基本使用',
+        nameHK: 'yt-dlp 基本用法',
     },
 ];
 
@@ -125,6 +138,7 @@ export const linuxSystem: Post[] = [
         tags: [TagCode.original],
         nameEN: 'SSH',
         nameCN: 'SSH',
+        nameHK: 'SSH',
     },
     {
         id: 'hibernate',
@@ -133,6 +147,7 @@ export const linuxSystem: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Linux Hibernate Configuration',
         nameCN: 'Linux 配置休眠',
+        nameHK: 'Linux 休眠設定',
     },
     {
         id: 'system_backup_restore',
@@ -141,6 +156,7 @@ export const linuxSystem: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Linux System Backup & Restore',
         nameCN: 'Linux 系统备份还原',
+        nameHK: 'Linux 系統備份及還原',
     },
     {
         id: 'nvidia_driver',
@@ -149,6 +165,7 @@ export const linuxSystem: Post[] = [
         tags: [TagCode.original, TagCode.nvidia],
         nameEN: 'Nvidia Driver',
         nameCN: '英伟达驱动',
+        nameHK: 'Nvidia 顯示卡驅動程式',
     },
     {
         id: 'shell_alias',
@@ -157,6 +174,7 @@ export const linuxSystem: Post[] = [
         tags: [TagCode.original, TagCode.shell],
         nameEN: 'Shell Alias',
         nameCN: 'Shell 命令别名',
+        nameHK: 'Shell 命令別名',
     },
     {
         id: 'env_var',
@@ -165,6 +183,7 @@ export const linuxSystem: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Environment variables',
         nameCN: '环境变量',
+        nameHK: '環境變數',
     },
     {
         id: 'zsh',
@@ -173,6 +192,7 @@ export const linuxSystem: Post[] = [
         tags: [TagCode.original],
         nameEN: 'zsh',
         nameCN: 'zsh',
+        nameHK: 'zsh',
     },
     {
         id: 'proxy',
@@ -181,6 +201,7 @@ export const linuxSystem: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Proxy',
         nameCN: '代理',
+        nameHK: 'Proxy',
     },
     {
         id: 'make_install',
@@ -189,6 +210,7 @@ export const linuxSystem: Post[] = [
         tags: [TagCode.original, TagCode.gcc, TagCode.make],
         nameEN: 'Make install',
         nameCN: '编译安装',
+        nameHK: '編譯安裝',
     },
     {
         id: 'upgrade_kernel&headers',
@@ -197,6 +219,7 @@ export const linuxSystem: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Upgrade Kernel and Headers',
         nameCN: '更新 kernel 及 headers',
+        nameHK: '更新 Kernel 及 Headers',
     },
     {
         id: 'recovery_root_passwd',
@@ -205,6 +228,7 @@ export const linuxSystem: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Recover Root Password',
         nameCN: '恢复 root 密码',
+        nameHK: '復原 Root 密碼',
     },
     {
         id: 'archlinux',
@@ -213,6 +237,7 @@ export const linuxSystem: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Install Arch Linux',
         nameCN: '安装 Arch Linux',
+        nameHK: '安裝 Arch Linux',
     },
     {
         id: 'debian_clean',
@@ -221,6 +246,7 @@ export const linuxSystem: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Debian Clean',
         nameCN: 'Debian 清理',
+        nameHK: 'Debian 清理',
     },
     {
         id: 'yum',
@@ -229,6 +255,7 @@ export const linuxSystem: Post[] = [
         tags: [TagCode.original],
         nameEN: 'yum',
         nameCN: 'yum',
+        nameHK: 'yum',
     }
 ];
 
@@ -240,6 +267,7 @@ export const linuxTools: Post[] = [
         tags: [TagCode.original, TagCode.nvim],
         nameEN: 'Neovim',
         nameCN: 'Neovim',
+        nameHK: 'Neovim',
     },
     {
         id: 'kali_wifi',
@@ -248,6 +276,7 @@ export const linuxTools: Post[] = [
         tags: [TagCode.original, TagCode.kali],
         nameEN: 'Kali sniffs Wi-Fi',
         nameCN: 'Kali 嗅探 Wi-Fi',
+        nameHK: 'Kali 嗅探 Wi-Fi',
     },
     {
         id: 'crack_archive',
@@ -256,6 +285,7 @@ export const linuxTools: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Crack archive',
         nameCN: '破解压缩包',
+        nameHK: '破解壓縮檔',
     },
     {
         id: 'crack_android',
@@ -264,6 +294,7 @@ export const linuxTools: Post[] = [
         tags: [TagCode.original, TagCode.metasploit],
         nameEN: 'Crack Android',
         nameCN: '安卓监听',
+        nameHK: '破解 Android',
     },
 ];
 
@@ -275,6 +306,7 @@ export const linuxService: Post[] = [
         tags: [TagCode.original, TagCode.nginx],
         nameEN: 'Nginx Reverse Proxy',
         nameCN: 'Nginx 反向代理',
+        nameHK: 'Nginx 反向代理',
     },
     {
         id: 'nginx_tls',
@@ -283,6 +315,7 @@ export const linuxService: Post[] = [
         tags: [TagCode.original, TagCode.nginx],
         nameEN: 'Nginx Configure TLS',
         nameCN: 'Nginx 配置 TLS',
+        nameHK: 'Nginx 設定 TLS',
     },
     {
         id: 'samba_server',
@@ -291,6 +324,7 @@ export const linuxService: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Samba Server',
         nameCN: 'Samba 服务器',
+        nameHK: 'Samba 伺服器',
     },
     {
         id: 'mount_web_page',
@@ -299,6 +333,7 @@ export const linuxService: Post[] = [
         tags: [TagCode.original, TagCode.nginx, TagCode.apache],
         nameEN: 'Mount Web Page',
         nameCN: '网页挂载',
+        nameHK: '掛載網頁',
     },
     {
         id: 'gitlab',
@@ -307,6 +342,7 @@ export const linuxService: Post[] = [
         tags: [TagCode.original, TagCode.git],
         nameEN: 'Gitlab',
         nameCN: 'Gitlab',
+        nameHK: 'Gitlab',
     },
     {
         id: 'gitea',
@@ -315,6 +351,7 @@ export const linuxService: Post[] = [
         tags: [TagCode.original, TagCode.git],
         nameEN: 'Gitea',
         nameCN: 'Gitea',
+        nameHK: 'Gitea',
     },
     {
         id: 'jellyfin',
@@ -323,6 +360,7 @@ export const linuxService: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Jellyfin',
         nameCN: 'Jellyfin',
+        nameHK: 'Jellyfin',
     },
     {
         id: 'openlist',
@@ -331,6 +369,7 @@ export const linuxService: Post[] = [
         tags: [TagCode.original],
         nameEN: 'OpenList',
         nameCN: 'OpenList',
+        nameHK: 'OpenList',
     },
     {
         id: 'qbittorrent',
@@ -339,6 +378,7 @@ export const linuxService: Post[] = [
         tags: [TagCode.original],
         nameEN: 'qBittorrent',
         nameCN: 'qBittorrent',
+        nameHK: 'qBittorrent',
     },
     {
         id: 'service_configuration',
@@ -347,6 +387,7 @@ export const linuxService: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Service Configuration',
         nameCN: '服务配置',
+        nameHK: '服務設定',
     },
     {
         id: 'intranet_penetration_frp',
@@ -355,6 +396,7 @@ export const linuxService: Post[] = [
         tags: [TagCode.original, TagCode.network],
         nameEN: 'Intranet Penetration frp',
         nameCN: '内网穿透 frp',
+        nameHK: '內網穿透 frp',
     },
     {
         id: 'minecraft_server',
@@ -363,6 +405,7 @@ export const linuxService: Post[] = [
         tags: [TagCode.original, TagCode.minecraft],
         nameEN: 'Minecraft Server',
         nameCN: '我的世界服务器',
+        nameHK: 'Minecraft 伺服器',
     },
 ];
 
@@ -375,6 +418,7 @@ export const javaLanguage: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Setup Environment',
         nameCN: '环境搭建',
+        nameHK: '環境設定',
     },
     {
         id: 'data_types',
@@ -383,6 +427,7 @@ export const javaLanguage: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Java Data Types',
         nameCN: 'Java 数据类型',
+        nameHK: 'Java 數據類型',
     },
     {
         id: 'date_time',
@@ -391,6 +436,7 @@ export const javaLanguage: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Java Date Time',
         nameCN: 'Java 日期时间',
+        nameHK: 'Java 日期時間',
     },
     {
         id: 'pack_jar',
@@ -399,6 +445,7 @@ export const javaLanguage: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Pack Jar',
         nameCN: 'Jar 打包',
+        nameHK: 'Jar 打包',
     },
     {
         id: 'access_modifier',
@@ -407,6 +454,7 @@ export const javaLanguage: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Access Modifier',
         nameCN: '访问修饰符',
+        nameHK: '存取修飾符',
     },
 ];
 
@@ -418,6 +466,7 @@ export const javaMinecraft: Post[] = [
         tags: [TagCode.original, TagCode.minecraft, TagCode.game],
         nameEN: 'Key Class',
         nameCN: '关键类',
+        nameHK: '關鍵類別',
     },
 ];
 
@@ -430,6 +479,7 @@ export const c: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Setup Environment',
         nameCN: '环境搭建',
+        nameHK: '環境設定',
     },
     {
         id: 'data_unit',
@@ -438,6 +488,7 @@ export const c: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Unit of Data',
         nameCN: '数据单位',
+        nameHK: '數據單位',
     },
     {
         id: 'data_types',
@@ -446,6 +497,7 @@ export const c: Post[] = [
         tags: [TagCode.original],
         nameEN: 'C Data Type',
         nameCN: '数据类型',
+        nameHK: '數據類型',
     },
     {
         id: 'operator',
@@ -454,6 +506,7 @@ export const c: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Operator',
         nameCN: '运算符',
+        nameHK: '運算子',
     },
 ];
 
@@ -478,6 +531,7 @@ export const backendRedis: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Data Types',
         nameCN: '数据类型',
+        nameHK: '數據類型',
     },
 ];
 
@@ -490,6 +544,7 @@ export const frontend: Post[] = [
         tags: [TagCode.original, TagCode.wechatMiniProgram],
         nameEN: 'WeChat Mini Program',
         nameCN: '微信小程序',
+        nameHK: '微信小程式',
     },
     {
         id: 'env',
@@ -498,6 +553,7 @@ export const frontend: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Environment',
         nameCN: '环境',
+        nameHK: '環境',
     }
 ];
 
@@ -510,6 +566,7 @@ export const other: Post[] = [
         tags: [TagCode.original, TagCode.git],
         nameEN: 'Git',
         nameCN: 'Git 基本使用',
+        nameHK: 'Git 基本用法',
     },
     {
         id: 'git_commit_rule',
@@ -518,6 +575,7 @@ export const other: Post[] = [
         tags: [TagCode.original, TagCode.git],
         nameEN: 'Git Commit rule',
         nameCN: 'Git 提交规范',
+        nameHK: 'Git 提交規範',
     },
     {
         id: 'powershell',
@@ -526,6 +584,7 @@ export const other: Post[] = [
         tags: [TagCode.original, TagCode.powershell, TagCode.shell, TagCode.windows],
         nameEN: 'PowerShell',
         nameCN: 'PowerShell',
+        nameHK: 'PowerShell',
     },
     {
         id: 'vbox_disk_free',
@@ -534,6 +593,7 @@ export const other: Post[] = [
         tags: [TagCode.original, TagCode.vm, TagCode.virtualbox],
         nameEN: 'VirtualBox Disk Free',
         nameCN: 'VirtualBox 虚拟机磁盘释放空间',
+        nameHK: 'VirtualBox 虛擬機釋放磁碟空間',
     },
     {
         id: 'vscode',
@@ -542,6 +602,7 @@ export const other: Post[] = [
         tags: [TagCode.original, TagCode.IDE, TagCode.vscode],
         nameEN: 'VSCode',
         nameCN: 'VSCode 配置及插件',
+        nameHK: 'VSCode 設定及插件',
     },
     {
         id: 'windows_hibernate',
@@ -550,6 +611,7 @@ export const other: Post[] = [
         tags: [TagCode.original, TagCode.windows],
         nameEN: 'Windows Configure Hibernate',
         nameCN: 'Windows 配置休眠',
+        nameHK: 'Windows 設定休眠',
     },
     {
         id: 'windows_stop_update',
@@ -558,6 +620,7 @@ export const other: Post[] = [
         tags: [TagCode.original, TagCode.windows],
         nameEN: 'Windows Stop Update',
         nameCN: 'Windows 停止更新',
+        nameHK: 'Windows 停止更新',
     },
     {
         id: 'legacy_to_uefi',
@@ -566,6 +629,7 @@ export const other: Post[] = [
         tags: [TagCode.original, TagCode.windows],
         nameEN: 'Legacy to UEFI',
         nameCN: 'Legacy 无损转 UEFI',
+        nameHK: 'Legacy 無損轉 UEFI',
     },
     {
         id: 'diy_proxy',
@@ -574,6 +638,7 @@ export const other: Post[] = [
         tags: [TagCode.original, TagCode.linux, TagCode.proxy, TagCode.singbox, TagCode.vless, TagCode.hysteria2],
         nameEN: 'DIY Proxy',
         nameCN: '自建代理',
+        nameHK: '自建代理',
     },
     {
         id: 'sing-box',
@@ -582,6 +647,7 @@ export const other: Post[] = [
         tags: [TagCode.original, TagCode.proxy, TagCode.singbox],
         nameEN: 'sing-box',
         nameCN: 'sing-box',
+        nameHK: 'sing-box',
     }
 ];
 

@@ -11,18 +11,21 @@ export const python: Category = {
             introducePath: paths.python,
             nameEN: 'Language',
             nameCN: '语言',
+            nameHK: '語言',
             posts: posts.pythonLanguage
         },
         {
             path: paths.pythonDesign,
             nameEN: 'Design',
             nameCN: '设计',
+            nameHK: '設計',
             posts: posts.pythonDesign
         },
         {
             path: paths.pythonLibsTools,
             nameEN: 'Third-Party Libraries or Tools',
             nameCN: '第三方库或工具',
+            nameHK: '第三方庫或工具',
             posts: posts.pythonLibsTools
         },
     ]
@@ -36,18 +39,21 @@ export const linux: Category = {
             introducePath: paths.linux,
             nameEN: 'System',
             nameCN: '系统',
+            nameHK: '系統',
             posts: posts.linuxSystem
         },
         {
             path: paths.linuxTools,
             nameEN: 'Tools Usage',
             nameCN: '工具使用',
+            nameHK: '工具使用',
             posts: posts.linuxTools
         },
         {
             path: paths.linuxService,
             nameEN: 'Service Deployment',
             nameCN: '部署服务',
+            nameHK: '服務部署',
             posts: posts.linuxService
         },
     ]
@@ -61,12 +67,14 @@ export const java: Category = {
             introducePath: paths.java,
             nameEN: 'Language',
             nameCN: '语言',
+            nameHK: '語言',
             posts: posts.javaLanguage
         },
         {
             path: paths.javaMinecraft,
             nameEN: 'Minecraft',
             nameCN: '我的世界 (麦块)',
+            nameHK: 'Minecraft (麥塊)',
             posts: posts.javaMinecraft
         }
     ]
@@ -77,6 +85,7 @@ export const c: Category = {
     introducePath: paths.c,
     nameEN: 'C',
     nameCN: 'C',
+    nameHK: 'C',
     posts: posts.c
 };
 
@@ -85,18 +94,21 @@ export const backend: Category = {
     introducePath: paths.backend,
     nameEN: 'Backend🧩',
     nameCN: '后端🧩',
+    nameHK: '後端🧩',
     childrens: [
         {
             path: paths.backendMySQL,
             introducePath: paths.backendMySQL,
             nameEN: 'MySQL',
-            nameCN: 'MySQL'
+            nameCN: 'MySQL',
+            nameHK: 'MySQL'
         },
         {
             path: paths.backendRedis,
             introducePath: paths.backendRedis,
             nameEN: 'Redis',
             nameCN: 'Redis',
+            nameHK: 'Redis',
             posts: posts.backendRedis
         }
     ],
@@ -108,6 +120,7 @@ export const frontend: Category = {
     introducePath: paths.frontend,
     nameEN: 'Fontend✨',
     nameCN: '前端✨',
+    nameHK: '前端✨',
     posts: posts.frontend
 };
 
@@ -116,6 +129,7 @@ export const other: Category = {
     introducePath: paths.other,
     nameEN: 'Other💻',
     nameCN: '其他💻',
+    nameHK: '其他💻',
     posts: posts.other
 };
 
