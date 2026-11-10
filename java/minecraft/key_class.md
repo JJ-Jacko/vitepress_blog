@@ -50,7 +50,6 @@ Generate vanilla block item tags.
 Generate vanilla creative mode tab.
 * `net.minecraft.world.item`
 
-
 ## Components
 ### DataComponents
 Register vanilla components.

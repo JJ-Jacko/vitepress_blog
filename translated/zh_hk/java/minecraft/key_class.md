@@ -46,6 +46,9 @@
 ### VanillaBlockItemTagsProvider
 生成原版方塊物品標籤
 * `net.minecraft.data.tags`
+### CreativeModeTabs
+生成原版創造模式物品欄
+* `net.minecraft.world.item`
 
 ## 元件
 ### DataComponents
