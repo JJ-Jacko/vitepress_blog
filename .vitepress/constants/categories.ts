@@ -67,12 +67,14 @@ export const java: Category = {
             introducePath: paths.java,
             nameEN: 'Language',
             nameCN: '语言',
+            nameHK: '語言',
             posts: posts.javaLanguage
         },
         {
             path: paths.javaMinecraft,
             nameEN: 'Minecraft',
             nameCN: '我的世界 (麦块)',
+            nameHK: 'Minecraft (麥塊)',
             posts: posts.javaMinecraft
         }
     ]

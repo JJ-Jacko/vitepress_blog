@@ -418,6 +418,7 @@ export const javaLanguage: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Setup Environment',
         nameCN: '环境搭建',
+        nameHK: '環境設定',
     },
     {
         id: 'data_types',
@@ -426,6 +427,7 @@ export const javaLanguage: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Java Data Types',
         nameCN: 'Java 数据类型',
+        nameHK: 'Java 數據類型',
     },
     {
         id: 'date_time',
@@ -434,6 +436,7 @@ export const javaLanguage: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Java Date Time',
         nameCN: 'Java 日期时间',
+        nameHK: 'Java 日期時間',
     },
     {
         id: 'pack_jar',
@@ -442,6 +445,7 @@ export const javaLanguage: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Pack Jar',
         nameCN: 'Jar 打包',
+        nameHK: 'Jar 打包',
     },
     {
         id: 'access_modifier',
@@ -450,6 +454,7 @@ export const javaLanguage: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Access Modifier',
         nameCN: '访问修饰符',
+        nameHK: '存取修飾符',
     },
 ];
 
@@ -461,6 +466,7 @@ export const javaMinecraft: Post[] = [
         tags: [TagCode.original, TagCode.minecraft, TagCode.game],
         nameEN: 'Key Class',
         nameCN: '关键类',
+        nameHK: '關鍵類別',
     },
 ];
 
