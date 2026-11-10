@@ -544,6 +544,7 @@ export const frontend: Post[] = [
         tags: [TagCode.original, TagCode.wechatMiniProgram],
         nameEN: 'WeChat Mini Program',
         nameCN: '微信小程序',
+        nameHK: '微信小程式',
     },
     {
         id: 'env',
@@ -552,6 +553,7 @@ export const frontend: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Environment',
         nameCN: '环境',
+        nameHK: '環境',
     }
 ];
 

@@ -120,6 +120,7 @@ export const frontend: Category = {
     introducePath: paths.frontend,
     nameEN: 'Fontend✨',
     nameCN: '前端✨',
+    nameHK: '前端✨',
     posts: posts.frontend
 };
 
