@@ -138,6 +138,7 @@ export const linuxSystem: Post[] = [
         tags: [TagCode.original],
         nameEN: 'SSH',
         nameCN: 'SSH',
+        nameHK: 'SSH',
     },
     {
         id: 'hibernate',
@@ -146,6 +147,7 @@ export const linuxSystem: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Linux Hibernate Configuration',
         nameCN: 'Linux 配置休眠',
+        nameHK: 'Linux 休眠設定',
     },
     {
         id: 'system_backup_restore',
@@ -154,6 +156,7 @@ export const linuxSystem: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Linux System Backup & Restore',
         nameCN: 'Linux 系统备份还原',
+        nameHK: 'Linux 系統備份及還原',
     },
     {
         id: 'nvidia_driver',
@@ -162,6 +165,7 @@ export const linuxSystem: Post[] = [
         tags: [TagCode.original, TagCode.nvidia],
         nameEN: 'Nvidia Driver',
         nameCN: '英伟达驱动',
+        nameHK: 'Nvidia 顯示卡驅動程式',
     },
     {
         id: 'shell_alias',
@@ -170,6 +174,7 @@ export const linuxSystem: Post[] = [
         tags: [TagCode.original, TagCode.shell],
         nameEN: 'Shell Alias',
         nameCN: 'Shell 命令别名',
+        nameHK: 'Shell 命令別名',
     },
     {
         id: 'env_var',
@@ -178,6 +183,7 @@ export const linuxSystem: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Environment variables',
         nameCN: '环境变量',
+        nameHK: '環境變數',
     },
     {
         id: 'zsh',
@@ -186,6 +192,7 @@ export const linuxSystem: Post[] = [
         tags: [TagCode.original],
         nameEN: 'zsh',
         nameCN: 'zsh',
+        nameHK: 'zsh',
     },
     {
         id: 'proxy',
@@ -194,6 +201,7 @@ export const linuxSystem: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Proxy',
         nameCN: '代理',
+        nameHK: 'Proxy',
     },
     {
         id: 'make_install',
@@ -202,6 +210,7 @@ export const linuxSystem: Post[] = [
         tags: [TagCode.original, TagCode.gcc, TagCode.make],
         nameEN: 'Make install',
         nameCN: '编译安装',
+        nameHK: '編譯安裝',
     },
     {
         id: 'upgrade_kernel&headers',
@@ -210,6 +219,7 @@ export const linuxSystem: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Upgrade Kernel and Headers',
         nameCN: '更新 kernel 及 headers',
+        nameHK: '更新 Kernel 及 Headers',
     },
     {
         id: 'recovery_root_passwd',
@@ -218,6 +228,7 @@ export const linuxSystem: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Recover Root Password',
         nameCN: '恢复 root 密码',
+        nameHK: '復原 Root 密碼',
     },
     {
         id: 'archlinux',
@@ -226,6 +237,7 @@ export const linuxSystem: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Install Arch Linux',
         nameCN: '安装 Arch Linux',
+        nameHK: '安裝 Arch Linux',
     },
     {
         id: 'debian_clean',
@@ -234,6 +246,7 @@ export const linuxSystem: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Debian Clean',
         nameCN: 'Debian 清理',
+        nameHK: 'Debian 清理',
     },
     {
         id: 'yum',
@@ -242,6 +255,7 @@ export const linuxSystem: Post[] = [
         tags: [TagCode.original],
         nameEN: 'yum',
         nameCN: 'yum',
+        nameHK: 'yum',
     }
 ];
 
@@ -253,6 +267,7 @@ export const linuxTools: Post[] = [
         tags: [TagCode.original, TagCode.nvim],
         nameEN: 'Neovim',
         nameCN: 'Neovim',
+        nameHK: 'Neovim',
     },
     {
         id: 'kali_wifi',
@@ -261,6 +276,7 @@ export const linuxTools: Post[] = [
         tags: [TagCode.original, TagCode.kali],
         nameEN: 'Kali sniffs Wi-Fi',
         nameCN: 'Kali 嗅探 Wi-Fi',
+        nameHK: 'Kali 嗅探 Wi-Fi',
     },
     {
         id: 'crack_archive',
@@ -269,6 +285,7 @@ export const linuxTools: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Crack archive',
         nameCN: '破解压缩包',
+        nameHK: '破解壓縮檔',
     },
     {
         id: 'crack_android',
@@ -277,6 +294,7 @@ export const linuxTools: Post[] = [
         tags: [TagCode.original, TagCode.metasploit],
         nameEN: 'Crack Android',
         nameCN: '安卓监听',
+        nameHK: '破解 Android',
     },
 ];
 
@@ -288,6 +306,7 @@ export const linuxService: Post[] = [
         tags: [TagCode.original, TagCode.nginx],
         nameEN: 'Nginx Reverse Proxy',
         nameCN: 'Nginx 反向代理',
+        nameHK: 'Nginx 反向代理',
     },
     {
         id: 'nginx_tls',
@@ -296,6 +315,7 @@ export const linuxService: Post[] = [
         tags: [TagCode.original, TagCode.nginx],
         nameEN: 'Nginx Configure TLS',
         nameCN: 'Nginx 配置 TLS',
+        nameHK: 'Nginx 設定 TLS',
     },
     {
         id: 'samba_server',
@@ -304,6 +324,7 @@ export const linuxService: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Samba Server',
         nameCN: 'Samba 服务器',
+        nameHK: 'Samba 伺服器',
     },
     {
         id: 'mount_web_page',
@@ -312,6 +333,7 @@ export const linuxService: Post[] = [
         tags: [TagCode.original, TagCode.nginx, TagCode.apache],
         nameEN: 'Mount Web Page',
         nameCN: '网页挂载',
+        nameHK: '掛載網頁',
     },
     {
         id: 'gitlab',
@@ -320,6 +342,7 @@ export const linuxService: Post[] = [
         tags: [TagCode.original, TagCode.git],
         nameEN: 'Gitlab',
         nameCN: 'Gitlab',
+        nameHK: 'Gitlab',
     },
     {
         id: 'gitea',
@@ -328,6 +351,7 @@ export const linuxService: Post[] = [
         tags: [TagCode.original, TagCode.git],
         nameEN: 'Gitea',
         nameCN: 'Gitea',
+        nameHK: 'Gitea',
     },
     {
         id: 'jellyfin',
@@ -336,6 +360,7 @@ export const linuxService: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Jellyfin',
         nameCN: 'Jellyfin',
+        nameHK: 'Jellyfin',
     },
     {
         id: 'openlist',
@@ -344,6 +369,7 @@ export const linuxService: Post[] = [
         tags: [TagCode.original],
         nameEN: 'OpenList',
         nameCN: 'OpenList',
+        nameHK: 'OpenList',
     },
     {
         id: 'qbittorrent',
@@ -352,6 +378,7 @@ export const linuxService: Post[] = [
         tags: [TagCode.original],
         nameEN: 'qBittorrent',
         nameCN: 'qBittorrent',
+        nameHK: 'qBittorrent',
     },
     {
         id: 'service_configuration',
@@ -360,6 +387,7 @@ export const linuxService: Post[] = [
         tags: [TagCode.original],
         nameEN: 'Service Configuration',
         nameCN: '服务配置',
+        nameHK: '服務設定',
     },
     {
         id: 'intranet_penetration_frp',
@@ -368,6 +396,7 @@ export const linuxService: Post[] = [
         tags: [TagCode.original, TagCode.network],
         nameEN: 'Intranet Penetration frp',
         nameCN: '内网穿透 frp',
+        nameHK: '內網穿透 frp',
     },
     {
         id: 'minecraft_server',
@@ -376,6 +405,7 @@ export const linuxService: Post[] = [
         tags: [TagCode.original, TagCode.minecraft],
         nameEN: 'Minecraft Server',
         nameCN: '我的世界服务器',
+        nameHK: 'Minecraft 伺服器',
     },
 ];
 

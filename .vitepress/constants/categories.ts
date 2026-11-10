@@ -39,18 +39,21 @@ export const linux: Category = {
             introducePath: paths.linux,
             nameEN: 'System',
             nameCN: '系统',
+            nameHK: '系統',
             posts: posts.linuxSystem
         },
         {
             path: paths.linuxTools,
             nameEN: 'Tools Usage',
             nameCN: '工具使用',
+            nameHK: '工具使用',
             posts: posts.linuxTools
         },
         {
             path: paths.linuxService,
             nameEN: 'Service Deployment',
             nameCN: '部署服务',
+            nameHK: '服務部署',
             posts: posts.linuxService
         },
     ]

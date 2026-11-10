@@ -48,7 +48,7 @@
 * [Reqable](https://github.com/reqable/reqable-app)
 
 ## 私有 Web 應用
-* [Gitea](https://github.com/go-gitea/gitea): [部署步驟](/translated/zh_hk/linux/gitea)
+* [Gitea](https://github.com/go-gitea/gitea): [部署步驟](/translated/zh_hk/linux/service/gitea)
 * [Jellyfin](https://github.com/jellyfin/jellyfin)
 * [OpenList](https://github.com/OpenListTeam/openlist)
 * [qBittorrent Enhanced Edition](https://github.com/c0re100/qBittorrent-Enhanced-Edition)
