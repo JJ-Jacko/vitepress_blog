@@ -46,6 +46,10 @@ Generate vanilla item tags.
 ### VanillaBlockItemTagsProvider
 Generate vanilla block item tags.
 * `net.minecraft.data.tags`
+### CreativeModeTabs
+Generate vanilla creative mode tab.
+* `net.minecraft.world.item`
+
 
 ## Components
 ### DataComponents
