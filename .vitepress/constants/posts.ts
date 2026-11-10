@@ -566,6 +566,7 @@ export const other: Post[] = [
         tags: [TagCode.original, TagCode.git],
         nameEN: 'Git',
         nameCN: 'Git 基本使用',
+        nameHK: 'Git 基本用法',
     },
     {
         id: 'git_commit_rule',
@@ -574,6 +575,7 @@ export const other: Post[] = [
         tags: [TagCode.original, TagCode.git],
         nameEN: 'Git Commit rule',
         nameCN: 'Git 提交规范',
+        nameHK: 'Git 提交規範',
     },
     {
         id: 'powershell',
@@ -582,6 +584,7 @@ export const other: Post[] = [
         tags: [TagCode.original, TagCode.powershell, TagCode.shell, TagCode.windows],
         nameEN: 'PowerShell',
         nameCN: 'PowerShell',
+        nameHK: 'PowerShell',
     },
     {
         id: 'vbox_disk_free',
@@ -590,6 +593,7 @@ export const other: Post[] = [
         tags: [TagCode.original, TagCode.vm, TagCode.virtualbox],
         nameEN: 'VirtualBox Disk Free',
         nameCN: 'VirtualBox 虚拟机磁盘释放空间',
+        nameHK: 'VirtualBox 虛擬機釋放磁碟空間',
     },
     {
         id: 'vscode',
@@ -598,6 +602,7 @@ export const other: Post[] = [
         tags: [TagCode.original, TagCode.IDE, TagCode.vscode],
         nameEN: 'VSCode',
         nameCN: 'VSCode 配置及插件',
+        nameHK: 'VSCode 設定及插件',
     },
     {
         id: 'windows_hibernate',
@@ -606,6 +611,7 @@ export const other: Post[] = [
         tags: [TagCode.original, TagCode.windows],
         nameEN: 'Windows Configure Hibernate',
         nameCN: 'Windows 配置休眠',
+        nameHK: 'Windows 設定休眠',
     },
     {
         id: 'windows_stop_update',
@@ -614,6 +620,7 @@ export const other: Post[] = [
         tags: [TagCode.original, TagCode.windows],
         nameEN: 'Windows Stop Update',
         nameCN: 'Windows 停止更新',
+        nameHK: 'Windows 停止更新',
     },
     {
         id: 'legacy_to_uefi',
@@ -622,6 +629,7 @@ export const other: Post[] = [
         tags: [TagCode.original, TagCode.windows],
         nameEN: 'Legacy to UEFI',
         nameCN: 'Legacy 无损转 UEFI',
+        nameHK: 'Legacy 無損轉 UEFI',
     },
     {
         id: 'diy_proxy',
@@ -630,6 +638,7 @@ export const other: Post[] = [
         tags: [TagCode.original, TagCode.linux, TagCode.proxy, TagCode.singbox, TagCode.vless, TagCode.hysteria2],
         nameEN: 'DIY Proxy',
         nameCN: '自建代理',
+        nameHK: '自建代理',
     },
     {
         id: 'sing-box',
@@ -638,6 +647,7 @@ export const other: Post[] = [
         tags: [TagCode.original, TagCode.proxy, TagCode.singbox],
         nameEN: 'sing-box',
         nameCN: 'sing-box',
+        nameHK: 'sing-box',
     }
 ];
 

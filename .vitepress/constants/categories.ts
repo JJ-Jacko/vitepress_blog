@@ -129,6 +129,7 @@ export const other: Category = {
     introducePath: paths.other,
     nameEN: 'Other💻',
     nameCN: '其他💻',
+    nameHK: '其他💻',
     posts: posts.other
 };
 
