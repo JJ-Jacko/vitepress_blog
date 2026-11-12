@@ -40,6 +40,9 @@
 ### VanillaRecipeProvider
 生成原版的配方
 * `net.minecraft.data.recipes.packs`
+### VanillaBlockLoot
+生成原版的方块战利品表
+* `net.minecraft.data.loot.packs`
 ### VanillaItemTagsProvider
 生成原版的物品标签
 * `net.minecraft.data.tags`

@@ -40,6 +40,9 @@ Generate vanilla block model.
 ### VanillaRecipeProvider
 Generate vanilla Recipe.
 * `net.minecraft.data.recipes.packs`
+### VanillaBlockLoot
+Generate vanilla block loot table.
+* `net.minecraft.data.loot.packs`
 ### VanillaItemTagsProvider
 Generate vanilla item tags.
 * `net.minecraft.data.tags`
