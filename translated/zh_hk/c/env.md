@@ -1,15 +1,12 @@
-Windows 上嘅 C 開發主要係喺 Microsoft 體系下嘅 `Visual Studio` 開發
-
-比較「巨無霸」
-
-呢度只示範 Linux 開源生態系統下嘅環境設定
-
-請自行安裝 Linux 系統
+喺 Windows 開發 C 時，`Visual Studio` 係首選工具，但佢實在係一個好難應付嘅巨無霸。
+呢一節會介紹 Linux 開源生態系統下嘅環境設定。
+請先使用 WSL，或者透過虛擬機安裝 Linux 系統。
 
 ::: tip 小貼士
-推薦虛擬機 [VirtualBox](https://virtualbox.org)
-
-推薦發行版 [Debian](https://debian.org) 比 Ubuntu 輕量，更新週期較慢亦更穩定
+推薦選項
+* [WSL](https://github.com/microsoft/WSL)
+* 虛擬機 [VirtualBox](https://virtualbox.org)
+* Linux 發行版 [Debian](https://debian.org)（比 Ubuntu 輕量，更新週期較慢，亦更加穩定）
 :::
 
 ## 安裝必要套件
