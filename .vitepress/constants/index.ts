@@ -139,6 +139,12 @@ export const tags: Tag[] = [
         nameHK: "Git"
     },
     {
+        code: TagCode.github,
+        nameEN: "Github",
+        nameCN: "Github",
+        nameHK: "Github"
+    },
+    {
         code: TagCode.network,
         nameEN: "Network",
         nameCN: "Network",

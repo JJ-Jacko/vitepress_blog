@@ -578,6 +578,15 @@ export const other: Post[] = [
         nameHK: 'Git 提交規範',
     },
     {
+        id: 'github_issue',
+        date: new Date("2026-11-16 10:17"),
+        location: LocationCode.gz,
+        tags: [TagCode.original, TagCode.git, TagCode.github],
+        nameEN: 'Github Issue',
+        nameCN: 'Github Issue',
+        nameHK: 'Github Issue',
+    },
+    {
         id: 'powershell',
         date: new Date("2026-09-02 15:25"),
         location: LocationCode.dg,

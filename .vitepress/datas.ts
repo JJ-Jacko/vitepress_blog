@@ -39,6 +39,7 @@ export enum TagCode {
     nginx = "Nginx",
     apache = "Apache",
     git = "Git",
+    github = "Github",
     network = "Network",
     game = "Game",
     minecraft = "Minecraft",
