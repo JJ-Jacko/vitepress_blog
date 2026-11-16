@@ -82,16 +82,19 @@ export default defineConfig({
   locales: {
     root: {
       label: '🇺🇸 English (US)',
-      lang: 'en-US'
+      lang: 'en-US',
+      title: "Jacko's Mini-world"
     },
     zh_hk: {
       label: '🇭🇰 中文 (廣東話)',
       lang: 'zh-HK',
+      title: 'Jacko 嘅小世界',
       link: '/translated/zh_hk'
     },
     zh_cn: {
       label: '🇨🇳 中文 (简体)',
       lang: 'zh-CN',
+      title: 'Jacko 的小世界',
       link: '/translated/zh_cn'
     },
   },
