@@ -30,6 +30,11 @@ Register vanilla item tags.
 Register vanilla block tags.
 * `net.minecraft.tags`
 
+## Other
+### VillagerTrades
+Register vanilla villager trades.
+* `net.minecraft.world.item.trading`
+
 ## Generators
 ### ItemModelGenerators
 Generate vanilla item model.
@@ -48,6 +53,9 @@ Generate vanilla item tags.
 * `net.minecraft.data.tags`
 ### VanillaBlockItemTagsProvider
 Generate vanilla block item tags.
+* `net.minecraft.data.tags`
+### VillagerTradesTagsProvider
+Generate vanilla villager trads tags.
 * `net.minecraft.data.tags`
 ### CreativeModeTabs
 Generate vanilla creative mode tab.

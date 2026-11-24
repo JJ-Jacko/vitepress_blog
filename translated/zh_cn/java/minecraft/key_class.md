@@ -30,6 +30,11 @@
 注册原版方块的标签
 * `net.minecraft.tags`
 
+## 其他
+### VillagerTrades
+注册原版村民交易
+* `net.minecraft.world.item.trading`
+
 ## 生成器
 ### ItemModelGenerators
 生成原版的物品模型
@@ -48,6 +53,9 @@
 * `net.minecraft.data.tags`
 ### VanillaBlockItemTagsProvider
 生成原版的方块物品标签
+* `net.minecraft.data.tags`
+### VillagerTradesTagsProvider
+生成原版村民交易标签
 * `net.minecraft.data.tags`
 ### CreativeModeTabs
 生成原版的创造模式物品栏
