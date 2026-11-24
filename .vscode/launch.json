@@ -14,6 +14,17 @@
             "request": "launch",
             "url": "http://localhost:5173",
             "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Dev",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "pnpm",
+            "runtimeArgs": [
+                "run","dev"
+            ],
+            "console": "internalConsole",
+            "cwd": "${workspaceFolder}"
         }
     ]
 }
